@@ -15,8 +15,8 @@ I'm interested in many things.
 ACG fan. Japan culture fan. US/UK TV fan. 
 Sci-Fi fan. Crime theme fan. Hard-boiled fan.
 Black humor fan. 
-Google fan. ðŸŸŠ
-Want to be geek/hacker.í¿Š
+Google fan. 
+Want to be geek/hacker.
 
 
 This theme is made by [Mu-An](http://muan.co). Thanks!
