@@ -5,6 +5,11 @@ date: 2013-05-06 16:27:31
 disqus: y
 ---
 
+Below is the how-to-use from the theme designer, muan.
+Keep it as resources.=)
+
+---
+
 I have other themes, checkout (mainly) [this repository](https://github.com/muan/muan.github.com/releases) and [this repository](https://github.com/muan/jekyll-wardrobe). <3
 
 ---
