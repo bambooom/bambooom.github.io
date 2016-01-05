@@ -7,7 +7,7 @@ html, body {
 body {
   background: #f9f9f9;
   color: #303030;
-  font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-family: Consolas, 'Liberation Mono', Menlo, Courier;
   font-weight: 400;
   font-size: 13px;
   line-height: 19px;
@@ -325,6 +325,7 @@ pre {
 
 code {
   font-size: 13px;
+  font-family: Consolas, 'Liberation Mono', Menlo, Courier;
   color: #2c2c2c;
   background: #dfdfde;
   padding: 2px 4px 3px;
