@@ -7,7 +7,7 @@ html, body {
 body {
   background: #f9f9f9;
   color: #303030;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   font-weight: 400;
   font-size: 13px;
   line-height: 19px;
