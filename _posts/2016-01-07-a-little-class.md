@@ -36,6 +36,7 @@ bambooom.task()
 {% endhighlight %}
 
 结果如下:  
+  
   ```
   I am constructed  
   Complete task 1  
@@ -71,6 +72,7 @@ j.task()     # j又做了一次task
 {% endhighlight %}
 
 结果如下:
+  
   ```
   bambooom constructed  
   bambooom complete task 1  
@@ -120,6 +122,7 @@ j.c2t2()     # j去了一次C2T2
 {% endhighlight %}
 
 结果如下:
+  
   ```
   bambooom constructed  
   bambooom complete task 1  
@@ -153,6 +156,7 @@ print Parent.x, Child1.x, Child2.x
 {% endhighlight %}
 
 这么一小段, 如果一开始看, 猜output大多会觉得是这样的
+  
   ```
   1 1 1  
   1 2 1  
@@ -160,6 +164,7 @@ print Parent.x, Child1.x, Child2.x
   ```
 
 但实际上的结果是这样的
+  
   ```
   1 1 1  
   1 2 1  
