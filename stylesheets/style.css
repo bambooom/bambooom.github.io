@@ -94,7 +94,7 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  max-width: 800px;
+  max-width: 700px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
@@ -358,6 +358,6 @@ img {
   left: 50%;
   font-size: 60px; }
 .paging .left {
-  margin-left: -340px; }
+  margin-left: -390px; }
 .paging .right {
-  margin-left: 320px; }
+  margin-left: 370px; }
