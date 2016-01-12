@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [note] sample variance, why n-1
+title: NOTE4-sample variance, why n-1
 date: 2016-01-12 20:55:42
 disqus: y
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a little Class
+title: NOTE3-a little Class
 date: 2016-01-07 01:25:42
 disqus: y
 ---

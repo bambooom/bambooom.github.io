@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First touch of ubuntu
+title: NOTE1-First touch of ubuntu
 date: 2016-01-04 23:56:42
 disqus: y
 ---
