@@ -14,3 +14,13 @@ disqus: y
 大概的效果如下:
 
 ![power+miku](http://7xpew2.com1.z0.glb.clouddn.com/chaostest.gif)
+
+---
+好了, 来说点正经的.
+
+![1](http://7xpew2.com1.z0.glb.clouddn.com/note-3.pic.jpg)
+![2](http://7xpew2.com1.z0.glb.clouddn.com/note-4.pic.jpg)
+![3](http://7xpew2.com1.z0.glb.clouddn.com/note-5.pic.jpg)
+![4](http://7xpew2.com1.z0.glb.clouddn.com/note-6.pic.jpg)
+![5](http://7xpew2.com1.z0.glb.clouddn.com/note-7.pic.jpg)
+![6](http://7xpew2.com1.z0.glb.clouddn.com/note-8.pic.jpg)
