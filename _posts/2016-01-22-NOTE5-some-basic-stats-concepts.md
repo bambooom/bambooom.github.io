@@ -11,3 +11,6 @@ disqus: y
 顺便, 想起之前那个很火的`activate-power-mode`的震撼式 atom插件,
 于是我用起了 atom.
 `activate-power-mode`和`atom-miku`一起, 不要太恶趣味哈哈哈.
+大概的效果如下:
+
+![power+miku](http://7xpew2.com1.z0.glb.clouddn.com/chaostest.gif)
