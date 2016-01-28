@@ -10,15 +10,18 @@ Lives in ShenZhen at the moment.
 Lived in HK for the past several years.
 Lived in Wuhan before that.
 
-Well, 
-I'm interested in many things. 
-ACG fan. Japan culture fan. US/UK TV fan. 
+Well,
+I'm interested in many things.
+ACG fan. Japan culture fan. US/UK TV fan.
 Sci-Fi fan. Crime theme fan. Hard-boiled fan.
-Black humor fan. 
-Google fan. 
+Black humor fan.
+Google fan.
 Want to be geek/hacker =)
 
-Valar Morghulis. May the force be with me.
+Valar Morghulis. May the force be with me.  
+Fake it till you become it.
+
+<img src='http://www.catb.org/hacker-emblem/glider.png' alt='hacker emblem' /></a>
 
 ---
 Links to frds & great blogs
