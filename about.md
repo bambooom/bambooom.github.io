@@ -32,6 +32,7 @@ Links to frds & great blogs
 + [laike9m](https://laike9m.com/) | laike9m @google
 + [Scott](http://scottming.github.io/) | Scott @Xiamen
 + [cgangee](http://www.cgangee.com/) | cgangee
++ [JeremiahZhang](https://jeremiahzhang.github.io/) | Leiyu @GZ
 
 ---
 This theme is made by [Mu-An](http://muan.co). Thanks!
