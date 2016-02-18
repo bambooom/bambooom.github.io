@@ -16,7 +16,7 @@ links:
   - name:         GitHub
     url:          http://github.com/bambooom
     external:     true
-highlighter:      pygments
+highlighter:      rouge
 permalink:        pretty
 markdown:         kramdown
 redcarpet:
