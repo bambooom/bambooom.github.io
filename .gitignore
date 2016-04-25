@@ -2,3 +2,5 @@ _site/
 .sass-cache
 .ruby-version
 .DS_Store
+_assets/pics/
+_assets/7niu.json
