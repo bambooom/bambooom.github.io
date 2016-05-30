@@ -16,9 +16,11 @@ links:
   - name:         GitHub
     url:          http://github.com/bambooom
     external:     true
+  - name:         feed
+    url:          /feed.xml
 highlighter:      rouge
 permalink:        pretty
 markdown:         kramdown
 kramdown:
   input: GFM
-  hard_wrap: false 
+  hard_wrap: false
