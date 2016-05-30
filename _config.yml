@@ -19,6 +19,6 @@ links:
 highlighter:      rouge
 permalink:        pretty
 markdown:         kramdown
-redcarpet:
-  extensions:
-    - smart
+kramdown:
+  input: GFM
+  hard_wrap: false 
