@@ -3,28 +3,40 @@ layout: page
 title: About
 ---
 
-Welcome. This is [bambooom](http://bambooom.github.io).
-A python beginner but really love it ♥.
+```python
 
-Lives in ShenZhen at the moment.
-Lived in HK for the past several years.
-Lived in Wuhan before that.
+import zhuzi as bambooom
 
-Well,
-I'm interested in many things.
-ACG fan. Japan culture fan. US/UK TV fan.
-Sci-Fi fan. Crime theme fan. Hard-boiled fan.
-Black humor fan.
-Google fan.
-Want to be geek/hacker =)
+bambooom.stack = {
+  'python': '🐾🐾🐾',
+  'jacascript': 🐾,
+  'html': 🐾🐾,
+  'css': 🐾🐾,
+}
 
-Valar Morghulis. May the force be with me.  
+bambooom.path = {
+  'Wuhan': 'From'
+  'HK': '7yr',
+  'ShenZhen': '9m',
+  'BJ': '~Now'
+}
+
+bambooom.interests = {
+  'ACG': 'many....',
+  'Japan Drama': 'many....',
+  'US/UK TV series': 'CSI rencently ♥︎',
+  'Theme': ['Sci-Fi', 'Crime', 'Hard-boiled', 'Black humor'],
+  'others': ['google', 'emoji']
+}
+
+```
+
 Fake it till you become it.
 
 <img src='http://www.catb.org/hacker-emblem/glider.png' alt='hacker emblem' />
 
 ---
-Links to frds & great blogs
+Some Links to frds & great blogs
 
 
 * [ZoomQuiet](http://zoomquiet.io/) {dama must be 1st}
