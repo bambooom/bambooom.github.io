@@ -9,9 +9,9 @@ import zhuzi as bambooom
 
 bambooom.stack = {
   'python': '🐾🐾🐾',
-  'jacascript': 🐾,
-  'html': 🐾🐾,
-  'css': 🐾🐾,
+  'jacascript': '🐾',
+  'html': '🐾🐾',
+  'css': '🐾🐾',
 }
 
 bambooom.path = {
