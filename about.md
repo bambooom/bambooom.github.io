@@ -16,7 +16,7 @@ bambooom.stack = {
 
 bambooom.path = {
   'Wuhan': 'From'
-  'HK': '7yr',
+  'HK': '8yr',
   'ShenZhen': '9m',
   'BJ': '~Now'
 }
