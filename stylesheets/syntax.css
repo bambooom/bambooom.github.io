@@ -22,7 +22,7 @@
 .highlight .kt { color: #5bc3d7 } /* Keyword.Type */
 .highlight .ld { color: #e6db74 } /* Literal.Date */
 .highlight .m { color: #ae81ff } /* Literal.Number */
-.highlight .s { color: #e6db74 } /* Literal.String */
+.highlight .s { color: rgba(255,87,34,0.7) } /* Literal.String */
 .highlight .na { color: #aad553 } /* Name.Attribute */
 .highlight .nb { color: #4a4a48 } /* Name.Builtin */
 .highlight .nc { color: #aad553 } /* Name.Class */
