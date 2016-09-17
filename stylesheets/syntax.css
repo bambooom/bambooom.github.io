@@ -2,7 +2,7 @@
 .highlighter-rouge, .highlight, .highlight code, .highlight pre  { background: #f7f7f7; }
 .highlight code { padding: 0; }
 .highlight .c { color: #75715e } /* Comment */
-.highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.highlight .err { color: #960050; background-color: rgba(0, 0, 0, 0) } /* Error */
 .highlight .k { color: #5bc3d7 } /* Keyword */
 .highlight .l { color: #ae81ff } /* Literal */
 .highlight .n { color: #4a4a48 } /* Name */
