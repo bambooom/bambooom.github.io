@@ -13,7 +13,7 @@ disqus: y
 ## 先说 iOS
 需要安装的是 node, watchman, React-native cli tool 以及 Xcode
 
-```
+```shell
 # 如果没有安装过 node
 brew install node
 # watchman 是 fb 开发的一个工具, 可以检测文件变化
@@ -33,7 +33,7 @@ Xcode 中自带 iOS 的模拟器, 所以不需要另外下载.
 
 新建一个 react-native 小项目来试试手感, 只需要这三步就可以了.
 
-```
+```shell
 react-native init AwesomeProject
 cd AwesomeProject
 react-native run-ios
@@ -44,7 +44,7 @@ react-native run-ios
 
 话说这个 AwesomeProject 文件夹的结构大概是这样的
 
-```
+```shell
 .
 |____android
 | |____...
@@ -97,7 +97,7 @@ adb 是android debug bridge, 是一个命令行工具, 管理模拟器什么的�
 问过同事后, 明白了是因为我的电脑上应该有两个 adb, 一个是我手动安装的, 另一个是 Android Studio 中下载的, 所以会识别不出来.
 首先将我自己手动下载的删掉, 然后如中文文档中所说,
 
-```
+```shell
 # 将 sdk 的路径加到环境中, 以便可以使用 adb fastboot 之类一些列的工具
 export ANDROID_HOME=~/Library/Android/sdk
 ```
@@ -123,7 +123,7 @@ Android Studio 中一个比较坑爹的东西, 好几次也曾报错 `Unsupporte
 另外, 中英文文档都有提到可以使用 Gradle Daemon 来提升 java 的编译速度, 否则每次编译 android 都要很慢.
 参照[文档](https://docs.gradle.org/2.9/userguide/gradle_daemon.html) 中在命令行中
 
-```
+```shell
 touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties
 ```
 
