@@ -120,7 +120,8 @@ touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/
 ```
 
 港真, 对于 gradle 到底是在做些啥, 依旧茫然中. 但这没关系, 依然可以只写 js 代码来做开发....  
-当然, 只懂 js 也是不够的...🌝
+当然, 只懂 js 也是不够的...🌝  
+是时候学一丢丢 java 和 object-c 了 😏
 
 ## Last
-真应该先看到 react-native 中文文档的, 可以节省好多时间.... 
+真应该先看到 react-native 中文文档的, 可以节省好多时间....
