@@ -57,7 +57,7 @@ disqus: y
 
 (话说突然想到 pyenv 貌似原理也是类似的?......🤔)
 
-解决最开始的部署问题的话, 其实很简单, 就是在system node中重新安装pm2.
+解决最开始的部署问题的话, 其实很简单, 就是在system node中重新安装pm2, `npm install -g pm2` 搞定
 
 ## 那怎么更新 system node 版本呢
 
@@ -77,6 +77,7 @@ sudo apt-get install -y nodejs
 ```
 
 这样才能真的更新 system node 版本....😂
+更新 node 版本后再更新 npm, 最后可以使用 `npm update` 一键更新所有之前安装的包到最新版本. 
 
 哦啊, 前面忘了说, 服务器是 ubuntu.
 
