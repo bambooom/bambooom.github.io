@@ -33,6 +33,7 @@ disqus: y
 
 
 ## 事实是...
+
 ### first, shipit 使用的系统版本的 node....
 如果登上服务器, `nvm ls` 的结果大概是长这样的:
 
@@ -77,7 +78,7 @@ sudo apt-get install -y nodejs
 ```
 
 这样才能真的更新 system node 版本....😂
-更新 node 版本后再更新 npm, 最后可以使用 `npm update` 一键更新所有之前安装的包到最新版本. 
+更新 node 版本后再更新 npm, 最后可以使用 `npm update` 一键更新所有之前安装的包到最新版本.
 
 哦啊, 前面忘了说, 服务器是 ubuntu.
 
