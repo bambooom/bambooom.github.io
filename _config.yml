@@ -3,9 +3,9 @@ author: bambooom
 description: personal blog
 disqus_shortname: bamboooom
 highlighter: null
-permalink: /:title
+permalink: /:year/:month/:day/:title
 
-url:
+url: https://bamboooom.github.io
 baseurl:
 
 sass:
