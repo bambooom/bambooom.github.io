@@ -1,0 +1,7 @@
+<nav class="col span_10 top-navbar">
+  {% for link in site.links %}
+  <a href="{{ link.url }}" title="{{ link.title }}"
+      {% if link.external %}target="_blank"{% endif %}
+      {% if page.title == link.title %}class="current-page"{% endif %}>{{ link.title }}</a>
+  {% endfor %}
+</nav>

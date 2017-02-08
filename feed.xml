@@ -1,21 +1,25 @@
 ---
-layout: null
 ---
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title }}</title>
-    <description>{{ site.description }}</description>
+    <title>{{ site.data.brume.name }}</title>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
+    <description>{{ site.data.brume.description }}</description>
+    <language>en-us</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+
+    {% for post in site.posts limit: 10 %}
       <item>
         <title>{{ post.title }}</title>
-        <description>{{ post.content | xml_escape | replace: 'javascript||' | replace: 'shell||' | replace: 'ruby||' | replace: 'html||' }}</description>
+        <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        <author>{{ site.data.brume.author}}</author>
+        <description>{{ post.content | xml_escape }}</description>
       </item>
     {% endfor %}
+
   </channel>
 </rss>

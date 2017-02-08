@@ -10,6 +10,7 @@ Week1讲的其实是Class, 所以顺便回顾一下Class. Week2要等下周了.
 
 为什么会需要Class, 回归到最基本的认识, 为了效率, 为了偷懒, 不要重复写相同作用的代码.
 一些terminology:  
+
 + `class`: 相当于一个模板, template/bluprint  
 + `method/message`: class里的function  
 + `field/attribute`: class里的data  
@@ -37,12 +38,12 @@ bambooom.task()
 
 结果如下:  
   
-  ```
+```
   I am constructed  
   Complete task 1  
   Complete task 2  
   Complete task 3  
-  ```
+```
 
 
 ## 第二个简单的栗子
@@ -73,7 +74,7 @@ j.task()     # j又做了一次task
 
 结果如下:
   
-  ```
+```
   bambooom constructed  
   bambooom complete task 1  
   aJiea constructed  
@@ -81,7 +82,7 @@ j.task()     # j又做了一次task
   bambooom complete task 2  
   bambooom complete task 3  
   aJiea complete task 2  
-  ```
+```
 
 虽然都是相同的在更新`self.x`, 但self指代不一样, 更新不一样
 
@@ -123,13 +124,13 @@ j.c2t2()     # j去了一次C2T2
 
 结果如下:
   
-  ```
+```
   bambooom constructed  
   bambooom complete task 1  
   aJiea constructed  
   aJiea complete task 1  
   aJiea came C2T2 1 times  
-  ```
+```
 
 
 一个简单的回顾 over.
@@ -157,19 +158,19 @@ print Parent.x, Child1.x, Child2.x
 
 这么一小段, 如果一开始看, 猜output大多会觉得是这样的
   
-  ```
+```
   1 1 1  
   1 2 1  
   3 2 1  
-  ```
+```
 
 但实际上的结果是这样的
   
-  ```
+```
   1 1 1  
   1 2 1  
   3 2 3  
-  ```
+```
 
 问题就出在最后一步, 为什么`Parent.x`变了之后, 会将`Child2.x`也变成了3, 但是同时`Child1.x`却没有变呢?
 

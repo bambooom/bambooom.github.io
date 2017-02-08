@@ -1,26 +1,27 @@
-title:            Bambooom
-description:      bamboo maybe boom
-url:              http://bambooom.github.io
-signoff:          bambooom # Your name.
-encoding:         UTF-8
-disqus_shortname: bamboooom # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+title: Bambooom
+author: bambooom
+description: personal blog
+disqus_shortname: bamboooom
+highlighter: null
+permalink: /:title
+
+url:
+baseurl:
+
+sass:
+  sass_dir: public/css
+  style: :compressed
 
 links:
-  - name:         About
-    url:          /about
-  - name:         Blog
-    url:          http://bambooom.github.io
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/bambooom
-    external:     true
-  - name:         feed
-    url:          /feed.xml
-highlighter:      rouge
-permalink:        pretty
-markdown:         kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: GitHub
+    url: http://github.com/bambooom
+    external: true
+  - title: instagram
+    url: https://www.instagram.com/milkymono
+    external: true
+  - title: feed
+    url: /feed.xml
