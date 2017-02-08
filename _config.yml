@@ -1,9 +1,9 @@
 title: Bambooom
 author: bambooom
 description: personal blog
-disqus_shortname: bamboooom
+disqus_shortname: bambooom
 highlighter: null
-permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:day/:title/
 
 url: 
 baseurl:
