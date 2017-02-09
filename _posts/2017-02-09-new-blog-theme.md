@@ -13,7 +13,7 @@ disqus: y
 
 + 把所有 config 都放在同一个文件`_config.yml`里
 + 做了个小小的 favicon
-+ 添加 disqus
++ 添加 disqus, 从之前的模板中直接 copy 过来的
 + 修改 config 中的 permalink 为`/:year/:month/:day/:title/`, 这是因为 disqus 的 link 里面是之前的 blog link, 要显示正常, 需要设置 permalink, 参考[官方文档 - Permalinks](https://jekyllrb.com/docs/permalinks/)
 + 去掉了首页的 logo, 修改小部分 css 样式
 + 修改以前的 post, 有部分 markdown 渲染和以前不同
