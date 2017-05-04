@@ -41,6 +41,7 @@ $ ./node_modules/.bin/eslint --init
 - 初始化完成后, 会在项目根目录生成配置文件 `.eslintrc.*`, 可选文件类型 JavaScript/JSON/YAML
 - 或者可以在 `package.json` 中添加 `eslintConfig` 来配置
 - 另外, 可以创建 `.eslintignore` 文件配置需要忽略的文件, 例如:
+
 ```
 # /node_modules/* and /bower_components/* ignored by default
 
@@ -48,9 +49,11 @@ $ ./node_modules/.bin/eslint --init
 build/*
 !build/index.js
 ```
+
 - 具体每项配置的意思需参考[Configuring ESLint](http://eslint.org/docs/user-guide/configuring)
 
 ### 针对某个文件 `file.js` 进行检查
+
 ```
 $ ./node_modules/.bin/eslint file.js
 ```
@@ -69,7 +72,8 @@ $ ./node_modules/.bin/eslint file.js -o lintResult.html -f html
 
 
 对某些需要特殊处理的部分, 可在代码中使用注释更改 eslint 规则, 例如:
-```
+
+```javascript
 /* eslint-disable no-alert, no-console */
 
 alert('foo');
