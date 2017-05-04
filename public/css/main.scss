@@ -150,6 +150,11 @@ footer {
     font-size: .7rem;
     background-color: transparent;
   }
+
+  code::before, code::after {
+    letter-spacing: initial;
+    content: "";
+  }
 }
 
 .container {
