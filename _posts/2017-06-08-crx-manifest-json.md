@@ -1,6 +1,6 @@
 ---
 layout: post
-title: what's in manifest.json of chrome extension
+title: chrome 插件中的 manifest.json 是啥
 date: 2017-06-08 00:42:31
 disqus: y
 ---
