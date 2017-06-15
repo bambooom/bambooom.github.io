@@ -20,7 +20,7 @@ Reference List:
 * [浏览器的工作原理：现代网络浏览器幕后揭秘 - HTML5 Rocks](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
 * [Optimising the front end for the browser – Hacker Noon](https://hackernoon.com/optimising-the-front-end-for-the-browser-f2f51a29c572)
 * [Best Practices for Speeding Up Your Web Site - Yahoo Developer Network](https://developer.yahoo.com/performance/rules.html)
-* [关键渲染路径  |  Web  |  Google Developers](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/)
+* [关键渲染路径 - Google Developers](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/)
 * [How to Benchmark React Components: The Quick and Dirty Guide](https://engineering.musefind.com/how-to-benchmark-react-components-the-quick-and-dirty-guide-f595baf1014c)
 * [Performance Engineering with React](http://benchling.engineering/performance-engineering-with-react/)
 * [A Deep Dive into React Perf Debugging](http://benchling.engineering/deep-dive-react-perf-debugging/)
