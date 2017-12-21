@@ -16,7 +16,7 @@
         <title>{{ post.title }}</title>
         <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <author>{{ site.author ({{site.email}})}}</author>
+        <author>{{ site.author }} ({{site.email}})</author>
         <description>{{ post.content | xml_escape }}</description>
       </item>
     {% endfor %}
