@@ -1,27 +1,22 @@
 title: Bambooom
 author: bambooom
-description: personal blog
-disqus_shortname: bamboooom
-highlighter: null
+email: nmz89825@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal Blog of Bambooom
+
+baseurl: ""
 permalink: /:year/:month/:day/:title/
+lang: zh-Hans # site language (en/ja/zh-Hans/zh-Hant)
+color_scheme: github # this specifies color scheme for syntax highlighting
 
-url: 
-baseurl:
-
-sass:
-  sass_dir: public/css
-  style: :compressed
-
-links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: GitHub
-    url: http://github.com/bambooom
-    external: true
-  - title: instagram
-    url: https://www.instagram.com/milkymono
-    external: true
-  - title: feed
-    url: /feed.xml
+github_username: bambooom
+twitter_username: milkymono
+instagram_username: milkymono
+telegram_username: bambooom
+disqus_shortname: bamboooom
+# Build settings
+markdown: kramdown
+# theme: jekyll-theme-kagami
+exclude:
+  - Gemfile
+  - Gemfile.lock

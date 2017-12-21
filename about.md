@@ -1,33 +1,44 @@
 ---
 layout: page
 title: About
+lang: en
+cover_url: assets/covers/alessio-lin.jpg
+cover_meta: >
+  Photo by [Alessio Lin](https://unsplash.com/@lin_alessio)
+position: 100
+navlevel: header
+navtitle: about
 ---
 
-{% highlight js %}
+{% highlight jsx %}
 
 import React from 'react';
+
 const zhuzi = {};
+
 zhuzi.stack = {
   'python': '🍗🍗',
   'javascript': '🍗🍗🍗🍗🍗',
   'sql': '🍗🍗🍗',
   'react': '🍗🍗🍗',
+  'vuejs': '🍗🍗🍗',
   'html+css': '🍗🍗🍗🍗',
 };
 
-zhuzi.path = {
-  'Wuhan': 'From'
-  'HK': '8yr',
-  'ShenZhen': '9m',
-  'BJ': '~Now'
-};
+zhuzi.path = [
+  {Wuhan: 'From, until High School'},
+  {HK: '8yrs, from University'},
+  {ShenZhen: '9m, finally leave finance jobs'},
+  {BJ: '1.5yr, transfer to Front End Dev'},
+  {ShenZhen: '~Now, back to ShenZhen from 2017.10'},
+];
 
 zhuzi.interests = {
   'ACG': 'many....',
   'Japan Drama': 'many....',
   'US/UK TV series': 'many...',
   'Theme': ['Sci-Fi', 'Crime', 'Hard-boiled', 'Black humor'],
-  'others': ['google', 'emoji', 'travel', 'money']
+  'others': ['google', 'emoji', 'travel', 'money', 'stocks']
 };
 
 zhuzi.language = {
@@ -51,19 +62,21 @@ export default Bambooom;
 
 {% endhighlight %}
 
-current blog theme: [brume](https://github.com/aigarsdz/brume)
+#### Simple Version
+将要脱宅の死宅 + 弱鸡前端 + 颜狗
+
+---
+
+#### Current Theme
+[KAGAMI](https://github.com/kamikat/jekyll-theme-kagami), made by Kamikat
 
 <img src='http://www.catb.org/hacker-emblem/glider.png' alt='hacker emblem' />
 
 
 ---
 
-### Some Links to frds
+#### Some frds
+> Tell me if you want to link here
 
-* [ZoomQuiet](http://zoomquiet.io/) {dama}
-* [xpgeng](http://xpgeng.me/) {shenlang @Dalian}
-* [ivanlau](http://www.ivanlau.com/) {ivanlau @SZ}
-* [laike9m](https://laike9m.com/) {laike9m @google}
-* [Scott](http://scottming.github.io/) {Scott @Xiamen}
-* [cgangee](http://www.cgangee.com/) {cgangee}
-* [JeremiahZhang](https://jeremiahzhang.github.io/) {Leiyu @GZ}
+* [ZoomQuiet](http://zoomquiet.io/)
+* [laike9m](https://laike9m.com/)
