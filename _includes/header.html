@@ -6,7 +6,7 @@
 {% if page.cover_url %}
 <div class="post-cover" aria-label="Cover">
   <div class="post-cover-wrapper">
-    <img src="{{ page.cover_url }}" alt="" />
+    <img src="{{ page.cover_url | relative_url }}" alt="" />
   </div>
   <div class="cover-meta">{{ page.cover_meta | markdownify }}</div>
 </div>
