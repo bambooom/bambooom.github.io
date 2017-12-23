@@ -63,20 +63,21 @@ export default Bambooom;
 {% endhighlight %}
 
 #### Simple Version
-将要脱宅の死宅 + 弱鸡前端 + 颜狗
+ - 将要脱宅の死宅 <small>60%</small>
+ - 匍匐前进の弱鸡前端 girl <small>80%</small>
+ - 想学设计没有想象力の颜狗 <small>40%</small>
+ - 越来越处女座了 by My Mother <small>20%</small>
 
----
 
 #### Current Theme
 [KAGAMI](https://github.com/kamikat/jekyll-theme-kagami), made by Kamikat
 
-<img src='http://www.catb.org/hacker-emblem/glider.png' alt='hacker emblem' />
-
-
----
 
 #### Some frds
-> Tell me if you want to link here
+> Tell me if you want to link here 
 
 * [ZoomQuiet](http://zoomquiet.io/)
 * [laike9m](https://laike9m.com/)
+
+---
+<img src='/assets/images/glider.svg' alt='hacker emblem' />
