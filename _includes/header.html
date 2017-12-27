@@ -11,3 +11,11 @@
   <div class="cover-meta">{{ page.cover_meta | markdownify }}</div>
 </div>
 {% endif %}
+
+{% if page.cover_remote_url %}
+<div class="post-cover" aria-label="Cover">
+  <div class="post-cover-wrapper">
+    <img src="{{ page.cover_remote_url }}" alt="" />
+  </div>
+</div>
+{% endif %}
