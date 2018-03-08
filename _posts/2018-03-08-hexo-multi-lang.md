@@ -18,7 +18,7 @@ disqus: y
 ## 搜索和尝试
 一开始搜索一通之后, 发现[这篇](http://kvh.io/cn/hexo-nginx-multi-lingual.html)文章的作者和我的需求比较一致, 也感谢他的折腾, 我节省了尝试 hexo-generator-i18n 和 hexo-multilingual 插件的时间.
 
-但对于[官方国际化机制](https://hexo.io/docs/internationalization.html)也 failed, 我表示有一丝丝怀疑, 比较 hexo 自己的网站也是用自己的 dogfood 建出来的, 怎么人家有辣么多种语言呢?
+但对于[官方国际化机制](https://hexo.io/docs/internationalization.html)也 failed, 我表示有一丝丝怀疑, hexo 自己的网站也是用自己的 dogfood 建出来的, 怎么人家有辣么多种语言呢?
 
 仔细看了下它[自己网站的代码](https://github.com/hexojs/site)和[编译生成的结果](https://github.com/hexojs/hexojs.github.io), 发现它是这样的:
 - `source` 文件夹下面, 每种语言一个文件夹
@@ -30,7 +30,7 @@ disqus: y
 所以结论很明显: 用官方方案的确不能满足需求.
 
 ## 所以用 npm script 咯
-前面[那篇 post]((http://kvh.io/cn/hexo-nginx-multi-lingual.html) 建两个文件夹再加 nginx 代理的方法, 我觉得是靠谱的, 但是一个问题是, 作者是分开两个仓库进行更新的, 那么会导致如果想要改样式和 layout, 那就需要再两个仓库里分别更新, 这个是绝对很蛋疼的. 
+前面[那篇 post](http://kvh.io/cn/hexo-nginx-multi-lingual.html) 建两个文件夹再加 nginx 代理的方法, 我觉得是靠谱的, 但是一个问题是, 作者是分开两个仓库进行更新的, 那么会导致如果想要改样式和 layout, 那就需要再两个仓库里分别更新, 这个是绝对很蛋疼的. 
 实际上作者的中英文网站的确在布局上不完全一样.
 
 我一定希望只有一个仓库, 所以自己尝试了以下方法:
