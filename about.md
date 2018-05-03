@@ -78,6 +78,7 @@ export default Bambooom;
 
 * [ZoomQuiet](http://zoomquiet.io/)
 * [laike9m](https://laike9m.com/)
+* [Zhao Haibo](https://www.zhaofinger.com/)
 
 ---
 <img src='/assets/images/glider.svg' alt='hacker emblem' />
