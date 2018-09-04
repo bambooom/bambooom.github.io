@@ -10,6 +10,16 @@ navlevel: header
 navtitle: about
 ---
 
+#### 总而言之
+- // 转行的，弱🐔，东拼西凑ing
+- // 武汉人在深圳，以前待过香港和北京
+- // 中文水平一般，英文粤语日语都会一点
+- // 死宅，兴趣主要日系 ACG + 日剧，偶尔看英美剧
+- // 越来越处女座了
+
+
+#### 装_ version
+
 {% highlight jsx %}
 
 import React from 'react';
@@ -18,6 +28,7 @@ const zhuzi = {};
 
 zhuzi.stack = {
   'python': '🍗🍗',
+  'perl': '🍗🍗',
   'javascript': '🍗🍗🍗🍗🍗',
   'sql': '🍗🍗🍗',
   'react': '🍗🍗🍗',
@@ -61,12 +72,6 @@ const Bambooom = (zhuzi) => {
 export default Bambooom;
 
 {% endhighlight %}
-
-#### Simple Version
- - 将要脱宅の死宅 <small>60%</small>
- - 匍匐前进の弱鸡前端 girl <small>80%</small>
- - 想学设计没有想象力の颜狗 <small>40%</small>
- - 越来越处女座了 by My Mother <small>20%</small>
 
 
 #### Current Theme
