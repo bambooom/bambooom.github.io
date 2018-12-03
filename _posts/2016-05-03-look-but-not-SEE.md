@@ -21,4 +21,4 @@ disqus: y
 
 你们俩眼睛长着是干嘛的? 还不如捐给失明人士帮助人家重获光明....
 
-![](http://7xpew2.com1.z0.glb.clouddn.com/blind.gif)
+![](/assets/images/blind.gif)
