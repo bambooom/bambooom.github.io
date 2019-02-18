@@ -7,4 +7,8 @@ layout: default
 <article class="page" lang="{{ page.lang | default: site.lang | default: "en" }}" itemscope itemtype="http://schema.org/BlogPosting">
   {% include header.html %}
   {{ content }}
+
+  {% if jekyll.environment == 'production' and site.disqus_shortname and page.comments != false %}
+  {% include disqus.html %}
+  {% endif %}
 </article>
