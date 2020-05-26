@@ -7,11 +7,8 @@ disqus: y
 
 > 简单记录下 GitHub Package Registry 怎么用
 
-# gh-pkg-demo
 
-Example package to use GitHub Package Registry.
-
-[Example Repo](https://github.com/bambooom/gh-pkg-demo)
+[Example Repo: gh-pkg-demo](https://github.com/bambooom/gh-pkg-demo)
 
 ## How to use GitHub Package Registry
 
