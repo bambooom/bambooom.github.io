@@ -9,6 +9,7 @@ url: "https://zhuzi.dev"
 permalink: /:year/:month/:day/:title/
 lang: zh-Hans # site language (en/ja/zh-Hans/zh-Hant)
 color_scheme: github # this specifies color scheme for syntax highlighting
+google_analytics: G-JZXBDG8XEP
 
 github_username: bambooom
 twitter_username: bo0omzi
