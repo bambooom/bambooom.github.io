@@ -5,7 +5,7 @@ date: 2021-03-05
 disqus: y
 ---
 
-[bug issue tracker](https://bugs.chromium.org/p/chromium/issues/detail?id=1154551)
+[bug issue](https://bugs.chromium.org/p/chromium/issues/detail?id=1154551)
 
 嘛，这个 bug 完全不影响正常使用，是只会影响开发体验的 devtools 的 bug。
 
