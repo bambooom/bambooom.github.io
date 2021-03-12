@@ -24,7 +24,12 @@ disqus: y
 - 没想到第一条结果就是曾经 shadowsocks の wiki:
   + [Block Connection to localhost · shadowsocks/shadowsocks Wiki](https://github.com/shadowsocks/shadowsocks/wiki/Block-Connection-to-localhost)
   + 其中明确说明了: 从 2.6.3 版本开始, 默认屏蔽 localhost/127.0.0.1
-  + 想要修改设置可以使用一条命令 `ssserver -c /etc/shadowsocks.json --forbidden-ip=""`
+  + 想要修改设置可以使用一条命令
+
+```sh
+ssserver -c /etc/shadowsocks.json --forbidden-ip=""
+```
+
   + 然而, 由于众所周知の原因, 源代码已经被作者删了
     * 并没有办法获取这个 `ssserver` 命令了
     * 也并不理解这行命令实际起的作用是啥
