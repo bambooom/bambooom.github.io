@@ -71,12 +71,12 @@ disqus: y
 4. 在你前面创建的 database 页面邀请 Integration（把它想成一个 bot），这样你就可以使用 Notion API Token 来访问或者更新 Notion 了。要注意的是每个 database 都需要单独邀请 Integration
 5. 在自己 fork 或创建的代码仓库里设置 secrets，key 的名字如图，NOTION_TOKEN 即第三步获取的 Token，NOTION_BOOK/MOVIE/MUSIC_DATABASE_ID 是你自己的数据库的 ID，在 Notion 网站的 URL 上即可复制 （前面的 Notion 文档中也有提到什么是 database ID）
 
-    ![](/assets/images/douban-backup-secrets.png)
+![](/assets/images/douban-backup-secrets.png)
 
-    ```
-    https://www.notion.so/myworkspace/a8aec43384f447ed84390e8e42c2e089?v=...
-                                      |--------- Database ID --------|
-    ```
+```
+https://www.notion.so/myworkspace/a8aec43384f447ed84390e8e42c2e089?v=...
+                                  |--------- Database ID --------|
+```
 
 6. 如果是懂自己在干什么的人，想要在自己电脑上跑脚本的话，需要在仓库目录下创建一个叫 `.env` 的文件配置齐下面的 secrets 即可
 
