@@ -78,7 +78,7 @@ https://www.notion.so/myworkspace/a8aec43384f447ed84390e8e42c2e089?v=...
                                   |--------- Database ID --------|
 ```
 
-6. 如果是懂自己在干什么的人，想要在自己电脑上跑脚本的话，需要在仓库目录下创建一个叫 `.env` 的文件配置齐下面的 secrets 即可
+    如果是懂自己在干什么的人，想要在自己电脑上跑脚本的话，需要在仓库目录下创建一个叫 `.env` 的文件配置齐下面的 secrets 即可
 
 最后这个脚本需要定时跑，也就是一个 cron job 而已，又穷又懒的我，发现了 GitHub 近来在推的自家的 Actions 功能是可以做定时任务的，[参考文档](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events)。
 免费用户的公开仓库似乎也完全不限制 Actions 的使用（Private repo 是有限制使用分钟数的），所以我在仓库里添加了这个 [workflow 设置文件](https://github.com/bambooom/douban-backup/blob/main/.github/workflows/sync-rss.js.yml)。
