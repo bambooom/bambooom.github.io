@@ -7,15 +7,23 @@ disqus: y
 
 我个人的豆瓣标记条目导出到 Notion 并同步的一套操作和工具，并不适用于所有人。并且可能还有问题没有发现。
 
-## 1. 使用油猴脚本一键导出`看过/读过/听过`的电影、书、音乐条目
+## 1. 使用油猴脚本一键导出`看过/读过/听过/玩过`的电影、书、音乐、游戏、舞台剧条目
 
-脚本 -> [豆瓣读书+电影+音乐+游戏导出工具](https://greasyfork.org/en/scripts/420999-%E8%B1%86%E7%93%A3%E8%AF%BB%E4%B9%A6-%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E6%B8%B8%E6%88%8F%E5%AF%BC%E5%87%BA%E5%B7%A5%E5%85%B7)
+脚本 -> [豆瓣读书+电影+音乐+游戏+舞台剧导出工具](https://greasyfork.org/en/scripts/420999-%E8%B1%86%E7%93%A3%E8%AF%BB%E4%B9%A6-%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E6%B8%B8%E6%88%8F-%E8%88%9E%E5%8F%B0%E5%89%A7%E5%AF%BC%E5%87%BA%E5%B7%A5%E5%85%B7)
 
-是我从另外一个友邻的脚本完善修改的，安装后会在自己的豆瓣页面上看到多出三个链接：
+是我从另外一个友邻的脚本完善修改的，安装后会在自己的豆瓣页面上看到多出五个链接：
 
 ![](/assets/images/douban-backup-monkey-script.png)
+![](/assets/images/douban-backup-monkey-script-2.png)
 
-分别点击这三个链接就会分别从 `https://movie.douban.com/mine?status=collect`, `https://music.douban.com/mine?status=collect`, `https://book.douban.com/mine?status=collect` 这三个地方自动翻页去获取个人标记数据（包括评分、评分时间以及短评）并最终导出 csv 文件。每次都可能需要一点时间给脚本去翻页获取数据，中途不要关掉浏览器，也不要在这个页面上去操作什么。
+分别点击这五个链接就会分别从
+- `https://movie.douban.com/mine?status=collect`
+- `https://music.douban.com/mine?status=collect`
+- `https://book.douban.com/mine?status=collect`
+- `https://www.douban.com/people/<people>/games?action=collect`
+- `https://www.douban.com/location/people/<people>/drama/collect`
+
+这几个地方自动翻页去获取个人标记数据（包括评分、评分时间以及短评）并最终导出 csv 文件。每次都可能需要一点时间给脚本去翻页获取数据，中途不要关掉浏览器，也不要在这个页面上去操作什么。
 
 因为这三个地方不是具体条目页面，所以页面访问 limit request 并不严格，所以这样跑脚本完全不会被当做机器人而遭到封禁 IP 或要求重新登录之类的处理。
 但局限也就是这里无法准确获取更多有关条目本身的信息，比如电影条目的 IMDb 链接、制片国家，也无法精准把导演和演员之类的人名区分开。
