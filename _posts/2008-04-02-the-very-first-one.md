@@ -33,3 +33,5 @@ lucky day!!!
 
 以上。
 吃了免费的晚餐之后在图书馆不想回宿舍的竹子。
+
+[pdf](/assets/aortic-thromboembolism-in-cats.pdf)
