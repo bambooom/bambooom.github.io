@@ -7,9 +7,9 @@ navlevel: header
 navtitle: links
 ---
 
-> 腐 friend
+欢迎留言和我交换链接！
 
-* [ikyo 桑](https://inokyo.wordpress.com/) (在日，有猫)
+* [ikyo 桑](https://inokyo.wordpress.com/) (有猫www)
 * [强哥](https://strongbrother.blogspot.com/) (强力吐槽太爱看啦www)
 
 ---
