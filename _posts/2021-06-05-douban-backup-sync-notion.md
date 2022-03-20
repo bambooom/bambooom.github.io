@@ -29,12 +29,12 @@ disqus: y
 
 这几个地方自动翻页去获取个人标记数据（包括评分、评分时间以及短评）并最终导出 csv 文件。每次都可能需要一点时间给脚本去翻页获取数据，中途不要关掉浏览器，也不要在这个页面上去操作什么。
 
-因为这三个地方不是具体条目页面，页面访问 limit request 并不严格，所以这样跑脚本完全不会被当做机器人而遭到封禁 IP 或要求重新登录之类的处理。
+因为这三个地方不是具体条目页面，页面访问 limit request 并不严格，所以这样跑脚本完全不会被当做机器人而遭到封禁 IP 或要求重新登录之类的。
 
 但局限也就是这里无法准确获取更多有关条目本身的信息，比如电影条目的 IMDb 链接、制片国家，也无法精准把导演和演员之类的人名区分开。
 
 所以会发现导出的列表和最后实际使用中的 Notion table 的信息有对应不上的或者缺失的。这是正常的，也是无法避免的。
-我个人的 Notion 事例看着数据是完整的，是因为最早尝试过自己写爬虫完整地爬取数据，但是数次遭遇被临时封禁 IP
+我个人的 Notion 示例看着数据是完整的，是因为最早尝试过自己写爬虫完整地爬取数据，但是数次遭遇被临时封禁 IP
 并要求重新登录，整个过程很痛苦很麻烦，所以决定放弃爬虫方案了。
 
 如果还是想要更完整的信息，建议使用[豆坟](https://blog.doufen.org/)。我个人也会过一段时间使用这个，因为还可以备份广播、相册等对我来说并不是特别重要的部分。
@@ -61,8 +61,6 @@ disqus: y
 
 ![](/assets/images/douban-backup-notion-db.png)
 
-在 Notion 中新建一个 database，也就是表格。然后给表格设置每一列的 Property 名字和类型，名字需要对应前面导出的 csv 的表头的名字和顺序。
-
 因为我的油猴脚本导出的 csv 是这样的:
 
 ![](/assets/images/douban-backup-csv.png)
@@ -87,8 +85,7 @@ disqus: y
 
 ## 4. 使用 GitHub Actions 定时从 RSS 信息更新 Notion
 
-> 这是我个人使用的更自动化的方法，但是需要折腾一些东西，欢迎试用并反馈，谢谢～
-
+> 如果愿意折腾一些不太懂的东西，可以使用这个方法进行同步，是我个人使用的更自动化的方法，欢迎试用并反馈，谢谢～
 
 所幸这么多年过去了，google reader 都死掉了，豆瓣的 RSS 依然还保留着。
 在个人页面的右下角一直安静地存在着：
@@ -107,7 +104,7 @@ disqus: y
 ### 4.1 获取 GitHub 代码仓库
 
 1. 注册一个 GitHub 账号，如果没有
-2. fork 我的代码仓库 https://github.com/bambooom/douban-backup （懂的人也可以不 fork，直接 clone，再在自己账号里创建新的 repo 并上传）
+2. fork 我的[代码仓库](https://github.com/bambooom/douban-backup) （懂的人也可以不 fork，直接 clone，再在自己账号里创建新的 repo 再 push）
 
 ### 4.2 注册 Notion Integration
 
@@ -123,7 +120,7 @@ disqus: y
 
 ![](/assets/images/douban-backup-invite-bot.png)
 
-邀请后再页面上即可看到这个 Integration 是有权限编辑的。
+邀请后在页面上即可看到这个 Integration 是有权限编辑的。
 
 ![](/assets/images/douban-backup-bot.png)
 
@@ -169,7 +166,7 @@ GitHub 对免费用户的公开仓库暂时完全不会限制 Actions 的使用�
 
 我设置的是每 6 个小时跑一次，因为我的标记也没有那么频繁，应该是够用了的。
 
-如果想要更改这个频率，可以自行编辑这个 [workflow 文件](https://github.com/bambooom/douban-backup/blob/main/.github/workflows/sync-rss.js.yml)，将 6 改为 1 即表示每隔 1 个小时就运行一次脚本，改为 2 就表示每隔 2 个小时运行一次。
+如果想要更改这个频率，可以自行编辑你仓库中的这个 workflow 文件，将 6 改为 1 即表示每隔 1 个小时就运行一次脚本，改为 2 就表示每隔 2 个小时运行一次。
 
 ![](/assets/images/douban-backup-interval.png)
 
