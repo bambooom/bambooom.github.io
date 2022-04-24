@@ -11,6 +11,7 @@ navtitle: links
 
 * [ikyo 桑](https://inokyo.wordpress.com/) (有猫www)
 * [强哥](https://strongbrother.blogspot.com/) (强力吐槽太爱看啦www)
+* [卧锦](https://crescendomeow.wordpress.com/)
 
 ---
 
