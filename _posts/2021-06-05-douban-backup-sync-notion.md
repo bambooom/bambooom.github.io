@@ -178,3 +178,34 @@ GitHub 对免费用户的公开仓库暂时完全不会限制 Actions 的使用�
 
 
 最终贴上[我的 Notion 书影音 database](https://bambooo.notion.site/f6ff9481e3c044b09d9a46645e92d5b8) 当作例子。
+
+## 番外篇 - NeoDB
+
+[NeoDB](https://neodb.social) 暂时可以说是最为还原豆瓣条目标记功能的开源项目了。
+需要的只是一个 Fediverse 的账号。
+
+我很早就有注册并且随意看了下，功能还非常不全面，条目也很缺。
+经过这两年的发展，已经比之前好了很多，条目没有审查，来源更丰富，除了豆瓣的条目，还可以从 spotify、goodreads、google books、steam 等等抓取数据，这些都是 NeoDB 的优势。
+
+最近（2023.6）发现 NeoDB 有了比较丰富的 API，
+于是想着狡兔三窟，不用只把数据放在一个地方，决定在同步到 Notion 的同时也同步到 NeoDB。
+
+### 豆坟/豆伴导出
+豆瓣的数据可以完整导入到 NeoDB 中，[参考这篇文档](https://about.neodb.social/doc/howto/)。
+简单来说就是：
+- 使用[豆坟/豆伴插件](https://blog.doufen.org/download/)，创建豆瓣的备份数据，[参考文档](https://about.neodb.social/doc/doufen/)
+- 导出备份数据，是一个 `.xlxs` 文件
+- 在 [NeoDB 页面](https://neodb.social/users/data/) 中上传 `.xlxs` 文件
+- 导入文件并完成所有条目的标记需要一点时间，只需等待导入完成即可
+
+### NeoDB 同步设置
+
+1. 登录 NeoDB 后在 [developer 的页面](https://neodb.social/developer/)点击生成 Token：
+
+![](/assets/images/douban-backup-neodb-token.png)
+
+2. 和前面说的相同的方法给 repo 添加一个新的 secret，`NEODB_API_TOKEN`，把生成的 Token 值贴进去即可
+
+没有设置 Token 的不会去同步到 NeoDB，这个功能不是必须的。
+
+最终放上我迁移后的 [NeoDB 页面](https://neodb.social/users/zhuzi@m.cmx.im/)。
