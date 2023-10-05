@@ -1,0 +1,15 @@
+.about-page ul {
+  @apply list-[circle] ml-6;
+}
+
+.about-page h2 {
+  @apply text-xl text-zinc-300 mb-2;
+}
+
+.about-page strong {
+  @apply text-pink-500 font-normal;
+}
+
+.about-page a {
+  @apply hover:text-violet-500 text-violet-400 transition-all duration-100;
+}

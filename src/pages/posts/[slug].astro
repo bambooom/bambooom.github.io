@@ -1,0 +1,39 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import formatDate from "@/utils/formatDate";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts");
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+type Props = {
+  post: CollectionEntry<"posts">;
+};
+
+const { post } = Astro.props;
+const { Content, remarkPluginFrontmatter } = await post.render();
+---
+
+<Layout title={post.data.title} description={post.data.description}>
+  <main class="post mx-auto flex w-full max-w-[740px] flex-col gap-4 text-base text-zinc-300">
+    <header role="presentation">
+      <h1 class="text-3xl font-serif my-8">
+        {post.data.title}
+      </h1>
+      <span class="text-zinc-500 text-sm">{remarkPluginFrontmatter.minutesRead}</span>
+    </header>
+
+    <div class="font-serif">
+      <Content />
+    </div>
+    <div class="my-6 text-zinc-500 text-sm">
+      <time>{formatDate(post.data.publishedAt)}</time>
+    </div>
+  </main>
+</Layout>
