@@ -14,6 +14,8 @@ const { Content: LinksContent } = await linksEntry.render();
 const logEntry = await getEntry('meta', 'changelog');
 const { Content: LogContent } = await logEntry.render();
 
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
 ---
 
 <Layout title="About">
@@ -52,5 +54,14 @@ const { Content: LogContent } = await logEntry.render();
 
       <SocialLinks />
     </article>
+
+    <div id="cusdis_thread"
+      data-host="https://cusdis.com"
+      data-app-id="9dd90108-2757-42c8-9fee-a7c11228a6e9"
+      data-page-id="about"
+      data-page-url={canonicalURL}
+      data-page-title="About"
+      data-theme="dark"
+    ></div>
   </main>
 </Layout>
