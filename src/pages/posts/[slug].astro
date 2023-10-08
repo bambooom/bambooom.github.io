@@ -2,6 +2,8 @@
 import { type CollectionEntry, getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import formatDate from "@/utils/formatDate";
+import Disqus from "@/components/Disqus.astro";
+import { DISQUS_SHORTNAME } from '@/data/config';
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
@@ -36,14 +38,10 @@ const { Content, remarkPluginFrontmatter } = await post.render();
     <div class="my-6 text-zinc-500 text-sm">
       <time>{formatDate(post.data.publishedAt)}</time>
     </div>
-    <div id="cusdis_thread"
-      data-host="https://cusdis.com"
-      data-app-id="9dd90108-2757-42c8-9fee-a7c11228a6e9"
-      data-page-id={post.slug}
-      data-page-url={canonicalURL}
-      data-page-title={post.data.title}
-      data-theme="dark"
-    ></div>
+    { DISQUS_SHORTNAME &&
+      <Disqus shortname={DISQUS_SHORTNAME}
+              identifier={post.slug}
+              url={canonicalURL}
+              title={post.data.title} /> }
   </main>
-  <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 </Layout>
