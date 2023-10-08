@@ -1,9 +1,9 @@
 ---
 import { getEntry } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
-import presentation from "@/data/presentation";
-import Link from "@/components/shared/Link.astro";
 import SocialLinks from "@/components/SocialLinks.astro";
+import Disqus from "@/components/Disqus.astro";
+import { DISQUS_SHORTNAME } from '@/data/config';
 
 const aboutEntry = await getEntry('meta', 'about');
 const { Content: AboutContent } = await aboutEntry.render();
@@ -55,13 +55,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       <SocialLinks />
     </article>
 
-    <div id="cusdis_thread"
-      data-host="https://cusdis.com"
-      data-app-id="9dd90108-2757-42c8-9fee-a7c11228a6e9"
-      data-page-id="about"
-      data-page-url={canonicalURL}
-      data-page-title="About"
-      data-theme="dark"
-    ></div>
+    { DISQUS_SHORTNAME &&
+      <Disqus shortname={DISQUS_SHORTNAME}
+              identifier="about"
+              url={canonicalURL}
+              title="About - Bambooom" /> }
   </main>
 </Layout>
