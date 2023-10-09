@@ -5,6 +5,8 @@ import formatDate from "@/utils/formatDate";
 import Disqus from "@/components/Disqus.astro";
 import { DISQUS_SHORTNAME } from '@/data/config';
 
+const isProd = import.meta.env.PROD;
+
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
 
@@ -38,7 +40,7 @@ const { Content, remarkPluginFrontmatter } = await post.render();
     <div class="my-6 text-zinc-500 text-sm">
       <time>{formatDate(post.data.publishedAt)}</time>
     </div>
-    { DISQUS_SHORTNAME &&
+    { DISQUS_SHORTNAME && isProd &&
       <Disqus shortname={DISQUS_SHORTNAME}
               identifier={post.slug}
               url={canonicalURL}

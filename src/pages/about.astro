@@ -5,6 +5,8 @@ import SocialLinks from "@/components/SocialLinks.astro";
 import Disqus from "@/components/Disqus.astro";
 import { DISQUS_SHORTNAME } from '@/data/config';
 
+const isProd = import.meta.env.PROD;
+
 const aboutEntry = await getEntry('meta', 'about');
 const { Content: AboutContent } = await aboutEntry.render();
 
@@ -55,7 +57,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       <SocialLinks />
     </article>
 
-    { DISQUS_SHORTNAME &&
+    { DISQUS_SHORTNAME && isProd &&
       <Disqus shortname={DISQUS_SHORTNAME}
               identifier="about"
               url={canonicalURL}
