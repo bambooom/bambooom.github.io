@@ -12,9 +12,10 @@ const { title, publishedAt, description, slug } = Astro.props;
 ---
 
 <a
-  class="group flex w-full cursor-pointer flex-col gap-2 rounded-md border border-neutral-700 p-4 transition-all duration-300 hover:-translate-y-2 hover:border-neutral-400"
+  class="post-card group relative overflow-hidden z-10 flex w-full cursor-pointer flex-col gap-2 rounded-md border border-neutral-700 p-4 transition-all duration-300 hover:-translate-y-2 hover:border-neutral-400"
   href={`/posts/${slug}`}
 >
+  <div class="absolute scale-[1.5] blur-lg w-8 h-8 rounded-full -z-10 transition-opacity duration-300 bg-purple-500 " style="opacity: 0;"></div>
   <div
     class="flex w-full flex-col justify-between gap-2 md:flex-row md:items-center"
   >

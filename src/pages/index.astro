@@ -98,3 +98,32 @@ const { Content: AboutContent } = await entry.render();
 
   </main>
 </Layout>
+
+<script>
+  // @ts-nocheck
+  const cards = Array.from(document.querySelectorAll('.post-card'));
+  const pos = cards.map(card => {
+    const {x, y} = card.getBoundingClientRect();
+    return [x, y];
+  });
+  cards.forEach((card, idx) => {
+    card.addEventListener('mouseenter', () => {
+      card.firstChild.style.opacity = 1;
+    });
+    card.addEventListener('mousemove', (e) => {
+      card.firstChild.style.left = (e.clientX - pos[idx][0]) + 'px';
+      card.firstChild.style.top = (e.clientY - pos[idx][1]) + 'px';
+    })
+    card.addEventListener('mouseleave', () => {
+      card.firstChild.style.opacity = 0;
+    })
+  });
+
+  window.addEventListener('resize', () => {
+    pos.length = 0;
+    cards.forEach(card => {
+      const {x, y} = card.getBoundingClientRect();
+      pos.push([x, y]);
+    })
+  })
+</script>
