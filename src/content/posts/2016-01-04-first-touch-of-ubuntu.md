@@ -2,7 +2,7 @@
 isPublish: true
 title: NOTE1-First touch of ubuntu
 publishedAt: 2016-01-04 23:56:42
-disqus: y
+comment: y
 ---
 
 一篇简短的文, 第一次接触linux系统, 其实也就是一个命令行.

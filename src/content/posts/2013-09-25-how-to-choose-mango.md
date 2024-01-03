@@ -2,7 +2,7 @@
 isPublish: true
 title: 如何挑芒果
 publishedAt: 2013-09-25
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/305510095/

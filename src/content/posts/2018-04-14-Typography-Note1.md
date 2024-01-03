@@ -2,7 +2,7 @@
 isPublish: true
 title: Typography - Note 1
 publishedAt: 2018-04-14
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/665653445/

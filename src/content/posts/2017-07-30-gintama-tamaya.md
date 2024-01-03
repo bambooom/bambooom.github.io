@@ -2,7 +2,7 @@
 isPublish: true
 title: 银妈 & 花火主题 之 4 回目关西
 publishedAt: 2017-07-30
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/631062396/

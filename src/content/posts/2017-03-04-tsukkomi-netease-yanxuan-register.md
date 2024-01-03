@@ -2,7 +2,7 @@
 isPublish: true
 title: 吐槽注册网易严选时的发生的事
 publishedAt: 2017-03-04 21:42:31
-disqus: y
+comment: y
 ---
 
 这是一篇纯粹吐槽的东西....

@@ -2,7 +2,7 @@
 isPublish: true
 title: extract and update messages for vue-i18n
 publishedAt: 2019-09-12 23:21:42
-disqus: y
+comment: y
 ---
 
 

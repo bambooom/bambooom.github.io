@@ -2,7 +2,7 @@
 isPublish: true
 title: The Great Suspender + Toby
 publishedAt: 2021-03-04
-disqus: y
+comment: y
 ---
 
 > 其实也没啥特别的小事，但就想随手记一下

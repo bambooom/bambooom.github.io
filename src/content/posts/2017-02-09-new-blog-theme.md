@@ -2,7 +2,7 @@
 isPublish: true
 title: change blog theme
 publishedAt: 2017-02-09 20:42:31
-disqus: y
+comment: y
 ---
 
 早就想换个模板, 选模板的时间比起改模板来, 耗费太多时间, 选择困难....

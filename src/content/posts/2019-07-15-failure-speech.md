@@ -2,7 +2,7 @@
 isPublish: true
 title: 记一次失败的发言……
 publishedAt: 2019-07-15
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/726292696/

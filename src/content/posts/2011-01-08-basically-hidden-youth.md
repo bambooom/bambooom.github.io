@@ -2,7 +2,7 @@
 isPublish: true
 title: 基本上我只是一個隱蔽的青年
 publishedAt: 2011-01-08
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/127940383/

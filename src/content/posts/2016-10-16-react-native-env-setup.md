@@ -2,7 +2,7 @@
 isPublish: true
 title: react-native env setup
 publishedAt: 2016-10-16 22:42:31
-disqus: y
+comment: y
 ---
 
 前两天折腾了 react-native 的环境, 也稍微记一下坑, 以及顺便清理下爬坑时打开的无数个浏览器 tab 😂

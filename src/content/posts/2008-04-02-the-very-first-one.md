@@ -3,7 +3,7 @@ title: the very first one
 publishedAt: 2008-04-02
 description: "first diary on douban backup"
 isPublish: true
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/10139862/

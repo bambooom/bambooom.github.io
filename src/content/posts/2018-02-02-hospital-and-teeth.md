@@ -2,7 +2,7 @@
 isPublish: true
 title: 住院拔牙记
 publishedAt: 2018-02-02
-disqus: y
+comment: y
 ---
 
 

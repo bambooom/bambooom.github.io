@@ -2,7 +2,7 @@
 isPublish: true
 title: 大波浪 深圳 B10 简单 repo
 publishedAt: 2021-03-20
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/797377332/

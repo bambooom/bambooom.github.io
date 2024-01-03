@@ -2,7 +2,7 @@
 isPublish: true
 title: 第一次看艺妓表演 repo
 publishedAt: 2012-02-18
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/201265084/

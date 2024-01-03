@@ -2,7 +2,7 @@
 isPublish: true
 title: read folder to object using webpack
 publishedAt: 2019-08-29 23:42:31
-disqus: y
+comment: y
 ---
 
 

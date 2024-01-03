@@ -2,7 +2,7 @@
 isPublish: true
 title: using google cloud python API via proxy
 publishedAt: 2018-10-02
-disqus: y
+comment: y
 ---
 
 想试用 google cloud 的 tts 服务, 跟着[文档](https://cloud.google.com/text-to-speech/docs/quickstart-protocol)先把前期设置搞完了, credential 获取了, 安装了 python API (`pip install google-cloud-texttospeech`), 直接借用[文档](https://cloud.google.com/text-to-speech/docs/create-audio)的 python 例子(`python example.py`)想试试效果, 结果死也出不来结果...

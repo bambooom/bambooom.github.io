@@ -2,7 +2,7 @@
 isPublish: true
 title: why I like JOJO
 publishedAt: 2016-04-25 00:42:31
-disqus: y
+comment: y
 ---
 
 

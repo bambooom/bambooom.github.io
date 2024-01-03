@@ -2,7 +2,7 @@
 isPublish: true
 title: GitHub Package Registry 简单试用记录
 publishedAt: 2020-05-26
-disqus: y
+comment: y
 ---
 
 > 简单记录下 GitHub Package Registry 怎么用

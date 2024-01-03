@@ -2,7 +2,7 @@
 isPublish: true
 title: 夏日的風
 publishedAt: 2008-06-29
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/13939203/

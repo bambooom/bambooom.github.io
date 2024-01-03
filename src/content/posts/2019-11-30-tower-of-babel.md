@@ -2,7 +2,7 @@
 isPublish: true
 title: 巴别塔
 publishedAt: 2019-11-30 13:43:42
-disqus: y
+comment: y
 ---
 
 ## 起因

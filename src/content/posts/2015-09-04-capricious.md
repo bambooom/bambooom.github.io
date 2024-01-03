@@ -2,7 +2,7 @@
 isPublish: true
 title: 任性
 publishedAt: 2015-09-04
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/515515848/

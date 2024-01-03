@@ -2,7 +2,7 @@
 isPublish: true
 title: shadowsocks 全局模式下屏蔽 localhost
 publishedAt: 2017-04-19 22:42:31
-disqus: y
+comment: y
 ---
 
 ## 起因

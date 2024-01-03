@@ -1,0 +1,14 @@
+---
+// https://github.com/withastro/astro/pull/8159/
+const { shortname, identifier, url, title } = Astro.props;
+
+---
+<div id="twikoo-comments"></div>
+<script>
+  // @ts-nocheck
+  import twikoo from "twikoo";
+  twikoo({
+    envId: 'https://zhuvi-dev-twikoo.netlify.app/.netlify/functions/twikoo',
+    el: '#twikoo-comments',
+  });
+</script>

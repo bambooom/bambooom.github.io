@@ -2,7 +2,7 @@
 isPublish: true
 title: miscellaneous
 publishedAt: 2016-09-27 00:42:31
-disqus: y
+comment: y
 ---
 
 工作突然发生挺大变化, 一位优秀的同事因为身体原因要离职了, 我要开始去接手他的工作了.

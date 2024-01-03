@@ -2,7 +2,7 @@
 isPublish: true
 title: writing is hard
 publishedAt: 2016-03-20 00:42:31
-disqus: y
+comment: y
 ---
 
 

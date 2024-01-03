@@ -2,7 +2,7 @@
 isPublish: true
 title: 看BL=厌女？的无意义吐槽
 publishedAt: 2021-01-09
-disqus: y
+comment: y
 ---
 
 昨天刷到这么一个帖子，[看个耽美就是仇女、不配女权了么？](https://www.douban.com/group/topic/207573158/)，一时内心很震惊：

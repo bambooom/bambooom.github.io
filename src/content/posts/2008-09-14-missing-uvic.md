@@ -2,7 +2,7 @@
 isPublish: true
 title: 不是不想念
 publishedAt: 2008-09-14
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/18163629/

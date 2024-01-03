@@ -2,7 +2,7 @@
 isPublish: true
 title: 记一次 Firefox WebSocket debug
 publishedAt: 2019-11-08 15:27:42
-disqus: y
+comment: y
 ---
 
 我司经常会通过 WebSocket 来向前端实时传递大量信息，之前同事一直说 Firefox 下 WebSocket 传送的数据有丢失，

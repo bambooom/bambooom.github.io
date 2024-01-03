@@ -2,7 +2,7 @@
 isPublish: true
 title: Paradox Live 听碟记录
 publishedAt: 2021-05-23
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/803479251/

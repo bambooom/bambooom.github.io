@@ -2,7 +2,7 @@
 isPublish: true
 title: 《我不懂得依赖他人的方法》by 腰乃
 publishedAt: 2014-09-26
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/429107796/

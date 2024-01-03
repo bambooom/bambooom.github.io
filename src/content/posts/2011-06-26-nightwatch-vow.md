@@ -2,7 +2,7 @@
 isPublish: true
 title: The Vow
 publishedAt: 2011-06-26
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/158341134/

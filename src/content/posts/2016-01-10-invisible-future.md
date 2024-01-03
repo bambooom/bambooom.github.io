@@ -2,7 +2,7 @@
 isPublish: true
 title: Invisible Future
 publishedAt: 2016-01-10 04:55:42
-disqus: y
+comment: y
 ---
 
 今日深圳开智聚会, 有幸见到了志平仁波切. 没想到比起大妈先见到阳老, 哦不, 要叫`阳社长`.

@@ -2,7 +2,7 @@
 isPublish: true
 title: 家附近
 publishedAt: 2014-05-23
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/353184852/

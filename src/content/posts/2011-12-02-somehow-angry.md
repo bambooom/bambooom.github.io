@@ -2,7 +2,7 @@
 isPublish: true
 title: 有的时候不吐槽真的会死，憋死
 publishedAt: 2011-12-02
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/187905605/

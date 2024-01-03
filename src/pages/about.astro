@@ -2,8 +2,7 @@
 import { getEntry } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import SocialLinks from "@/components/SocialLinks.astro";
-import Disqus from "@/components/Disqus.astro";
-import { DISQUS_SHORTNAME } from '@/data/config';
+import Comment from "@/components/Comment.astro";
 
 const isProd = import.meta.env.PROD;
 
@@ -15,8 +14,6 @@ const { Content: LinksContent } = await linksEntry.render();
 
 const logEntry = await getEntry('meta', 'changelog');
 const { Content: LogContent } = await logEntry.render();
-
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 ---
 
@@ -57,10 +54,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       <SocialLinks />
     </article>
 
-    { DISQUS_SHORTNAME && isProd &&
-      <Disqus shortname={DISQUS_SHORTNAME}
-              identifier="about"
-              url={canonicalURL}
-              title="About - Bambooom" /> }
+    { isProd && <Comment /> }
   </main>
 </Layout>

@@ -2,7 +2,7 @@
 isPublish: true
 title: Adult StoryBook
 publishedAt: 2009-03-07
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/28295577/

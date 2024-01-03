@@ -2,8 +2,7 @@
 import { type CollectionEntry, getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import formatDate from "@/utils/formatDate";
-import Disqus from "@/components/Disqus.astro";
-import { DISQUS_SHORTNAME } from '@/data/config';
+import Comment from "@/components/Comment.astro";
 
 const isProd = import.meta.env.PROD;
 
@@ -20,7 +19,6 @@ type Props = {
   post: CollectionEntry<"posts">;
 };
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { post } = Astro.props;
 const { Content, remarkPluginFrontmatter } = await post.render();
 ---
@@ -40,10 +38,6 @@ const { Content, remarkPluginFrontmatter } = await post.render();
     <div class="my-6 text-zinc-500 text-sm">
       <time>{formatDate(post.data.publishedAt)}</time>
     </div>
-    { DISQUS_SHORTNAME && isProd &&
-      <Disqus shortname={DISQUS_SHORTNAME}
-              identifier={post.slug}
-              url={canonicalURL}
-              title={post.data.title} /> }
+    { isProd && <Comment /> }
   </main>
 </Layout>

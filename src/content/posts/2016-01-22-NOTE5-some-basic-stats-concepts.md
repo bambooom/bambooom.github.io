@@ -2,7 +2,7 @@
 isPublish: true
 title: NOTE5-some basic stats concepts
 publishedAt: 2016-01-22 23:57:31
-disqus: y
+comment: y
 ---
 
 最近会尽量在地铁上刷`统计学的世界`这本书.

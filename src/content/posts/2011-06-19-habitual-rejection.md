@@ -2,7 +2,7 @@
 isPublish: true
 title: 习惯性拒绝
 publishedAt: 2011-06-19
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/157075972/

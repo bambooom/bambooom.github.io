@@ -2,7 +2,7 @@
 isPublish: true
 title: 第一次发现了 Chrome 的 bug
 publishedAt: 2021-03-05
-disqus: y
+comment: y
 ---
 
 [bug issue](https://bugs.chromium.org/p/chromium/issues/detail?id=1154551)

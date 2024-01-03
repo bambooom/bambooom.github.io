@@ -2,7 +2,7 @@
 isPublish: true
 title: ヒプノシスマイク 听碟记录
 publishedAt: 2020-05-18
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/763128418/

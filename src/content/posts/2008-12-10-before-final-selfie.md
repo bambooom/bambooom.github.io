@@ -2,7 +2,7 @@
 isPublish: true
 title: final期的文藝腔和無聊自拍
 publishedAt: 2008-12-10
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/22922931/

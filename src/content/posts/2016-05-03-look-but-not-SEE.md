@@ -2,7 +2,7 @@
 isPublish: true
 title: Look but not SEE
 publishedAt: 2016-05-03 11:42:31
-disqus: y
+comment: y
 ---
 
 ## 视而不见

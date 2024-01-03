@@ -2,7 +2,7 @@
 isPublish: true
 title: 夏日关西暴走团
 publishedAt: 2015-08-20
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/513533477/

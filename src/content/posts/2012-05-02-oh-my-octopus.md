@@ -2,7 +2,7 @@
 isPublish: true
 title: 深情悼念我的八达通
 publishedAt: 2012-05-02
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/212405624/

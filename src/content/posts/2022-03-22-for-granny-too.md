@@ -2,7 +2,7 @@
 isPublish: true
 title: 奶奶也走了
 publishedAt: 2022-03-22
-disqus: y
+comment: y
 ---
 
 早上 9 点半，正准备开始工作干活，老妈打来电话，这么突然一大早的电话，总感觉不太对。

@@ -2,7 +2,7 @@
 isPublish: true
 title: play Shakespeare
 publishedAt: 2016-03-28 00:42:31
-disqus: y
+comment: y
 ---
 
 mark 一下, 虽然做的不怎么样. 数据班的大作业, [play Shakespeare in Python](https://github.com/bambooom/play-Shakespeare).

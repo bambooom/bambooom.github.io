@@ -2,7 +2,7 @@
 isPublish: true
 title: elementFromPoint of text element
 publishedAt: 2018-04-11
-disqus: y
+comment: y
 ---
 
 捉 bug 记录一个 case

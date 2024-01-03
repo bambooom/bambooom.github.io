@@ -2,7 +2,7 @@
 isPublish: true
 title: chrome 插件开发小教程
 publishedAt: 2017-06-10 16:42:31
-disqus: y
+comment: y
 ---
 
 -> [Repo url](https://github.com/bambooom/crx-intro-demo)

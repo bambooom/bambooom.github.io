@@ -2,7 +2,7 @@
 isPublish: true
 title: 平成最後の冬之北海道 12.12 - 12.17
 publishedAt: 2018-12-25
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/701265318/

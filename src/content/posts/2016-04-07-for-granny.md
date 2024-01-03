@@ -2,7 +2,7 @@
 isPublish: true
 title: For Granny
 publishedAt: 2016-04-07 00:42:31
-disqus: y
+comment: y
 ---
 
 刚打算躺下睡觉, 老爸发来信息:

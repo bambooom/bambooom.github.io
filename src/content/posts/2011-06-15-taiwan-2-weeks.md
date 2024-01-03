@@ -2,7 +2,7 @@
 isPublish: true
 title: 台湾14天自助游流水账【适合早上起不来、喜欢暴走、有大把时间的人】
 publishedAt: 2011-06-15
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/156347076/

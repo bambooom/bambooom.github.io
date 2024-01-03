@@ -2,7 +2,7 @@
 isPublish: true
 title: ESLint 简易教程
 publishedAt: 2017-05-04 23:42:31
-disqus: y
+comment: y
 ---
 
 ## 简介

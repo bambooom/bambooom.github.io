@@ -2,7 +2,7 @@
 isPublish: true
 title: 人生就像热气球
 publishedAt: 2009-06-30
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/37767671/

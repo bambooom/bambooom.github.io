@@ -2,7 +2,7 @@
 isPublish: true
 title: 火焰图魔改杂项
 publishedAt: 2018-10-20
-disqus: y
+comment: y
 ---
 
 最近帮大佬的[幻灯片](https://openresty.org/slides/nginx-conf-2018/)做了点杂事，乱七八糟的东西总结一下，不过可能也没啥卵用。

@@ -2,7 +2,7 @@
 isPublish: true
 title: over the rainbow
 publishedAt: 2008-08-28
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/17284065/

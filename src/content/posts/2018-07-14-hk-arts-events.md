@@ -2,7 +2,7 @@
 isPublish: true
 title: 香港文化活动推荐 (?)
 publishedAt: 2018-07-14
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/682858282/

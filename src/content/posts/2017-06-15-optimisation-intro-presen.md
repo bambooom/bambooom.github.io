@@ -2,7 +2,7 @@
 isPublish: true
 title: 性能优化小分享
 publishedAt: 2017-06-15 23:42:31
-disqus: y
+comment: y
 ---
 
 又是内部分享会, 技术组的~ 仍旧是备份....

@@ -2,7 +2,7 @@
 isPublish: true
 title: NOTE2-First touch of mysql
 publishedAt: 2016-01-05 23:20:42
-disqus: y
+comment: y
 ---
 
 昨天其实在阿里云主机安装mysql成功后, 也迅速根据[这个基础教程](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial)试了下mysql. 今天就翻译+总结一下.

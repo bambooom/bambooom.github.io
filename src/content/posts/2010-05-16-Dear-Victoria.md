@@ -2,7 +2,7 @@
 isPublish: true
 title: Dear, Victoria
 publishedAt: 2010-05-16
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/71696068/

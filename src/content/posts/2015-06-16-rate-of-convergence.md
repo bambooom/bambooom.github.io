@@ -2,7 +2,7 @@
 isPublish: true
 title: rate of convergence
 publishedAt: 2015-06-16
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/504128084/

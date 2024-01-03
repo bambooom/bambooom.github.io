@@ -2,7 +2,7 @@
 isPublish: true
 title: hexo 多语言 blog
 publishedAt: 2018-03-08
-disqus: y
+comment: y
 ---
 
 虽然自己是个懒惰的 github pages + jekyll user, 连域名都懒得花钱折腾的那种, 但是其他原因折腾了一下 [hexo](https://hexo.io/), 简单说下我认为比较靠谱的多语言 blog 方案.

@@ -2,7 +2,7 @@
 isPublish: true
 title: 要写个有竹子特色的自我介绍
 publishedAt: 2011-01-11
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/128576759/

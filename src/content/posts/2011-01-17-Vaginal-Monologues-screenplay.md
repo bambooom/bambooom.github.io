@@ -2,7 +2,7 @@
 isPublish: true
 title: 【剧本】【阴道独白】
 publishedAt: 2011-01-17
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/488822022/

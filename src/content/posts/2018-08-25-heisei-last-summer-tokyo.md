@@ -2,7 +2,7 @@
 isPublish: true
 title: 平成最後の夏之东京爆走 8.16 - 8.20
 publishedAt: 2018-08-25
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/687932624/

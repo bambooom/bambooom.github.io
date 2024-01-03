@@ -2,7 +2,7 @@
 isPublish: true
 title: 令和元年之濑户内+艺术节 其六
 publishedAt: 2019-08-06
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/729118519/

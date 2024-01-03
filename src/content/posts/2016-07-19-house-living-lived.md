@@ -2,7 +2,7 @@
 isPublish: true
 title: 住过一个月以上的一些地方
 publishedAt: 2016-07-19 00:12:31
-disqus: y
+comment: y
 ---
 
 

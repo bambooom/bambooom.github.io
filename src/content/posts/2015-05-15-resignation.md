@@ -2,7 +2,7 @@
 isPublish: true
 title: 记辞职
 publishedAt: 2015-05-15
-disqus: y
+comment: y
 ---
 
 original link: https://www.douban.com/note/499368163/
