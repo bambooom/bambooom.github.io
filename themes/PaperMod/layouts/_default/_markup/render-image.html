@@ -1,1 +1,43 @@
-<img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+<!-- if using images from other website -->
+{{ if strings.HasPrefix .Destination "http" }}
+  <img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+{{ else }}
+
+  {{ $ext := path.Ext .Destination }}
+  {{ $isJPGorPNG := or (eq $ext ".jpg") (eq $ext ".jpeg") (eq $ext ".png") }}
+  {{ $isSVG := eq $ext ".svg" }}
+
+  <!-- the file path of the images on project dir -->
+
+  {{ $path := replaceRE "#.*$" "" .Destination }}
+  {{ $orig := resources.Get (replaceRE "^.*images/" "images/" $path) }}
+
+  {{- if not $orig }} {{ errorf "Cannot find the image resource: %q" .Destination }} {{ else }}
+
+    {{ if not $isSVG }}
+      <picture>
+        {{ if ($isJPGorPNG) -}}
+          {{ $image := $orig }}
+          {{ $width := $orig.Width }}
+          {{ if gt $width 720 }}
+            {{ $image = $image.Resize "720x webp q85 lanczos"}}
+          {{ else }}
+            {{ $image = $image.Resize (print $width "x webp") }}
+          {{ end }}
+          <source srcset="{{ $image.RelPermalink }}" type="image/webp" >
+        {{- end }}
+
+        <img
+          src="{{ $orig.RelPermalink }}"
+          alt="{{ .Text }}"
+          loading="lazy"
+          decoding="async"
+          {{ if .Title }}title="{{ .Title }}"{{ end }}
+        />
+      </picture>
+    {{ else }}
+      <!-- use <object> for interative svg embed -->
+      <object type="image/svg+xml" data="{{ $orig.RelPermalink }}"></object>
+    {{ end }}
+  {{ end -}}
+{{ end }}
