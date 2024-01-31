@@ -3,6 +3,7 @@ draft: false
 title: why I like JOJO
 date: 2016-04-25 00:42:31
 comments: true
+isCJKLanguage: true
 ---
 
 

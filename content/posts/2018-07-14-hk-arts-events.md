@@ -3,6 +3,7 @@ draft: false
 title: 香港文化活动推荐 (?)
 date: 2018-07-14
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/682858282/

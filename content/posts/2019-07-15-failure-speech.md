@@ -3,6 +3,7 @@ draft: false
 title: 记一次失败的发言……
 date: 2019-07-15
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/726292696/

@@ -3,6 +3,7 @@ draft: false
 title: 豆瓣标记导出到 Notion 并同步
 date: 2021-06-05
 comments: true
+isCJKLanguage: true
 ---
 
 我个人的豆瓣标记条目导出到 Notion 并同步的一套操作和工具，并不适用于所有人。

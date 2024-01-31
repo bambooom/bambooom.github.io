@@ -3,6 +3,7 @@ draft: false
 title: DW-midnight humanity
 date: 2016-03-03 19:42:31
 comments: true
+isCJKLanguage: true
 ---
 
 还是在看 Doctor Who. 以下严重剧透.

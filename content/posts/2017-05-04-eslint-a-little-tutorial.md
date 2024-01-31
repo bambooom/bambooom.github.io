@@ -3,6 +3,7 @@ draft: false
 title: ESLint 简易教程
 date: 2017-05-04 23:42:31
 comments: true
+isCJKLanguage: true
 ---
 
 ## 简介

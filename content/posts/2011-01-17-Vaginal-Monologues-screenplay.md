@@ -3,6 +3,7 @@ draft: false
 title: 【剧本】【阴道独白】
 date: 2011-01-17
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/488822022/

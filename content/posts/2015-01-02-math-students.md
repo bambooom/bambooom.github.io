@@ -3,6 +3,7 @@ draft: false
 title: 只有数学系学生知道的事情 via Quora
 date: 2015-01-02
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/475843767/

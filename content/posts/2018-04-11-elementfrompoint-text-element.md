@@ -3,6 +3,7 @@ draft: false
 title: elementFromPoint of text element
 date: 2018-04-11
 comments: true
+isCJKLanguage: true
 ---
 
 捉 bug 记录一个 case

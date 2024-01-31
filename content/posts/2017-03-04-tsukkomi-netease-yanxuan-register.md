@@ -3,6 +3,7 @@ draft: false
 title: 吐槽注册网易严选时的发生的事
 date: 2017-03-04 21:42:31
 comments: true
+isCJKLanguage: true
 ---
 
 这是一篇纯粹吐槽的东西....

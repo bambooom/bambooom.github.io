@@ -3,6 +3,7 @@ draft: false
 title: 夏日关西暴走团
 date: 2015-08-20
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/513533477/

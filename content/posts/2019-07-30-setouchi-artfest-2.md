@@ -3,6 +3,7 @@ draft: false
 title: 令和元年之濑户内+艺术节 其二
 date: 2019-07-30
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/728267844/

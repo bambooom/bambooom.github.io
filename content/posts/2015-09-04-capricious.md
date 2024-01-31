@@ -3,6 +3,7 @@ draft: false
 title: 任性
 date: 2015-09-04
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/515515848/

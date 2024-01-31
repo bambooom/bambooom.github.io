@@ -3,6 +3,7 @@ draft: false
 title: a little node version
 date: 2016-10-16 15:42:31
 comments: true
+isCJKLanguage: true
 ---
 
 工作一般使用 shipit 作为自动部署的工具. 但之前一直有个问题不能理解无法解决, 就是自动部署的最后一步

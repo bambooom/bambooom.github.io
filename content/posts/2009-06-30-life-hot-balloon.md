@@ -3,6 +3,7 @@ draft: false
 title: 人生就像热气球
 date: 2009-06-30
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/37767671/

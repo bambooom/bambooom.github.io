@@ -3,6 +3,7 @@ draft: false
 title: extract and update messages for vue-i18n
 date: 2019-09-12 23:21:42
 comments: true
+isCJKLanguage: true
 ---
 
 

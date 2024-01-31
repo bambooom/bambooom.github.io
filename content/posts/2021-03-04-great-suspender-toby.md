@@ -3,6 +3,7 @@ draft: false
 title: The Great Suspender + Toby
 date: 2021-03-04
 comments: true
+isCJKLanguage: true
 ---
 
 > 其实也没啥特别的小事，但就想随手记一下

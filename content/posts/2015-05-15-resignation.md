@@ -3,6 +3,7 @@ draft: false
 title: 记辞职
 date: 2015-05-15
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/499368163/

@@ -3,6 +3,7 @@ draft: false
 title: for Shirley Fenette
 date: 2021-05-03
 comments: true
+isCJKLanguage: true
 ---
 
 最近补完了反叛的鲁路修的 tv 两季和剧场版三部以及电影版复活的鲁路修。

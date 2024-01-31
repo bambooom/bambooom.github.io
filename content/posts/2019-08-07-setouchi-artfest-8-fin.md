@@ -3,6 +3,7 @@ draft: false
 title: 令和元年之濑户内+艺术节 其八  fin
 date: 2019-08-08
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/729353142/
