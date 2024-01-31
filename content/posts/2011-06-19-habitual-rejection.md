@@ -3,6 +3,7 @@ draft: false
 title: 习惯性拒绝
 date: 2011-06-19
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/157075972/

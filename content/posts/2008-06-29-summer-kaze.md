@@ -3,6 +3,7 @@ draft: false
 title: 夏日的風
 date: 2008-06-29
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/13939203/

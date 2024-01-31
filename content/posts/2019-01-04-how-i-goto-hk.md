@@ -3,6 +3,7 @@ draft: false
 title: 我是怎么去香港读大学的
 date: 2019-01-04
 comments: true
+isCJKLanguage: true
 ---
 
 应暴君请求，写下将近 12 年前的事，有关我是怎么跑去香港读大学的。记性不太好，不保证所有回忆都正确。

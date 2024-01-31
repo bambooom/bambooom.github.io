@@ -4,6 +4,7 @@ date: 2008-04-02
 description: "first diary on douban backup"
 draft: false
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/10139862/

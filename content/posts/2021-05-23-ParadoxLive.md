@@ -3,6 +3,7 @@ draft: false
 title: Paradox Live 听碟记录
 date: 2021-05-23
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/803479251/

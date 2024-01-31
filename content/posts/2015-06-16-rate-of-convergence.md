@@ -3,6 +3,7 @@ draft: false
 title: rate of convergence
 date: 2015-06-16
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/504128084/

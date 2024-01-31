@@ -3,6 +3,7 @@ draft: false
 title: chrome 插件中的 manifest.json 是啥
 date: 2017-06-08 00:42:31
 comments: true
+isCJKLanguage: true
 ---
 
 花了两天晚上, 把 chrome 插件开发的 manifest.json 的文档翻了一下, 总算把所有 field 大概是啥意思搞清楚了

@@ -3,6 +3,7 @@ draft: false
 title: 第一次看艺妓表演 repo
 date: 2012-02-18
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/201265084/

@@ -1,5 +1,4 @@
 baseURL: https://zhuzi.dev/
-languageCode: en-us
 title: "Blah Blah Booooom"
 theme: ["PaperMod"]
 paginate: 10
@@ -10,6 +9,8 @@ buildFuture: false
 buildExpired: false
 
 # googleAnalytics: UA-123-45
+
+hasCJKLanguage: true
 
 minify:
   disableXML: true

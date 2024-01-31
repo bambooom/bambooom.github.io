@@ -3,6 +3,7 @@ draft: false
 title: 大波浪 深圳 B10 简单 repo
 date: 2021-03-20
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/797377332/

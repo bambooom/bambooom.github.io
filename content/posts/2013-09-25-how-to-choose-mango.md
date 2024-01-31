@@ -3,6 +3,7 @@ draft: false
 title: 如何挑芒果
 date: 2013-09-25
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/305510095/

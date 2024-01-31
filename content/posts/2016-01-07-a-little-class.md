@@ -3,6 +3,7 @@ draft: false
 title: NOTE3-a little Class
 date: 2016-01-07 01:25:42
 comments: true
+isCJKLanguage: true
 ---
 
 昨天和今天花了一点时间就把coursera上这门[Using Databases with Python](https://www.coursera.org/learn/python-databases)的week1刷完了.

@@ -3,6 +3,7 @@ draft: false
 title: For Granny
 date: 2016-04-07 00:42:31
 comments: true
+isCJKLanguage: true
 ---
 
 刚打算躺下睡觉, 老爸发来信息:

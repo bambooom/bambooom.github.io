@@ -3,6 +3,7 @@ draft: false
 title: Dear, Victoria
 date: 2010-05-16
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/71696068/

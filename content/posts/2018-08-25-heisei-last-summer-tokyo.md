@@ -3,6 +3,7 @@ draft: false
 title: 平成最後の夏之东京爆走 8.16 - 8.20
 date: 2018-08-25
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/687932624/

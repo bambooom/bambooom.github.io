@@ -3,6 +3,7 @@ draft: false
 title: writing is hard
 date: 2016-03-20 00:42:31
 comments: true
+isCJKLanguage: true
 ---
 
 

@@ -3,6 +3,7 @@ draft: false
 title: 第一次发现了 Chrome 的 bug
 date: 2021-03-05
 comments: true
+isCJKLanguage: true
 ---
 
 [bug issue](https://bugs.chromium.org/p/chromium/issues/detail?id=1154551)

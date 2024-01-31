@@ -3,6 +3,7 @@ draft: false
 title: ヒプノシスマイク 听碟记录
 date: 2020-05-18
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/763128418/

@@ -3,6 +3,7 @@ draft: false
 title: 家附近
 date: 2014-05-23
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/353184852/

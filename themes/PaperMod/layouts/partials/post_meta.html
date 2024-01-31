@@ -5,7 +5,9 @@
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+<!-- 这里乘以 2 是因为这里是按默认的英文的计算，不太准，直接乘以 2 当作是中文的 reading time -->
+{{ $readingTime := math.Mul .ReadingTime 2 }}
+{{- $scratch.Add "meta" (slice (i18n "read_time" $readingTime | default (printf "%d min" $readingTime))) }}
 {{- end }}
 
 {{- if (.Param "ShowWordCount") -}}

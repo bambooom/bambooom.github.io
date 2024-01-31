@@ -3,6 +3,7 @@ draft: false
 title: NOTE4-sample variance, why n-1
 date: 2016-01-12 20:55:42
 comments: true
+isCJKLanguage: true
 ---
 
 前两天, 谢辉童鞋问我, 为什么样本方差要除以`n-1`? 嗯哼, 这实在是个太经典的统计学问题.

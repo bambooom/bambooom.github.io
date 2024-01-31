@@ -3,6 +3,7 @@ draft: false
 title: 银妈 & 花火主题 之 4 回目关西
 date: 2017-07-30
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/631062396/

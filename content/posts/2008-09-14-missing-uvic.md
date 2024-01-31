@@ -3,6 +3,7 @@ draft: false
 title: 不是不想念
 date: 2008-09-14
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/18163629/

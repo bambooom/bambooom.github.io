@@ -3,6 +3,7 @@ draft: false
 title: 《我不懂得依赖他人的方法》by 腰乃
 date: 2014-09-26
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/429107796/

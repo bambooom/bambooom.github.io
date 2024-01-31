@@ -3,6 +3,7 @@ draft: false
 title: 奶奶也走了
 date: 2022-03-22
 comments: true
+isCJKLanguage: true
 ---
 
 早上 9 点半，正准备开始工作干活，老妈打来电话，这么突然一大早的电话，总感觉不太对。

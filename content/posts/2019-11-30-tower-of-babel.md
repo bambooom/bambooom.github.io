@@ -3,6 +3,7 @@ draft: false
 title: 巴别塔
 date: 2019-11-30 13:43:42
 comments: true
+isCJKLanguage: true
 ---
 
 ## 起因

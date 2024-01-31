@@ -3,6 +3,7 @@ draft: false
 title: 深情悼念我的八达通
 date: 2012-05-02
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/212405624/

@@ -3,6 +3,7 @@ draft: false
 title: Adult StoryBook
 date: 2009-03-07
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/28295577/

@@ -3,6 +3,7 @@ draft: false
 title: The Vow
 date: 2011-06-26
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/158341134/

@@ -3,6 +3,7 @@ draft: false
 title: Typography - Note 2
 date: 2018-04-20
 comments: true
+isCJKLanguage: true
 ---
 
 original link: https://www.douban.com/note/666373670/
