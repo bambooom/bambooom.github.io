@@ -310,8 +310,7 @@
 }
 
 .post-tags a,
-.share-buttons,
-.paginav {
+.share-buttons {
     border-radius: var(--radius);
 }
 
@@ -324,8 +323,7 @@
     background: var(--code-bg);
 }
 
-.post-tags a:hover,
-.paginav a:hover {
+.post-tags a:hover {
     background: var(--border);
 }
 
@@ -365,27 +363,35 @@ h6:hover .anchor {
 }
 
 .paginav a {
-    padding-inline-start: 14px;
-    padding-inline-end: 14px;
+    color: var(--secondary);
+    transition: all 0.3s;
+    padding-inline-start: 4px;
+    padding-inline-end: 4px;
     border-radius: var(--radius);
+}
+
+.paginav a:hover {
+    color: rgb(245, 245, 245);
+}
+
+.paginav .anchor-prev,
+.paginav .anchor-next {
+    transition: all 0.3s;
+}
+
+.paginav a:hover .anchor-prev {
+    transform: translate(-4px, 0);
+}
+
+.paginav a:hover .anchor-next {
+    transform: translate(4px, 0);
 }
 
 .paginav .title {
     letter-spacing: 1px;
-    text-transform: uppercase;
+    display: inline-flex;
+    gap: 4px;
     font-size: small;
-    color: var(--secondary);
-}
-
-.paginav .prev,
-.paginav .next {
-    background: var(--code-bg);
-    border: 1px solid var(--border);
-    width: 35%;
-}
-
-.paginav span:hover:not(.title) {
-    box-shadow: 0 1px 0;
 }
 
 .paginav .next {
