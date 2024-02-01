@@ -17,6 +17,7 @@
     --border: rgb(221, 221, 221);
     --border-2: rgb(186, 186, 186);
     --footer-text: #a3a3a3;
+    --nav-text: #444;
 }
 
 .dark {
@@ -31,6 +32,7 @@
     --border: rgb(51, 51, 51);
     --border-2: rgb(163, 163, 163);
     --footer-text: #78716c;
+    --nav-text: #a4a4a4;
 }
 
 .list {
