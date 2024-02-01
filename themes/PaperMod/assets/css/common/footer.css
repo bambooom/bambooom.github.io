@@ -5,7 +5,7 @@
 }
 
 .footer {
-    max-width: calc(var(--main-width) + var(--gap) * 3);
+    max-width: var(--main-width);
     margin: auto;
     padding: calc((var(--footer-height) - var(--gap)) / 2) 0;
     text-align: center;
@@ -23,7 +23,12 @@
     justify-content: space-between;
 }
 
+.footer-inner span {
+    color: var(--footer-text);
+}
+
 .footer-copyright {
+    margin-top: 16px;
     text-align: right;
     width: 100%;
     padding-right: 8px;

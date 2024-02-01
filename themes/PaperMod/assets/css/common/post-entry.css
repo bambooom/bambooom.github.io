@@ -20,8 +20,7 @@
 }
 
 .first-entry .entry-content {
-    margin: 14px 0;
-    font-size: 16px;
+    margin: 18px 0;
     -webkit-line-clamp: 3;
 }
 
@@ -74,7 +73,7 @@
     margin: 8px 0;
     color: var(--secondary);
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.5rem;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -92,10 +91,6 @@
 
 .post-entry:hover .entry-footer svg {
     transform: translate(5px, 0);
-}
-
-.entry-footer svg {
-    transition: all 0.3s cubic-bezier(.4,0,.2,1);
 }
 
 .entry-link {

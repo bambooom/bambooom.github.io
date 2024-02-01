@@ -75,8 +75,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Blah Blah Booooom 🎈"
+    Content: "- 💖 一般可以叫我**竹子**\n- 📍 深圳\n- 🐔 菜鸡**前端**，真的很菜，但有需要可以帮忙，有偿无偿皆可\n- 💬 基本上是个**社恐**，但线上可以很话唠"
 
   socialIcons:
     - name: github
