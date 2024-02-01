@@ -16,6 +16,11 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "feed" # make rss page url to be https://zhuzi.dev/feed.xml
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Blah Blah Booooom"
@@ -54,9 +59,9 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    text: "Bamboo🎋"
+    # icon: /apple-touch-icon.png
+    # iconHeight: 35
 
   # profile-mode
   profileMode:
@@ -125,6 +130,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 5
     - identifier: categories
       name: categories
       url: /categories/

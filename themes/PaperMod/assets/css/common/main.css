@@ -81,3 +81,8 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+strong {
+    font-weight: 400;
+    color: rgb(236 72 153);
+}
