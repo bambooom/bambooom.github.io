@@ -14,7 +14,8 @@
     --content: rgb(31, 31, 31);
     --code-block-bg: rgb(28, 29, 33);
     --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
+    --border: rgb(221, 221, 221);
+    --border-2: rgb(186, 186, 186);
 }
 
 .dark {
@@ -27,6 +28,7 @@
     --code-block-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
+    --border-2: rgb(163, 163, 163);
 }
 
 .list {
