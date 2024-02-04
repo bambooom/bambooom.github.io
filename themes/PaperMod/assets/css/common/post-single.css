@@ -34,13 +34,14 @@
 
 .post-content {
     color: var(--content);
+    line-height: 1.5rem;
 }
 
 .post-content h3,
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-    margin: 24px 0 16px;
+    margin: 32px 0 16px;
 }
 
 .post-content h1 {

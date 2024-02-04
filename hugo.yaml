@@ -86,7 +86,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Blah Blah Booooom 🎈"
-    Content: "- 💖 一般可以叫我**竹子**\n- 📍 深圳\n- 🐔 菜鸡**前端**，真的很菜，但有需要可以帮忙，有偿无偿皆可\n- 💬 基本上是个**社恐**，但线上可以很话唠"
+    Content: "- 💖 一般可以叫我**竹子**\n- 📍 深圳\n- 🐔 菜鸡**前端**，真的很菜\n- 💬 基本上是个**社恐**，但线上可以很话唠"
 
   socialIcons:
     - name: github
@@ -147,9 +147,9 @@ menu:
     #   name: tags
     #   url: /tags/
     #   weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: about
+      name: About
+      url: /about/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
