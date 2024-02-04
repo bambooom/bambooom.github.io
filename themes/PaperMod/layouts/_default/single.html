@@ -1,6 +1,10 @@
 {{- define "main" }}
 
-<article class="post-single">
+{{- $class := "post-single " }}
+{{- if .Params.pageClass }}
+{{- $class = add $class .Params.pageClass }}
+{{- end }}
+<article class="{{ $class }}">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title entry-hint-parent">

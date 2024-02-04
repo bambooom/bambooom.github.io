@@ -1,0 +1,13 @@
+.about-page .post-content a {
+  box-shadow: none;
+  color: rgb(167 139 250);
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+}
+
+.about-page .post-content a:hover {
+  color: rgb(139 92 246);
+}
+
+.about-page .post-content ul {
+  list-style: circle;
+}
