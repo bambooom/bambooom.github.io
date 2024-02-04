@@ -2,6 +2,7 @@
 draft: false
 title: 第一次看艺妓表演 repo
 date: 2012-02-18
+categories: Entertainment
 comments: true
 isCJKLanguage: true
 ---

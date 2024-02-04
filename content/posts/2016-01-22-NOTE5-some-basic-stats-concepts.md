@@ -2,6 +2,7 @@
 draft: false
 title: NOTE5-some basic stats concepts
 date: 2016-01-22 23:57:31
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

@@ -2,6 +2,7 @@
 draft: false
 title: For Granny
 date: 2016-04-07 00:42:31
+categories: Diary
 comments: true
 isCJKLanguage: true
 ---

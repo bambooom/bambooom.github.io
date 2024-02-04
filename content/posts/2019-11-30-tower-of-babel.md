@@ -2,6 +2,7 @@
 draft: false
 title: 巴别塔
 date: 2019-11-30 13:43:42
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

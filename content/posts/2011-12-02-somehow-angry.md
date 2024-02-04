@@ -2,6 +2,7 @@
 draft: false
 title: 有的时候不吐槽真的会死，憋死
 date: 2011-12-02
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

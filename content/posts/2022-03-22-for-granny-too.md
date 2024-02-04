@@ -2,6 +2,7 @@
 draft: false
 title: 奶奶也走了
 date: 2022-03-22
+categories: Diary
 comments: true
 isCJKLanguage: true
 ---

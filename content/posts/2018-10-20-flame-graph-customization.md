@@ -2,6 +2,7 @@
 draft: false
 title: 火焰图魔改杂项
 date: 2018-10-20
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

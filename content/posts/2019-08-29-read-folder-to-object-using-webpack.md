@@ -2,6 +2,7 @@
 draft: false
 title: read folder to object using webpack
 date: 2019-08-29 23:42:31
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

@@ -2,6 +2,7 @@
 draft: false
 title: 记一次 Firefox WebSocket debug
 date: 2019-11-08 15:27:42
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

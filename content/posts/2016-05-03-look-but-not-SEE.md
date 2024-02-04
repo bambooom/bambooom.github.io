@@ -2,6 +2,7 @@
 draft: false
 title: Look but not SEE
 date: 2016-05-03 11:42:31
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

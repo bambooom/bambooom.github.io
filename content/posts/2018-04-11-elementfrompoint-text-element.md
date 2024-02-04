@@ -2,6 +2,7 @@
 draft: false
 title: elementFromPoint of text element
 date: 2018-04-11
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

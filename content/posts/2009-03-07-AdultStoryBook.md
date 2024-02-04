@@ -2,6 +2,7 @@
 draft: false
 title: Adult StoryBook
 date: 2009-03-07
+categories: Entertainment
 comments: true
 isCJKLanguage: true
 ---

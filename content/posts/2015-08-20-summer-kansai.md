@@ -2,6 +2,7 @@
 draft: false
 title: 夏日关西暴走团
 date: 2015-08-20
+categories: Travel
 comments: true
 isCJKLanguage: true
 ---

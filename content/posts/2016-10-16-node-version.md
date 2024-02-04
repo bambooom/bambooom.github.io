@@ -2,6 +2,7 @@
 draft: false
 title: a little node version
 date: 2016-10-16 15:42:31
+categories: Diary
 comments: true
 isCJKLanguage: true
 ---

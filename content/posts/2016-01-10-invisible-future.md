@@ -2,6 +2,7 @@
 draft: false
 title: Invisible Future
 date: 2016-01-10 04:55:42
+categories: Diary
 comments: true
 isCJKLanguage: true
 ---

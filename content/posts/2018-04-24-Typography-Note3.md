@@ -2,6 +2,7 @@
 draft: false
 title: Typography - Note 3
 date: 2018-04-24
+categories: Learning
 comments: true
 isCJKLanguage: true
 ---

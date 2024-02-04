@@ -21,6 +21,11 @@ outputFormats:
     mediatype: "application/rss"
     baseName: "feed" # make rss page url to be https://zhuzi.dev/feed.xml
 
+taxonomies:
+  category: categories
+
+# not using tags
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Blah Blah Booooom"
@@ -135,13 +140,13 @@ menu:
       url: /posts/
       weight: 5
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 20
     - identifier: example
       name: example.org
       url: https://example.org

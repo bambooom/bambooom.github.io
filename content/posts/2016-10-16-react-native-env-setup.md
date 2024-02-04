@@ -2,6 +2,7 @@
 draft: false
 title: react-native env setup
 date: 2016-10-16 22:42:31
+categories: Diary
 comments: true
 isCJKLanguage: true
 ---

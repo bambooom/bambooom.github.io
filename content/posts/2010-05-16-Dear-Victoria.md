@@ -2,6 +2,7 @@
 draft: false
 title: Dear, Victoria
 date: 2010-05-16
+categories: Entertainment
 comments: true
 isCJKLanguage: true
 ---

@@ -2,6 +2,7 @@
 draft: false
 title: NOTE4-sample variance, why n-1
 date: 2016-01-12 20:55:42
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

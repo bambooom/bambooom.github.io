@@ -2,6 +2,7 @@
 draft: false
 title: 平成最後の夏之东京爆走 8.16 - 8.20
 date: 2018-08-25
+categories: Travel
 comments: true
 isCJKLanguage: true
 ---

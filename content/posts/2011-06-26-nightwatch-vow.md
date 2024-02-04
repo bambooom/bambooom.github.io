@@ -2,6 +2,7 @@
 draft: false
 title: The Vow
 date: 2011-06-26
+categories: Entertainment
 comments: true
 isCJKLanguage: true
 ---
