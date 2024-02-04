@@ -16,7 +16,9 @@ isCJKLanguage: true
 keynote 可以导出 ppt, 但是发现中文会变成乱码, 于是还是 pdf 吧, 再导入到了 slides 里
 (虽然还是图片~ 当备份记录)
 
-<iframe src="//slides.com/bambooom/optimisation-intro/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{{< rawhtml >}}
+<iframe src="//slides.com/bambooom/optimisation-intro/embed?style=light" width="100%" height="520" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{{< /rawhtml >}}
 
 Reference List:
 * [浏览器的工作原理：现代网络浏览器幕后揭秘 - HTML5 Rocks](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
