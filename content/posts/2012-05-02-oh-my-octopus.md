@@ -2,6 +2,7 @@
 draft: false
 title: 深情悼念我的八达通
 date: 2012-05-02
+categories: Diary
 comments: true
 isCJKLanguage: true
 ---

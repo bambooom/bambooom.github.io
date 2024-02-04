@@ -2,6 +2,7 @@
 draft: false
 title: DW-midnight humanity
 date: 2016-03-03 19:42:31
+categories: Entertainment
 comments: true
 isCJKLanguage: true
 ---

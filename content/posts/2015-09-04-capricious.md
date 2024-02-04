@@ -2,6 +2,7 @@
 draft: false
 title: 任性
 date: 2015-09-04
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

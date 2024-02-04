@@ -2,6 +2,7 @@
 draft: false
 title: 人生就像热气球
 date: 2009-06-30
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

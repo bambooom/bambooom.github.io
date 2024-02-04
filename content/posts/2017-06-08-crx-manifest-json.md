@@ -2,6 +2,7 @@
 draft: false
 title: chrome 插件中的 manifest.json 是啥
 date: 2017-06-08 00:42:31
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

@@ -2,6 +2,7 @@
 draft: false
 title: 记辞职
 date: 2015-05-15
+categories: Diary
 comments: true
 isCJKLanguage: true
 ---

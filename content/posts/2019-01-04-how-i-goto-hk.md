@@ -2,6 +2,7 @@
 draft: false
 title: 我是怎么去香港读大学的
 date: 2019-01-04
+categories: Diary
 comments: true
 isCJKLanguage: true
 ---

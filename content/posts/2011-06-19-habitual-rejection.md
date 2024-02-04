@@ -2,6 +2,7 @@
 draft: false
 title: 习惯性拒绝
 date: 2011-06-19
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

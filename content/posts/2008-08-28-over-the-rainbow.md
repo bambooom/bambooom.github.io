@@ -2,6 +2,7 @@
 draft: false
 title: over the rainbow
 date: 2008-08-28
+categories: Memo
 comments: true
 ---
 

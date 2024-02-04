@@ -2,6 +2,7 @@
 draft: false
 title: for Shirley Fenette
 date: 2021-05-03
+categories: Entertainment
 comments: true
 isCJKLanguage: true
 ---

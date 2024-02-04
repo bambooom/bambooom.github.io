@@ -1,6 +1,7 @@
 ---
 draft: false
 title: GitHub Package Registry 简单试用记录
+categories: Tech
 date: 2020-05-26
 comments: true
 ---

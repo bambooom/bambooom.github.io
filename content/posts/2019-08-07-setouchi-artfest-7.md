@@ -2,6 +2,7 @@
 draft: false
 title: 令和元年之濑户内+艺术节 其七
 date: 2019-08-07
+categories: Travel
 comments: true
 isCJKLanguage: true
 ---

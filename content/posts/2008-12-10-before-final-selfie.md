@@ -2,6 +2,7 @@
 draft: false
 title: final期的文藝腔和無聊自拍
 date: 2008-12-10
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

@@ -2,6 +2,7 @@
 draft: false
 title: change blog theme
 date: 2017-02-09 20:42:31
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

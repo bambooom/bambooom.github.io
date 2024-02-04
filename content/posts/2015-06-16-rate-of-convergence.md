@@ -2,6 +2,7 @@
 draft: false
 title: rate of convergence
 date: 2015-06-16
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

@@ -2,6 +2,7 @@
 draft: false
 title: 台湾14天自助游流水账【适合早上起不来、喜欢暴走、有大把时间的人】
 date: 2011-06-15
+categories: Travel
 comments: true
 isCJKLanguage: true
 ---

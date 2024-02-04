@@ -2,6 +2,7 @@
 draft: false
 title: 家附近
 date: 2014-05-23
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

@@ -2,6 +2,7 @@
 draft: false
 title: 一次纯粹吃喝玩乐的分享
 date: 2017-01-13 23:42:31
+categories: Travel
 comments: true
 isCJKLanguage: true
 ---

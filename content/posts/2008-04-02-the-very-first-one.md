@@ -2,6 +2,7 @@
 title: the very first one
 date: 2008-04-02
 description: "first diary on douban backup"
+categories: Diary
 draft: false
 comments: true
 isCJKLanguage: true

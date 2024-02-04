@@ -1,6 +1,7 @@
 ---
 draft: false
 title: ヒプノシスマイク 听碟记录
+categories: Entertainment
 date: 2020-05-18
 comments: true
 isCJKLanguage: true

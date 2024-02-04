@@ -2,6 +2,7 @@
 draft: false
 title: play Shakespeare
 date: 2016-03-28 00:42:31
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

@@ -2,6 +2,7 @@
 draft: false
 title: writing is hard
 date: 2016-03-20 00:42:31
+categories: Diary
 comments: true
 isCJKLanguage: true
 ---

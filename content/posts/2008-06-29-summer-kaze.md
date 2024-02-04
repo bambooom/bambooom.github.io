@@ -2,6 +2,7 @@
 draft: false
 title: 夏日的風
 date: 2008-06-29
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

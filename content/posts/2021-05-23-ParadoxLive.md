@@ -2,6 +2,7 @@
 draft: false
 title: Paradox Live 听碟记录
 date: 2021-05-23
+categories: Entertainment
 comments: true
 isCJKLanguage: true
 ---

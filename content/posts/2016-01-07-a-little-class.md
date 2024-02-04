@@ -2,6 +2,7 @@
 draft: false
 title: NOTE3-a little Class
 date: 2016-01-07 01:25:42
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

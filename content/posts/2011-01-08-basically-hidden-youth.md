@@ -2,6 +2,7 @@
 draft: false
 title: 基本上我只是一個隱蔽的青年
 date: 2011-01-08
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

@@ -2,6 +2,7 @@
 draft: false
 title: 第一次发现了 Chrome 的 bug
 date: 2021-03-05
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

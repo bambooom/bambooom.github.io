@@ -2,6 +2,7 @@
 draft: false
 title: 看BL=厌女？的无意义吐槽
 date: 2021-01-09
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

@@ -2,6 +2,7 @@
 draft: false
 title: 要写个有竹子特色的自我介绍
 date: 2011-01-11
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

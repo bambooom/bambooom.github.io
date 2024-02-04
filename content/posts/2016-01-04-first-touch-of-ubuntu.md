@@ -2,6 +2,7 @@
 draft: false
 title: NOTE1-First touch of ubuntu
 date: 2016-01-04 23:56:42
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

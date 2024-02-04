@@ -2,6 +2,7 @@
 draft: false
 title: 不是不想念
 date: 2008-09-14
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

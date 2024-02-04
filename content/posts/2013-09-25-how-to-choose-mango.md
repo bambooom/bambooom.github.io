@@ -2,6 +2,7 @@
 draft: false
 title: 如何挑芒果
 date: 2013-09-25
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

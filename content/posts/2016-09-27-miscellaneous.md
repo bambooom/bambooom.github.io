@@ -2,6 +2,7 @@
 draft: false
 title: miscellaneous
 date: 2016-09-27 00:42:31
+categories: Diary
 comments: true
 isCJKLanguage: true
 ---

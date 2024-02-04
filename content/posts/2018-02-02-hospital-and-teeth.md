@@ -2,6 +2,7 @@
 draft: false
 title: 住院拔牙记
 date: 2018-02-02
+categories: Diary
 comments: true
 isCJKLanguage: true
 ---

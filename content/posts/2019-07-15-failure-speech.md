@@ -2,6 +2,7 @@
 draft: false
 title: 记一次失败的发言……
 date: 2019-07-15
+categories: Memo
 comments: true
 isCJKLanguage: true
 ---

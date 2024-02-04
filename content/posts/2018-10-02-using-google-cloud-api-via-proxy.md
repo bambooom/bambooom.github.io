@@ -2,6 +2,7 @@
 draft: false
 title: using google cloud python API via proxy
 date: 2018-10-02
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---

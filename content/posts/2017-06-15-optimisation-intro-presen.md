@@ -2,6 +2,7 @@
 draft: false
 title: 性能优化小分享
 date: 2017-06-15 23:42:31
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---
