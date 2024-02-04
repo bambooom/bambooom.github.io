@@ -18,6 +18,8 @@
     --border-2: rgb(186, 186, 186);
     --footer-text: #a3a3a3;
     --nav-text: #444;
+    --red: rgb(236 72 153);
+    --pink: rgb(249 168 212);
 }
 
 .dark {
