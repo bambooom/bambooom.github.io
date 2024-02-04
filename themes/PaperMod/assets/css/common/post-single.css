@@ -225,6 +225,8 @@
 
 .post-content iframe {
     max-width: 100%;
+    border: none;
+    margin-bottom: var(--content-gap);
 }
 
 .post-content img {

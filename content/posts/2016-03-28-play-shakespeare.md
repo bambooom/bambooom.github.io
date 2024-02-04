@@ -9,7 +9,9 @@ isCJKLanguage: true
 
 mark 一下, 虽然做的不怎么样. 数据班的大作业, [play Shakespeare in Python](https://github.com/bambooom/play-Shakespeare).
 
-<iframe src="//slides.com/bambooom/play-shakespeare-in-python/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{{< rawhtml >}}
+<iframe src="//slides.com/bambooom/play-shakespeare-in-python/embed?style=light" width="100%" height="520" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{{< /rawhtml >}}
 
 用 [slides.com](https://slides.com) 做的幻灯, 非常好上手而且颜值够高~
 
