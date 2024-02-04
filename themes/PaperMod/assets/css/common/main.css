@@ -84,5 +84,5 @@ pre:hover .copy-code {
 
 strong {
     font-weight: 400;
-    color: rgb(236 72 153);
+    color: var(--red);
 }

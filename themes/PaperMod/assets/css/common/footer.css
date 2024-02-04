@@ -36,11 +36,12 @@
 
 .footer-copyright a {
     color: inherit;
-    border-bottom: 1px solid var(--secondary);
+    border-bottom: 1px dotted var(--secondary);
+    transition: color .2s cubic-bezier(.4,0,.2,1);
 }
 
 .footer-copyright a:hover {
-    border-bottom: 1px solid var(--primary);
+    border-bottom-color: var(--primary);
 }
 
 .top-link {
