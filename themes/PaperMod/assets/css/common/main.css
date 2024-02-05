@@ -46,7 +46,7 @@
 }
 
 .social-icons a:hover {
-    color: #f5f5f5;
+    color: var(--hilite);
     transform: translate(0, -.25rem);
 }
 

@@ -72,15 +72,15 @@
 }
 
 
-.post-content a {
-    color: var(--pink);
-    border-bottom: dotted 1px currentColor;
+.post-content a:not(.anchor) {
+    border-bottom: solid 2px var(--pink);
     transition: all 0.2s cubic-bezier(.4,0,.2,1);
 }
 
 
-.post-content a:hover {
-    color: var(--red);
+.post-content a:not(.anchor):hover {
+    background: var(--pink);
+    color: var(--entry);
 }
 
 .toc a:hover {
@@ -402,7 +402,7 @@ h6:hover .anchor {
 }
 
 .paginav a:hover {
-    color: rgb(245, 245, 245);
+    color: var(--hilite);
 }
 
 .paginav .anchor-prev,

@@ -57,14 +57,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    # favicon: "<link / abs url>"
+    # favicon16x16: "<link / abs url>"
+    # favicon32x32: "<link / abs url>"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Bamboo🎋"
+    text: "🎋Bamboo:~$"
     # icon: /apple-touch-icon.png
     # iconHeight: 35
 
@@ -136,11 +136,11 @@ params:
 menu:
   main:
     - identifier: posts
-      name: Posts
+      name: ~/posts/
       url: /posts/
       weight: 5
     - identifier: categories
-      name: Categories
+      name: ~/categories/
       url: /categories/
       weight: 10
     # - identifier: tags
@@ -148,7 +148,7 @@ menu:
     #   url: /tags/
     #   weight: 20
     - identifier: about
-      name: About
+      name: ~/about/
       url: /about/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma

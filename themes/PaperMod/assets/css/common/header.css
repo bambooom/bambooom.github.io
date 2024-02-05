@@ -36,7 +36,7 @@
     margin-inline-end: 8px;
 }
 
-.logo a, .logo button, #menu a {
+.logo a, .logo button {
     color: var(--nav-text);
 }
 
@@ -61,17 +61,33 @@ body:not(.dark) #sun {
     white-space: nowrap;
 }
 
+#menu li {
+    display: inline-flex;
+}
+
 #menu li + li {
     margin-inline-start: var(--gap);
 }
 
 #menu a {
+    color: var(--pink);
+    text-decoration: underline dotted 1px;
+    text-underline-offset: 2px;
     font-size: 16px;
+    transition: all 0.3s cubic-bezier(.4,0,.2,1);
+}
+
+#menu a:hover {
+    color: var(--red);
 }
 
 #menu .active {
+    text-decoration: none;
+}
+#menu .active span {
     font-weight: 500;
-    border-bottom: 2px solid currentColor;
+    background: var(--red);
+    color: var(--entry);
 }
 
 .lang-switch li,
