@@ -38,6 +38,11 @@
 
 .logo a, .logo button {
     color: var(--nav-text);
+    transition: all 0.3s ease-in-out;
+}
+
+.logo a:hover {
+    color: var(--red);
 }
 
 button#theme-toggle {

@@ -75,12 +75,16 @@
 .post-content a:not(.anchor) {
     border-bottom: solid 2px var(--pink);
     transition: all 0.2s cubic-bezier(.4,0,.2,1);
+    background-image: linear-gradient(to top, var(--pink), var(--pink));
+    background-size: 100% 0;
+    background-position: 0 101%;
+    background-repeat: no-repeat;
 }
 
 
 .post-content a:not(.anchor):hover {
-    background: var(--pink);
     color: var(--entry);
+    background-size: 100% 100%;
 }
 
 .toc a:hover {
