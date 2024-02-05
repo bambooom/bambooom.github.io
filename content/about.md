@@ -1,7 +1,10 @@
 ---
 title: "About"
+layout: "about"
+date: 2024-02-04
 url: "/about/"
-pageClass: "about-page"
+comments: true
+ShowReadingTime: false
 ---
 
 
@@ -51,6 +54,7 @@ pageClass: "about-page"
 
 ### Changelog
 
+- 2024.2: Change to use Hugo to build as it's super fast. Using [PaperMod](https://github.com/adityatelange/hugo-PaperMod) template with my modifications
 - 2023.10: Change to use Astro.build, and using [MaeWolff's template](https://github.com/MaeWolff/astro-portfolio-template) with adjustments
 - 2021.7:  Import diaries from douban for backup reason
 - 2017.2:  Switched to [KAGAMI theme](https://github.com/kamikat/jekyll-theme-kagami) with adjustments
