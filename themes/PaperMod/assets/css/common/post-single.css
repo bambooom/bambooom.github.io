@@ -38,6 +38,20 @@
     font-family: ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
 }
 
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    position: relative;
+}
+
+.post-content .anchor {
+    position: absolute;
+    left: -30px;
+}
+
 .post-content h3,
 .post-content h4,
 .post-content h5,
@@ -386,9 +400,7 @@ h4:hover .anchor,
 h5:hover .anchor,
 h6:hover .anchor {
     display: inline-flex;
-    color: var(--secondary);
-    margin-inline-start: 8px;
-    font-weight: 500;
+    color: var(--purple);
     user-select: none;
 }
 
