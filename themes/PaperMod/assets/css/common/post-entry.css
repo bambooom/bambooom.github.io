@@ -64,6 +64,7 @@
 
 .entry-header {
     max-width: 60%;
+    font-family: 'Roboto Slab', 'Open Sans', 'Noto Serif SC', 'PaperMod SC', 'Noto Serif JP', 'Noto Serif TC', 'PaperMod TC', serif;
 }
 
 .entry-header h2 {
@@ -91,13 +92,14 @@
     align-items: center;
     gap: 4px;
     transition: all 0.3s cubic-bezier(.4,0,.2,1);
+    font-family: 'Fira Sans', 'Open Sans', serif;
 }
 
-.entry-footer svg {
+.entry-footer > svg {
     transition: all 0.3s cubic-bezier(.4,0,.2,1);
 }
 
-.post-entry:hover .entry-footer svg {
+.post-entry:hover .entry-footer > svg {
     transform: translate(5px, 0);
 }
 

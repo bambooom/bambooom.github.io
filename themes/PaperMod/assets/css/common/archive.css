@@ -42,3 +42,17 @@
     color: var(--secondary);
     font-size: 14px;
 }
+
+
+.archive-year-header,
+.archive-month-header {
+    font-family: 'Roboto Slab', 'Open Sans', serif;
+}
+
+.archive-entry-title {
+    font-family: 'Roboto Slab', 'Open Sans', 'Noto Serif SC', 'PaperMod SC', 'Noto Serif JP', 'Noto Serif TC', 'PaperMod TC', serif;
+}
+
+.archive-meta {
+    font-family: 'Fira Sans', 'Open Sans', serif;;
+}

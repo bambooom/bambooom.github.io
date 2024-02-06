@@ -10,6 +10,7 @@
     background: var(--tertiary);
     border-radius: 6px;
     transition: transform 0.1s;
+    font-family: 'Fira Sans', 'Open Sans', serif;
 }
 
 .terms-tags a:active {

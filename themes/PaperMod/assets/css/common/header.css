@@ -6,6 +6,7 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
+    font-family: 'Roboto Slab', 'Open Sans', serif;
 }
 
 .nav a {
