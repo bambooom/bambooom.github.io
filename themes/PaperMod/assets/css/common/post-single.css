@@ -3,8 +3,14 @@
     margin: 24px auto var(--content-gap) auto;
 }
 
+.page-header,
+.post-header,
 .post-title {
-    margin-bottom: 2px;
+    font-family: 'Roboto Slab', 'Open Sans', 'Noto Serif SC', 'PaperMod SC', 'Noto Serif JP', 'Noto Serif TC', 'PaperMod TC', serif;
+}
+
+.post-title {
+    margin-bottom: 10px;
     font-size: 40px;
 }
 
@@ -19,6 +25,7 @@
     font-size: 14px;
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Fira Sans', 'Open Sans', serif;;
 }
 
 .post-meta .i18n_list li {
@@ -35,7 +42,7 @@
 .post-content {
     color: var(--content);
     line-height: 1.75rem;
-    font-family: ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Fira Sans', 'Open Sans', 'Noto Serif SC', 'PaperMod SC', 'Noto Serif JP', 'Noto Serif TC', 'PaperMod TC', serif;
 }
 
 .post-content h1,
@@ -45,11 +52,12 @@
 .post-content h5,
 .post-content h6 {
     position: relative;
+    font-family: 'Roboto Slab', 'Open Sans', 'Noto Serif SC', 'PaperMod SC', 'Noto Serif JP', 'Noto Serif TC', 'PaperMod TC', serif;
 }
 
 .post-content .anchor {
     position: absolute;
-    left: -30px;
+    left: 0;
 }
 
 .post-content h3,
@@ -85,6 +93,16 @@
     font-size: 12px;
 }
 
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
 
 .post-content a:not(.anchor) {
     border-bottom: solid 2px var(--pink);
@@ -110,7 +128,10 @@
 .post-content a code {
     margin: auto 0;
     border-radius: 0;
-    box-shadow: 0 -1px 0 var(--primary) inset;
+}
+
+.post-content a:hover code {
+    color: initial;
 }
 
 .post-content del {
@@ -201,6 +222,7 @@
 
 .post-content .highlight pre {
     margin: 0;
+    border-radius: var(--radius);
 }
 
 .post-content .highlighttable {
@@ -223,10 +245,11 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-size: 0.78em;
+    font-size: 0.93em;
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
+    font-family: 'Space Mono', Courier, Monaco, monospace;
 }
 
 .post-content pre code {

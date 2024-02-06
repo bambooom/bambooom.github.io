@@ -95,7 +95,7 @@
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
-{{- end }}
+{{- end }} {{/* end range $paginator */}}
 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
