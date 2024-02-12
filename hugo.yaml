@@ -96,7 +96,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Blah Blah Booooom 🎈"
-    Content: "- 💖 一般可以叫我**竹子**\n- 📍 深圳\n- 🐔 菜鸡**前端**，真的很菜\n- 💬 基本上是个**社恐**，但线上可以很话唠"
+    Content: "💖🪧 此处是个简易公告栏：\n **博客还在装修，评论功能还未恢复，有事可以到长毛象找我**"
 
   socialIcons:
     - name: github
