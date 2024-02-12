@@ -2,6 +2,7 @@ baseURL: https://zhuzi.dev/
 title: "Blah Blah Booooom"
 theme: ["PaperMod"]
 paginate: 10
+timeout: "90s"
 
 enableRobotsTXT: true
 buildDrafts: false
