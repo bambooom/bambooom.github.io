@@ -26,12 +26,18 @@ taxonomies:
 
 # not using tags
 
+services:
+  rss:
+    limit: 20
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Blah Blah Booooom"
   description: "Personal Blog of Bamboo/Zhuzi/竹子"
   keywords: [Blog]
-  # author: Me
+  author:
+    name: bambooom
+    email: zhuzi.mn#gmail.com
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -46,12 +52,14 @@ params:
   ShowCodeCopyButtons: false
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: true
   hidemeta: false
   hideSummary: true
+  hideAuthor: true
   showtoc: false
   tocopen: false
 
