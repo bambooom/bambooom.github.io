@@ -22,6 +22,7 @@
     --red: rgb(236 72 153);
     --pink: rgb(249 168 212);
     --purple: rgb(167 139 250);
+    --card-shadow: #00000053;
 }
 
 .dark {
@@ -38,6 +39,7 @@
     --border-2: rgb(163, 163, 163);
     --footer-text: #78716c;
     --nav-text: #a4a4a4;
+    --card-shadow: #d6d6d633;
 }
 
 .list {
