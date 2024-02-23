@@ -34,6 +34,11 @@ body {
     background: var(--theme);
 }
 
+::selection {
+    background: var(--purple);
+    color: var(--entry);
+}
+
 article,
 aside,
 figcaption,
