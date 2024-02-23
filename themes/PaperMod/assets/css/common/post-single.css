@@ -245,11 +245,11 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-size: 0.93em;
+    font-size: 0.87em;
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
-    font-family: 'Space Mono', Courier, Monaco, monospace;
+    font-family: 'Victor Mono', Courier, Monaco, monospace;
 }
 
 .post-content pre code {
@@ -261,6 +261,7 @@
     border-radius: var(--radius);
     overflow-x: auto;
     word-break: break-all;
+    white-space: pre-wrap;
 }
 
 .post-content blockquote {
