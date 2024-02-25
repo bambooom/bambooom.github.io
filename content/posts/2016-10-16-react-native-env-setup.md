@@ -4,6 +4,7 @@ title: react-native env setup
 date: 2016-10-16 22:42:31
 categories: Diary
 comments: true
+ShowToc: true
 isCJKLanguage: true
 ---
 

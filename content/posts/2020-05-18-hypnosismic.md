@@ -4,6 +4,7 @@ title: ヒプノシスマイク 听碟记录
 categories: Entertainment
 date: 2020-05-18
 comments: true
+ShowToc: true
 isCJKLanguage: true
 ---
 

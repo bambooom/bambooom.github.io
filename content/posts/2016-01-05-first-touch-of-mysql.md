@@ -4,6 +4,7 @@ title: NOTE2-First touch of mysql
 date: 2016-01-05 23:20:42
 categories: Tech
 comments: true
+ShowToc: true
 isCJKLanguage: true
 ---
 

@@ -4,6 +4,7 @@ title: 豆瓣标记导出到 Notion 并同步
 date: 2021-06-05
 categories: Side Project
 comments: true
+ShowToc: true
 isCJKLanguage: true
 ---
 

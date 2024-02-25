@@ -4,6 +4,7 @@ title: chrome 插件开发小教程
 date: 2017-06-10 16:42:31
 categories: Tech
 comments: true
+ShowToc: true
 isCJKLanguage: true
 ---
 

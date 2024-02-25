@@ -4,6 +4,7 @@ title: hexo 多语言 blog
 date: 2018-03-08
 categories: Tech
 comments: true
+ShowToc: true
 isCJKLanguage: true
 ---
 

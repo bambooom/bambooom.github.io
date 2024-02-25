@@ -4,6 +4,7 @@ title: GitHub Package Registry 简单试用记录
 categories: Tech
 date: 2020-05-26
 comments: true
+ShowToc: true
 ---
 
 > 简单记录下 GitHub Package Registry 怎么用

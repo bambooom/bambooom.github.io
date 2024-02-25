@@ -4,6 +4,7 @@ title: Typography - Note 1
 date: 2018-04-14
 categories: Learning
 comments: true
+ShowToc: true
 isCJKLanguage: true
 ---
 
