@@ -1,12 +1,12 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
-    <header class="entry-header">
+    <header class="entry-header" data-animate-enter>
         <h1>{{ .Title | markdownify }}</h1>
     </header>
-    <div class="entry-content">
+    <div class="entry-content" data-animate-enter style="--stagger: 1;">
         {{ .Content | markdownify }}
     </div>
-    <footer class="entry-footer">
+    <footer class="entry-footer" data-animate-enter style="--stagger: 2;">
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
     </footer>
 </article>

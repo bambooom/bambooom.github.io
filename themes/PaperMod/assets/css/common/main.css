@@ -85,3 +85,28 @@ pre:hover .copy-code {
 strong {
     color: var(--red);
 }
+
+[data-animate-enter] {
+    --stagger: 0;
+    --delay: 120ms;
+    --start: 0ms
+}
+
+@media (prefers-reduced-motion:no-preference) {
+    [data-animate-enter] {
+        animation: enter .6s both;
+        animation-delay: calc(var(--stagger) * var(--delay) + var(--start))
+    }
+}
+
+@keyframes enter {
+    0% {
+        opacity: 0;
+        transform: translateY(10px)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
