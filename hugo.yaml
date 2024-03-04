@@ -30,6 +30,8 @@ taxonomies:
 services:
   rss:
     limit: 20
+  disqus:
+    shortname: "bamboooom"
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
