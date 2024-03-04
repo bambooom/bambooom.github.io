@@ -25,7 +25,7 @@
     font-size: 14px;
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Fira Sans', 'Open Sans', serif;;
+    font-family: 'Fira Sans', 'Open Sans', serif;
 }
 
 .post-meta .i18n_list li {
@@ -481,4 +481,60 @@ h1>a>svg {
 img.in-text {
     display: inline;
     margin: auto;
+}
+
+.post-comments {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    font-family: 'Fira Sans', 'Open Sans', serif;
+}
+
+.post-comments .tabs {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    background-color: rgb(36, 41, 51);
+    color: rgb(166, 173, 186);
+}
+
+.post-comments .hidden-radio {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+}
+
+.post-comments .tab {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    font-size: .875rem;
+    cursor: pointer;
+    line-height: 2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex: 1 1 0%;
+    transition: all 0.2s cubic-bezier(.4,0,.2,1);
+}
+
+.post-comments .hidden-radio:checked+.tab {
+    border-radius: 0.5rem;
+    background-color: rgb(100, 26, 230);
+    color: #fff;
+}
+.post-comments .tab:checked {
+    border-radius: 0.5rem;
+    background-color: rgb(100, 26, 230);
+    color: #fff;
+}
+
+.post-comments-content {
+    display: none;
 }
