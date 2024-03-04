@@ -495,7 +495,7 @@ img.in-text {
 .post-comments .tabs {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     flex-wrap: wrap;
     width: 100%;
     border-radius: 0.5rem;
