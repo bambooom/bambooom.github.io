@@ -49,7 +49,7 @@ ShowReadingTime: false
 * [Ice 小姐姐~](https://lxy2222.github.io/)
 * [鱼](https://seviche.cc/)
 * [喝黑咖啡造成了黑眼圈](https://blog.steamed.dev/)
-* [顾梦](https://blog.jishuqin.cn) 「不想满心遗憾，那就全力以赴」
+* [顾梦](https://blog.gumengyo.top) 「不想满心遗憾，那就全力以赴」
 * [Shiori](https://shioriblog.github.io/)
 * [哒哒](https://ada3104.cc/)
 
