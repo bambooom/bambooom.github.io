@@ -66,6 +66,15 @@ params:
   showtoc: false
   tocopen: false
 
+  # other comments provider
+  giscus:
+    repo: "bambooom/bambooom.github.io"
+    repoId: "MDEwOlJlcG9zaXRvcnk0ODY1MTExOA=="
+    category: "Announcements"
+    categoryId: "DIC_kwDOJXw4Z84B_7QH"
+  twikoo:
+    envId: "https://zhuzi-dev-twikoo.netlify.app/.netlify/functions/twikoo"
+
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
