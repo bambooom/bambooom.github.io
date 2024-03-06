@@ -2,12 +2,24 @@
 {{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
 <div class="post-comments">
   <div class="tabs">
+    <input type="radio" class="hidden-radio" name="comment-provider" id="by-twikoo" autocomplete="off">
+    <label class="tab" for="by-twikoo">Twikoo</label>
     <input type="radio" class="hidden-radio" name="comment-provider" id="by-disqus" autocomplete="off">
     <label class="tab" for="by-disqus">Disqus</label>
     <input type="radio" class="hidden-radio" name="comment-provider" id="by-giscus" autocomplete="off">
     <label class="tab" for="by-giscus">Giscus</label>
-    <input type="radio" class="hidden-radio" name="comment-provider" id="by-twikoo" autocomplete="off">
-    <label class="tab" for="by-twikoo">Twikoo</label>
+  </div>
+  <div class="post-comments-content twikoo">
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.31/dist/twikoo.all.min.js"></script>
+    <div id="twikoo-comments"></div>
+    {{- with .Site.Params.twikoo -}}
+    <script>
+      twikoo.init({
+        envId: '{{- .envId -}}',
+        el: '#twikoo-comments',
+      });
+    </script>
+    {{- end -}}
   </div>
   <div class="post-comments-content disqus">
     {{ template "_internal/disqus.html" . }}
@@ -29,18 +41,6 @@
       data-loading="lazy"
       crossorigin="anonymous"
       async>
-    </script>
-    {{- end -}}
-  </div>
-  <div class="post-comments-content twikoo">
-    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.31/dist/twikoo.all.min.js"></script>
-    <div id="twikoo-comments"></div>
-    {{- with .Site.Params.twikoo -}}
-    <script>
-      twikoo.init({
-        envId: '{{- .envId -}}',
-        el: '#twikoo-comments',
-      });
     </script>
     {{- end -}}
   </div>
