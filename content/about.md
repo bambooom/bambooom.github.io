@@ -52,6 +52,7 @@ ShowReadingTime: false
 * [顾梦](https://blog.gumengyo.top) 「不想满心遗憾，那就全力以赴」
 * [Shiori](https://shioriblog.github.io/)
 * [哒哒](https://ada3104.cc/)
+* [AsyncX](https://blog.asyncx.top/)
 
 
 ### Changelog
