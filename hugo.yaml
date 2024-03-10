@@ -107,7 +107,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Blah Blah Booooom 🎈"
-    Content: "💖🪧 此处是个简易公告栏：\n **博客还在装修，评论功能还未恢复，有事可以到长毛象找我**"
+    Content: "💖🪧 **评论功能恢复啦，twikoo/disqus/giscus 三种评论方式任君选择**"
 
   socialIcons:
     - name: github
