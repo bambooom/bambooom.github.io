@@ -107,7 +107,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Blah Blah Booooom 🎈"
-    Content: "💖🪧 **评论功能恢复啦，twikoo/disqus/giscus 三种评论方式任君选择**"
+    Content: "💖🪧 **评论功能恢复啦，三种评论方式任君选择** 其他近况可参考 [Now](/now)"
 
   socialIcons:
     - name: github
@@ -164,13 +164,13 @@ menu:
       name: ~/categories/
       url: /categories/
       weight: 10
-    # - identifier: tags
-    #   name: tags
-    #   url: /tags/
-    #   weight: 20
     - identifier: about
-      name: ~/about/
-      url: /about/
+      name: ~/about
+      url: /about
+      weight: 20
+    - identifier: now
+      name: ~/now
+      url: /now
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
