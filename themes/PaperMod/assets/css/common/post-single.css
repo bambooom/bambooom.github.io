@@ -488,11 +488,12 @@ img.in-text {
     flex: 1 1 auto;
     flex-direction: column;
     gap: 0.5rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-family: 'Fira Sans', 'Open Sans', serif;
 }
 
 .post-comments .tabs {
+    position: relative;
     display: flex;
     align-items: flex-end;
     margin-bottom: 3rem;
@@ -502,6 +503,13 @@ img.in-text {
     padding: 0.25rem;
     background-color: rgb(36, 41, 51);
     color: rgb(166, 173, 186);
+}
+
+.post-comments .post-comment-tip {
+    position: absolute;
+    top: -20px;
+    font-size: small;
+    color: #a6adba96;
 }
 
 .post-comments .hidden-radio {
