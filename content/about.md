@@ -55,6 +55,7 @@ ShowReadingTime: false
 * [喝黑咖啡造成了黑眼圈](https://blog.steamed.dev/)
 * [Shiori](https://shioriblog.github.io/)
 * [哒哒](https://ada3104.cc/)
+* [Sky](https://alignof.com/)
 
 
 ### Changelog
