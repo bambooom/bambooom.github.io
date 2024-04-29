@@ -1,14 +1,14 @@
 ---
 title: "Now"
 layout: "now"
-date: 2024-04-16
+date: 2024-04-29
 url: "/now/"
 comments: false
 ShowReadingTime: false
 ---
 
 - ~~目前是个很普通的外包打工者~~
-  - 又被裁员了`_(:3」∠)` 下一份工不知道z在哪儿，真的不想找工作
+  - 又被裁员了`_(:3」∠)` 下一份工不知道在哪儿，真的不想找工作
 - 正在找各种 Live 舞台演出去凑热闹
   - ~~I don't like Mondays.~~ ⭐️⭐️⭐️⭐️
   - ~~悶餅MOONBAND~~ ⭐️⭐️
@@ -19,9 +19,8 @@ ShowReadingTime: false
   - ~~羊文学~~ ⭐️⭐️⭐️⭐️
   - ~~Chinese Football~~ ⭐️⭐️⭐️
   - ~~五条人~~ ⭐️⭐️⭐️⭐️⭐️⭐️⭐️【爽】
-  - Burnout Syndromes
-  - 黑川沙良
-  - 今泉爱夏
+  - ~~Burnout Syndromes~~ ⭐️⭐️⭐️⭐️
+  - ~~黑川沙良~~ ⭐️⭐️⭐️⭐️⭐️
   - Tizzy Bac
 
 
@@ -51,4 +50,4 @@ ShowReadingTime: false
   - https://www.hackingwithswift.com/100/swiftui
   - https://developer.apple.com/tutorials/swiftui
   - https://cs193p.sites.stanford.edu/2023
-- 也有点考虑入门个 Golang：https://www.udemy.com/course/go-the-complete-developers-guide/
+- 也有点考虑[入门个 Golang](https://www.udemy.com/course/go-the-complete-developers-guide/)
