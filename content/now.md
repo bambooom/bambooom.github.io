@@ -1,7 +1,7 @@
 ---
 title: "Now"
 layout: "now"
-date: 2024-04-29
+date: 2024-05-23
 url: "/now/"
 comments: false
 ShowReadingTime: false
@@ -18,16 +18,18 @@ ShowReadingTime: false
   - ~~伊东歌词太郎~~ ⭐️⭐️⭐️
   - ~~羊文学~~ ⭐️⭐️⭐️⭐️
   - ~~Chinese Football~~ ⭐️⭐️⭐️
-  - ~~五条人~~ ⭐️⭐️⭐️⭐️⭐️⭐️⭐️【爽】
+  - ~~五条人~~ ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️【爽】
   - ~~Burnout Syndromes~~ ⭐️⭐️⭐️⭐️
   - ~~黑川沙良~~ ⭐️⭐️⭐️⭐️⭐️
-  - Tizzy Bac
+  - ~~Tizzy Bac~~ ⭐️⭐️⭐️⭐️⭐️
+  - re:plus
+  - 宇多田光
 
 
 ### Focus
 
 - 博客想继续优化的地方
-  - 所有图片放到某个服务器或 CDN 上，不再继续放在 repo 里
+  - 【ing】所有图片放到某个服务器或 CDN 上，不再继续放在 repo 里
   - 优化提速构建 workflow，需要研究尝试一下 Cloudflare Pages
   - ~~Twikoo 评论的邮件提醒，我一直无法设置成功~~
 
@@ -38,7 +40,12 @@ ShowReadingTime: false
 - 整理一个 Toolbox List，受[这个列表](https://github.com/rexarski/toolbox/)启发
 - 复建每天读书 10-30 分钟的习惯，尽量纸质书
 - 减肥 15 斤
-- 把自己的新家好好整理清楚，更像个家
+- 【ing】把自己的新家好好整理清楚，更像个家
+  - 书房，主要是书分类放个柜子里，然后以前的各种分散的东西整理起来，比如票据收藏、明信片整理收藏，还有手办展示柜
+  - 客厅电视机柜
+  - 厨房
+  - 衣柜
+  - 卫生间
 - 还是想出去旅游一次，很久很久没有很单纯的出远门旅游了
 
 ### Learn
