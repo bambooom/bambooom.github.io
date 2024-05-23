@@ -17,25 +17,25 @@ isCJKLanguage: true
 注册的时候遇到了很纠结的问题.
 
 注册页面
-![WechatIMG7.jpeg](../../assets/images/bc9cef094c64051986d3e1bbc93dd64e.jpg)
+![WechatIMG7.jpeg](../../assets/images/2017/03/wy01.jpg)
 
 一开始我选择的是用手机号注册, 因为这样比较快.
 然而却无法注册成功.
 
-![WechatIMG1.jpg](../../assets/images/c6787c735a3f901bbaf947440db07e79.jpg)
+![WechatIMG1.jpg](../../assets/images/2017/03/wy02.jpg)
 
 一直提示我, 此账号与一个`anna*@126.com`的邮箱绑定, 我可以肯定我从没有注册过126的邮箱, 一脸懵逼的我在想难道我的手机号被人盗用了?????!!!!😳
 
 然后我点击上面那张图里的「立即找回」尝试找回这个账号看看.
 
 出现这个页面↓
-![WechatIMG8.jpeg](../../assets/images/4206ab69e5d1d7e52abf0aec52f0f3ce.jpg)
+![WechatIMG8.jpeg](../../assets/images/2017/03/wy03.jpg)
 
 输入账号嘛, 我理所当然输入的是输入了手机号. 输入过程中是这个样子的↓
-![WechatIMG9.jpg](../../assets/images/5835b75a0403dddc8d140c5a027fc2a2.jpg)
+![WechatIMG9.jpg](../../assets/images/2017/03/wy04.jpg)
 
 没有在意, 还是单纯只输入了手机号, 就点击了「下一步」, 结果提示我「用户不存在」↓
-![WechatIMG3.jpeg](../../assets/images/ee57927354c0c7b01ca9208aad96ad02.jpg)
+![WechatIMG3.jpeg](../../assets/images/2017/03/wy05.jpg)
 
 🙄🙄🙄🙄🙄🙄🙄🙄🙄🙄🙄🙄🙄🙄🙄
 
@@ -50,7 +50,7 @@ WTF?????
 
 > 我们不是网易邮箱客服哦
 
-![WechatIMG10.jpeg](../../assets/images/826911b8d69657b033ba914aa7b53f06.jpg)
+![WechatIMG10.jpeg](../../assets/images/2017/03/wy06.jpg)
 
 我们不是网易邮箱客服哦
 我们不是网易邮箱客服
@@ -72,7 +72,7 @@ WTF?????
 ### 周五晚上
 周五忙了一天, 晚上想起来再看看结果. 然而发现人工客服换人了!!!!!! 而且似乎前面的聊天记录在新接手的人那里 ta 看不到???!!!!!!!!! 🙄🔪
 
-![WechatIMG11.jpeg](../../assets/images/a777be6d5160d98d5fb36310f6cb52d9.jpg)
+![WechatIMG11.jpeg](../../assets/images/2017/03/wy07.jpg)
 
 愤怒地留了个言之后玩游戏睡觉去了....
 
@@ -80,19 +80,19 @@ WTF?????
 今天早上起床又想起这件事, 点进客服, 嗯...又换了个人....
 不过这次比较好的是, 终于是在线状态, 实时沟通的.
 
-![WechatIMG12.jpeg](../../assets/images/d9391a9132a3d76dcdecd62cb29dede0.jpg)
+![WechatIMG12.jpeg](../../assets/images/2017/03/wy08.jpg)
 
 这次终于是个比较理解我说话的人, 但是她说的我都试过了, 本来想退出登录再重复一次最前面的注册流程的时候截个图, 然而我又天真了, 等我截好图, 再用微博账号登录之后, 客服特么又换了个人...............🙄🔪🔪🔪🔪
 
 只好再把问题描述一次, 所有截图丢过去. 一开始这个客服又说是我的邮箱安全问题…💊💊💊💊💊💊
-![WechatIMG16.jpeg](../../assets/images/b1044eca494206594aa8fa3d2aaa2e97.jpg)
-![WechatIMG15.jpeg](../../assets/images/8740c2e4c5bd451fba2da50f8afdad56.jpg)
+![WechatIMG16.jpeg](../../assets/images/2017/03/wy09.jpg)
+![WechatIMG15.jpeg](../../assets/images/2017/03/wy10.jpg)
 
 这时, 突然想到一个去年还是前年的事. 我的一个在香港的朋友的126邮箱被盗了, 需要绑定一个大陆的手机号来找回密码, 她当时没有大陆手机号, 所以找我借了下手机号来做这件事, 因为很小一件事, 也没有其他影响, 以致于早就忘了, 如果不是这次注册发生问题, 我大概都不会想起来....😂😂😂
 
 大概明白问题是怎么发生的之后, 我又找客服问了几个问题求证.
-![WechatIMG14.jpeg](../../assets/images/4e87a8bc0a4faa7e00606351321cee79.jpg)
-![WechatIMG13.jpeg](../../assets/images/ceb38ac538744ea3757e804d1871afb8.jpg)
+![WechatIMG14.jpeg](../../assets/images/2017/03/wy11.jpg)
+![WechatIMG13.jpeg](../../assets/images/2017/03/wy12.jpg)
 
 在看到客服说, 即使是手机号注册成功, 也会生成一个 `m{手机号}@163.com` 的账号的时候, 我终于明白网易严选的用户系统的一部分是搭建在网易邮箱的系统上的.
 

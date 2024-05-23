@@ -19,9 +19,9 @@ isCJKLanguage: true
 
 像脚印一样的东西迅速追上了露伴, 甚至爬到了他身上, 这时才真正意识到敌人替身的危险, 是可以钻进人体吸受力量.
 
-![](../../assets/images/jojo-1.png)
+![](../../assets/images/2016/04/jojo-1.png)
 
-![](../../assets/images/jojo-2.png)
+![](../../assets/images/2016/04/jojo-2.png)
 
 露伴老师使出天堂之门, 终于明白这替身「公路之星」会追踪进入房间的人的气味, 并吸取对方的养分,
 直到吸干为止都会一直追击, 可怕的是**没有弱点**.
@@ -30,7 +30,7 @@ isCJKLanguage: true
 公路之星让露伴把仗助引诱进房间, 这样就把露伴放了.
 露伴老师问说是不是真的.
 
-![](../../assets/images/jojo-3.png)
+![](../../assets/images/2016/04/jojo-3.png)
 
 然而下一页........
 
@@ -41,7 +41,7 @@ isCJKLanguage: true
 
 > 我岸边露伴最喜欢做的事之一, 就是对自认为比我强的人说「**NO**」
 
-![](../../assets/images/jojo-4.jpg)
+![](../../assets/images/2016/04/jojo-4.jpg)
 
 第一次看的时候, 前一秒以为露伴真的会和公路之星交易, 然后再想后招,
 后一秒, 露伴老师霸气直白的拒绝, 实在真·男人!
@@ -67,6 +67,6 @@ isCJKLanguage: true
 
 最后献上荒木老师的话.
 
-![](../../assets/images/jojo-5.jpg)
+![](../../assets/images/2016/04/jojo-5.jpg)
 
-![](../../assets/images/jojo-6.jpg)
+![](../../assets/images/2016/04/jojo-6.jpg)

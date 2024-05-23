@@ -15,12 +15,12 @@ isCJKLanguage: true
 `activate-power-mode`和`atom-miku`一起, 不要太恶趣味哈哈哈.
 大概的效果如下:
 
-![power+miku](../../assets/images/apm-miku.gif)
+![power+miku](../../assets/images/2016/01/apm-miku.gif)
 
 ---
 好了, 来说点正经的.
 
-![1](../../assets/images/basic-stats-note-1.jpg)
+![1](../../assets/images/2016/01/basic-stats-note-1.jpg)
 
 第一个例子是有关选举民意调查.
 
@@ -56,7 +56,7 @@ isCJKLanguage: true
 
 ---
 
-![2](../../assets/images/basic-stats-note-2.jpg)
+![2](../../assets/images/2016/01/basic-stats-note-2.jpg)
 
 这是个纯笔记, 对于调查研究, 一定要保持怀疑, 因为是很有可能出现人为操纵的统计陷阱.
 大致记一下, 至少抱着以下几条问题:
@@ -86,8 +86,8 @@ isCJKLanguage: true
 
 ---
 
-![3](../../assets/images/basic-stats-note-3.jpg)
-![4](../../assets/images/basic-stats-note-4.jpg)
+![3](../../assets/images/2016/01/basic-stats-note-3.jpg)
+![4](../../assets/images/2016/01/basic-stats-note-4.jpg)
 
 **随机化比较实验**
 因为比较重要, 所以也单独记下来. 因为只有真正的随机化比较实验才能真正得到明确因果关系.
@@ -103,7 +103,7 @@ isCJKLanguage: true
 
 ---
 
-![5](../../assets/images/basic-stats-note-5.jpg)
+![5](../../assets/images/2016/01/basic-stats-note-5.jpg)
 
 这个大鼠/小鼠/兔子的例子很有趣, 单纯想说, 原来动物实验的偏差性如此大,
 并且有可能是由一些意想不到的情况导致.
@@ -111,7 +111,7 @@ isCJKLanguage: true
 
 ---
 
-![6](../../assets/images/basic-stats-note-6.jpg)
+![6](../../assets/images/2016/01/basic-stats-note-6.jpg)
 
 最后一个问题, 又是在影视剧里见过几次的案例.
 

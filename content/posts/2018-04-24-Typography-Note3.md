@@ -22,7 +22,7 @@ original link: https://www.douban.com/note/667028571/
 
 ##  一个叫 Fette Fraktur 的字体
 
-![](../../assets/images/Typography---Note-3/p50124660.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50124660.jpg)
 
 Fette Fraktur 长这样
 
@@ -34,15 +34,15 @@ Fette Fraktur 是 19 世纪德国人设计的, 为了复刻文艺复兴时期的
 
 ##  [Bembo](https://en.wikipedia.org/wiki/Bembo)
 
-![](../../assets/images/Typography---Note-3/p50124744.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50124744.jpg)
 
 \- 15 世纪早期在欧洲的活字印刷术没有发明出来的时候, 书基本上是修道院里专门抄书人员手抄的, 所以当时的书可以说是奢侈品. 后来 Gutenberg 发明了活字印刷后, 他自己设计字体也是从模仿修道院抄书员的手写字体来的, 当时的字体叫 **Blackletter** , 长这样:
 
-![](../../assets/images/Typography---Note-3/p50124951.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50124951.jpg)
 
 \- 再后来, 活体印刷通过威尼斯传到意大利, 意大利那边的设计者制作的是模仿欧洲南部抄写员的手写体, 这种字体就叫 **Roman Script** :
 
-![](../../assets/images/Typography---Note-3/p50124967.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50124967.jpg)
 
 \- 威尼斯历史上最有影响力的一位出版商叫 Aldus Manutius, 他的成就就是开始大规模印刷书籍, 使得更多人可以以低廉的价格买到书. 他当时请了一位设计师 (punch cutter) 叫 Francesco Griffo 设计字体, 这个字体也就是今天的 **Bembo** .
 
@@ -52,7 +52,7 @@ Fette Fraktur 是 19 世纪德国人设计的, 为了复刻文艺复兴时期的
 
 \- 以上两种以及其他 15-16 世纪的 Roman Style 都被归类为 **old-style serif** , 非常 calligraphic, 主要特点如下, 具体来说: 1. 比较倾斜, 2. bracketed serif 是说衬线部分与 stroke 的其他部分是以弧线连接起来的), 3. 比较小的 x-height
 
-![](../../assets/images/Typography---Note-3/p50125006.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50125006.jpg)
 
 \- 综上, Bembo 类似的字体一般与 literature, classicism, 中世纪联系起来
 
@@ -60,25 +60,25 @@ Fette Fraktur 是 19 世纪德国人设计的, 为了复刻文艺复兴时期的
 
 ##  [Didot](https://en.wikipedia.org/wiki/Didot_%28typeface%29)
 
-![](../../assets/images/Typography---Note-3/p50126142.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50126142.jpg)
 
 \- 在 Bembo 的 300 年后出现的, 被归为 **modern serif** , 主要特点就是看不见任何手写 style 的痕迹了:
 
-![](../../assets/images/Typography---Note-3/p50126174.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50126174.jpg)
 
 \- 时代背景的话是 18世纪的欧洲, 对 empiricism, rationality, scientific rigor 非常热衷, 所以也体现在字体美学上, 第一个这类型字体叫 Romain du Riot, the King's Roman -> 路易十四世 1692年指定为 Royal French Print Office 的官方字体. 它是由 designer 和 engineer 一起捣鼓出来的, 所以有一种 mathematically precise grid, 看以下这种精确的设计稿就明白了:
 
-![](../../assets/images/Typography---Note-3/p50126278.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50126278.jpg)
 
 嗯... 就是强迫症的爱好
 
-![](../../assets/images/Typography---Note-3/p50126282.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50126282.jpg)
 
 Romain du Riot
 
 \- 后来一个研究印刷技术的人叫 John Baskerville, 他发明了一些技术可以打印出精美的字体笔画. 也就是这个人发明了字体 **Baskerville** . Baskerville 归类为 **transitional serif** , 它处于 old-style 和 modern serif 中间
 
-![](../../assets/images/Typography---Note-3/p50126351.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50126351.jpg)
 
 \- 又 40 年后, 一个巴黎设计师做出 Firmin Didot
 
@@ -86,7 +86,7 @@ Romain du Riot
 
 \- Didot 和 **Bodoni**  非常像, Bodoni 是差不多同一时期一个意大利人 Giambattista Bodoni 设计的, 他们俩是互相影响的, 并且都受 Baskerville 影响
 
-![](../../assets/images/Typography---Note-3/p50126513.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50126513.jpg)
 
 \- 基本上 modern serif 的形式上是 thin, elegant, minimal, 欧美 50-70 年代时尚杂志用的非常多, 现在也经常和 fashion 联系起来
 
@@ -94,13 +94,13 @@ Romain du Riot
 
 ## [Clarendon](https://en.wikipedia.org/wiki/Clarendon_%28typeface%29)
 
-![](../../assets/images/Typography---Note-3/p50126561.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50126561.jpg)
 
 \- 这个字体产生于工业革命时代, 这个时代除了书籍印刷中需要使用 type, 媒介变多了, poster, product packaging, advertisment 等等. 在很多场合需要很大的字体 来吸引眼球, eye-catching. 以前主要使用的 metal type 不适用了, 因为过大的字体金属太重. 直到 1823 年, 一个美国的 type manufacturer 叫 Darius Wells 的人发明了 wooden type, 用木制 type 来印刷, 很大的字体也完全 ok 了
 
 \- 19 世纪也产生了 ultra bold modern serif, 叫 fat faces. 当时最流行的 serif 类型叫 **Egyptian style type** , 今天的叫法是 **slab serif type** . 特点如图, 是不是很醒目~ 给人一种 sturdy industrial look
 
-![](../../assets/images/Typography---Note-3/p50126665.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50126665.jpg)
 
 \- 一个有趣的问题: **Why Egyptian?**  为啥是埃及?
 
@@ -112,7 +112,7 @@ Romain du Riot
 
 ## [Futura](https://en.wikipedia.org/wiki/Futura_%28typeface%29)
 
-![](../../assets/images/Typography---Note-3/p50126854.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50126854.jpg)
 
 \- 时代处于经济高速发展后又被 World War I 重挫的时期. 相对的 Fine Art 的世界中, 也产生了一种新潮流: rejecting and deconstructing traditional modes of representation 对传统的解构 (大概这么翻译)
 
@@ -124,9 +124,9 @@ Romain du Riot
 
 \- Futura 归类为 geometric sans-serif: (minimal geometric form)
 
-![](../../assets/images/Typography---Note-3/p50127143.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50127143.jpg)
 
-![](../../assets/images/Typography---Note-3/p50127145.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50127145.jpg)
 
 其中一个细节是 pinched joints, 特意将交叉处弧线做扁了一点, 否则会出现较大一片黑色, 不够平衡
 
@@ -136,17 +136,17 @@ Romain du Riot
 
 ## [Helvetica](https://en.wikipedia.org/wiki/Helvetica)
 
-![](../../assets/images/Typography---Note-3/p50127248.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50127248.jpg)
 
 \- 在 Bauhaus 之后出来的就是瑞士的 Basel School of Design, 他们的理念是 clear objective, neutral as possible, 和瑞士这个国家类似...
 
 \- Basel 喜欢 sans serif, 当时最接近他们偏好的字体叫 **Aszidenz-Grotesk** , 189x 年德国人设计的, 归类为 **grotesk sans serif**  (和 modern serif 类似)
 
-![](../../assets/images/Typography---Note-3/p50127315.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50127315.jpg)
 
 \- 50年代由于 Swiss Style 的兴起, 1957年 Helvatica 出现. Helvatica 属于 **neo-grotesk/rationalist sans serif** , 它和 Akzidenz 相似, 但是更加 clean, mechanical-looking
 
-![](../../assets/images/Typography---Note-3/p50127374.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50127374.jpg)
 
 \- 60-80 年代, Swiss Design 统治世界 (雾), so 直到今天, Helvatica 仍然主导商业社会, 很多图标/路标的 default font, 很多 UI 的 default font
 
@@ -158,19 +158,19 @@ Romain du Riot
 
 ## [Scala Sans](https://en.wikipedia.org/wiki/FF_Scala_Sans)
 
-![](../../assets/images/Typography---Note-3/p50127549.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50127549.jpg)
 
 \- 80 - 90 年代, computer 改变世界, 所以 typeface 也 explosion 了
 
 \- Scala Sans 是 荷兰设计师 Martin Majoor 在 1992 年设计的, 被归类为 Humanist sans serif, 主要特点就是 他是非衬线体, 但是有很多 old-style 衬线体的特点:
 
-![](../../assets/images/Typography---Note-3/p50127575.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50127575.jpg)
 
 \- Humanist sans serif 中最出名的一种叫 Gill Sans, 192x 年由一个英国人 Eric Gill 设计 - Gill 当时参考了 old style serif, 又结合了 sans serif 的美学 - Scala Sans 又参考了 Gill Sans
 
 \- 这个 Majoor 在两年前(1990 年)的时候也设计了一种 old style serif 叫 Scala. Scala 和 Scala Sans 虽然一种是 serif, 一种是 sans serif, 但是是有着相同的结构:
 
-![](../../assets/images/Typography---Note-3/p50127644.jpg)
+![](../../assets/images/2018/04/Typography---Note-3/p50127644.jpg)
 
 上面是 Scala, 下面是 Scala Sans
 

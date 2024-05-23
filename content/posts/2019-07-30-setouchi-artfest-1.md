@@ -32,119 +32,119 @@ original link: https://www.douban.com/note/728217071/
 
 大概坐车 2 个多小时，10 点前就到达了冈山的酒店，寄存了行李，就轻装出门了。因为这天没有太阳，偶尔阵雨，甚是凉快，就直接从酒店腿去了后乐园。
 
-![](../../assets/images/setouchi-artfest-1/p63584349.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63584349.jpg)
 
 冈山站一出来就有桃太郎
 
-![](../../assets/images/setouchi-artfest-1/p63584402.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63584402.jpg)
 
 走路时偶尔发现的井盖都很可爱
 
-![](../../assets/images/setouchi-artfest-1/p63584403.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63584403.jpg)
 
 井盖 2 号
 
 [后乐园](https://okayama-korakuen.jp/index.html)是个园林，但是又不怎么像正常的园林，总之「充满了吐槽的乐趣」（by 同行友人）。本来在它们网站上看到说不同季节有不同的花看，春天可以赏樱，夏天可以看荷花菖蒲山茶花之类的，秋天也可以看🍁之类的。只是很可惜，我去的时候荷花败得差不多了，说是有紫薇花，但好像还没开，非常不凑巧。。。[花期讯息戳](https://okayama-korakuen.jp/hanadayori/index.html)
 
-![](../../assets/images/setouchi-artfest-1/p63584563.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63584563.jpg)
 
 一进后乐园，第一感觉是怎么这么大草坪，是公园么？
 
-![](../../assets/images/setouchi-artfest-1/p63585189.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63585189.jpg)
 
 稍微像园林的地方
 
-![](../../assets/images/setouchi-artfest-1/p63585200.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63585200.jpg)
 
-![](../../assets/images/setouchi-artfest-1/p63585194.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63585194.jpg)
 
 最好笑的是这片水稻田 23333 农业混搭风
 
-![](../../assets/images/setouchi-artfest-1/p63584667.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63584667.jpg)
 
 但是有很多很 fat 很 big 的锦鲤！
 
-![](../../assets/images/setouchi-artfest-1/p63585217.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63585217.jpg)
 
 极其少没有谢的绣球花
 
-![](../../assets/images/setouchi-artfest-1/p63584678.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63584678.jpg)
 
 败得基本啥到木有的荷花池
 
-![](../../assets/images/setouchi-artfest-1/p63584675.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63584675.jpg)
 
 气愤！泥巴地把我的白鞋搞脏了！才第一天！
 
 1个小时就逛完后乐园了，过个桥就有个竹久梦二乡土美术馆，但因为门票要 800yen （后乐园才 400），想着对竹久梦二也没啥特别深感情，看着就小小的一间，于是并没有掏钱进去，只去了旁边的周边店买了点小手信噗 w
 
-![](../../assets/images/setouchi-artfest-1/p63585349.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63585349.jpg)
 
 梦二乡土美术馆就这么大
 
-![](../../assets/images/setouchi-artfest-1/p63585352.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63585352.jpg)
 
 回程倒是正好坐上了黑猫特供 bus
 
-![](../../assets/images/setouchi-artfest-1/p63585356.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63585356.jpg)
 
 以及正好与 tama 酱电车遇到
 
-![](../../assets/images/setouchi-artfest-1/p63586323.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63586323.jpg)
 
 中饭直接在冈山站买了便当，あなごめし
 
-![](../../assets/images/setouchi-artfest-1/p63586333.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63586333.jpg)
 
 看上去有点干，但其实吃起来完全不会，也因为饿了，迅速风卷残云了
 
 转了两次 JR 到达一个小站，忠海港，然后坐船去大久野岛，也就是兔子岛。想去这个岛，完全是一时兴起，在查 JR pass 的时候看到宣传资料里有，pass 也能到，于是就想去撸一撸兔叽了，反正也是濑户内上的小岛呀~ 所有关于兔子岛的资料[戳这个网站](http://rabbit-island.info/)就行，主要是看好船的时间。
 
-![](../../assets/images/setouchi-artfest-1/p63586834.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63586834.jpg)
 
 一下船就有不少🐇了
 
-![](../../assets/images/setouchi-artfest-1/p63586807.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63586807.jpg)
 
-![](../../assets/images/setouchi-artfest-1/p63586839.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63586839.jpg)
 
 完全不怕人，随便摸，甚至找你要吃的
 
-![](../../assets/images/setouchi-artfest-1/p63586838.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63586838.jpg)
 
-![](../../assets/images/setouchi-artfest-1/p63586849.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63586849.jpg)
 
-![](../../assets/images/setouchi-artfest-1/p63586842.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63586842.jpg)
 
 这天也是完全不热，海边相当酥胡~
 
-![](../../assets/images/setouchi-artfest-1/p63586841.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63586841.jpg)
 
 因为我蹲下来了而爬到我身上要求投喂
 
-![](../../assets/images/setouchi-artfest-1/p63586844.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63586844.jpg)
 
 嗯，就是被🐇围攻的我。。。😂
 
 感觉很少人去这个岛，除了交通不怎么方便，还有个原因是大久野岛是曾经日军研究生产毒气化学武器的地点，曾经完全被隐匿起来，现在留下不少遗迹。曾经的毒气岛，现在的兔子岛，这个反差也实在是。。。
 
-![](../../assets/images/setouchi-artfest-1/p63587638.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63587638.jpg)
 
 毒气储藏室遗迹
 
-![](../../assets/images/setouchi-artfest-1/p63587650.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63587650.jpg)
 
 工厂遗迹1
 
-![](../../assets/images/setouchi-artfest-1/p63587653.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63587653.jpg)
 
 工厂遗迹2
 
-![](../../assets/images/setouchi-artfest-1/p63587655.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63587655.jpg)
 
 工厂遗迹3
 
-![](../../assets/images/setouchi-artfest-1/p63587657.jpg)
+![](../../assets/images/2019/07/setouchi-artfest-1/p63587657.jpg)
 
 工厂遗迹4
 

@@ -23,3 +23,6 @@ pnpm-debug.log*
 
 # generated images and scss
 resources
+
+# r2 static folder
+r2-static

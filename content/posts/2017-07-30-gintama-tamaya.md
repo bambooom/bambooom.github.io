@@ -26,15 +26,15 @@ original link: https://www.douban.com/note/631062396/
 
 再然后就比较顺利, 21号晚上终于到达了京都..... 比预计的时间晚了16个小时左右, 本来可以玩的21号白天全部浪费在路上.
 
-![](../../assets/images/gintama-tamaya/p44337785.jpg)
+![](../../assets/images/2017/07/p44337785.jpg)
 
 夜晚的 kyoto tower
 
-![](../../assets/images/gintama-tamaya/p44337802.jpg)
+![](../../assets/images/2017/07/p44337802.jpg)
 
 一个人走在从 JR 站到酒店的路上, 夜晚的京都挺凉爽, 经历了一堆糟心事, 这样的散步好酥胡
 
-![](../../assets/images/gintama-tamaya/p44337805.jpg)
+![](../../assets/images/2017/07/p44337805.jpg)
 
 嗯哼, 住的地方到了, 其实是个小独栋, 有点 airbnb 风格, 可爱又温馨
 
@@ -48,85 +48,85 @@ original link: https://www.douban.com/note/631062396/
 
 终于去了上次没去的清水寺, 只可惜在修, 影响了景观, 要修到2020年~清水寺
 
-![](../../assets/images/gintama-tamaya/p44338264.jpg)
+![](../../assets/images/2017/07/p44338264.jpg)
 
 求了个签 吉
 
-![](../../assets/images/gintama-tamaya/p44338251.jpg)
+![](../../assets/images/2017/07/p44338251.jpg)
 
 清水寺旁的地主神社据说求姻缘特别灵, 里面还有两个姻缘石, 传说闭着眼睛从一块石头走到另一块, 求的姻缘一定会实现~ 需要朋友帮助的话就说明姻缘也需要喷油帮助~
 
-![](../../assets/images/gintama-tamaya/p44338268.jpg)
+![](../../assets/images/2017/07/p44338268.jpg)
 
 在修的清水寺
 
-![](../../assets/images/gintama-tamaya/p44338271.jpg)
+![](../../assets/images/2017/07/p44338271.jpg)
 
 @清水坂
 
-![](../../assets/images/gintama-tamaya/p44338272.jpg)
+![](../../assets/images/2017/07/p44338272.jpg)
 
 冰镇腌制过的黄瓜, 敲好次~
 
-![](../../assets/images/gintama-tamaya/p44338276.jpg)
+![](../../assets/images/2017/07/p44338276.jpg)
 
 热热热热热
 
-![](../../assets/images/gintama-tamaya/p44338288.jpg)
+![](../../assets/images/2017/07/p44338288.jpg)
 
 终于去到了被喷油们推荐的南禅寺疏水
 
-![](../../assets/images/gintama-tamaya/p44338291.jpg)
+![](../../assets/images/2017/07/p44338291.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338301.jpg)
+![](../../assets/images/2017/07/p44338301.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338294.jpg)
+![](../../assets/images/2017/07/p44338294.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338313.jpg)
+![](../../assets/images/2017/07/p44338313.jpg)
 
 当然来疏水也是因为盖章~ 这里的章是尼桑~
 
-![](../../assets/images/gintama-tamaya/p44338303.jpg)
+![](../../assets/images/2017/07/p44338303.jpg)
 
 @进进堂, 下午茶~
 
-![](../../assets/images/gintama-tamaya/p44338321.jpg)
+![](../../assets/images/2017/07/p44338321.jpg)
 
 鸭川
 
 ---
 
-![](../../assets/images/gintama-tamaya/p44338323.jpg)
+![](../../assets/images/2017/07/p44338323.jpg)
 
 下鸭这天很巧的有祭り
 
-![](../../assets/images/gintama-tamaya/p44338326.jpg)
+![](../../assets/images/2017/07/p44338326.jpg)
 
 下鸭这天的祭り很特别的是下水有料的, 从一头走到另一头, 每个下水的日本人都在说 冷たい! >\_< 但是在这么热的夏天, 就是超爱这种冷酷wwwww
 
-![](../../assets/images/gintama-tamaya/p44338327.jpg)
+![](../../assets/images/2017/07/p44338327.jpg)
 
 对了这天的祭り叫みたらし（御手洗）祭り, 第一次知道御手洗是这么念的233333
 
-![](../../assets/images/gintama-tamaya/p44338329.jpg)
+![](../../assets/images/2017/07/p44338329.jpg)
 
 浴衣的小姐姐们都好喜欢 www
 
-![](../../assets/images/gintama-tamaya/p44338328.jpg)
+![](../../assets/images/2017/07/p44338328.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338331.jpg)
+![](../../assets/images/2017/07/p44338331.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338330.jpg)
+![](../../assets/images/2017/07/p44338330.jpg)
 
 \>w<
 
-![](../../assets/images/gintama-tamaya/p44338333.jpg)
+![](../../assets/images/2017/07/p44338333.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338332.jpg)
+![](../../assets/images/2017/07/p44338332.jpg)
 
 某人抓了只小🐢, 后来放回鸭川了~小🐢走的时候一点留恋都木有哈哈哈哈哈哈
 
-![](../../assets/images/gintama-tamaya/p44338340.jpg)
+![](../../assets/images/2017/07/p44338340.jpg)
 
 虽然祭り上次了肉, 后来还是去次了そば！
 
@@ -134,73 +134,73 @@ original link: https://www.douban.com/note/631062396/
 
 ## 7.23: 岚山小火车+岚电站+壬生冢+银妈映画+祇园祭宵山
 
-![](../../assets/images/gintama-tamaya/p44338941.jpg)
+![](../../assets/images/2017/07/p44338941.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338945.jpg)
+![](../../assets/images/2017/07/p44338945.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338949.jpg)
+![](../../assets/images/2017/07/p44338949.jpg)
 
 这节车厢的票抢不到....
 
-![](../../assets/images/gintama-tamaya/p44338933.jpg)
+![](../../assets/images/2017/07/p44338933.jpg)
 
 在岚电站看到了银妈特别列车~
 
-![](../../assets/images/gintama-tamaya/p44338934.jpg)
+![](../../assets/images/2017/07/p44338934.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338937.jpg)
+![](../../assets/images/2017/07/p44338937.jpg)
 
 🌰
 
-![](../../assets/images/gintama-tamaya/p44338936.jpg)
+![](../../assets/images/2017/07/p44338936.jpg)
 
 车厢主色调是基佬紫2333
 
-![](../../assets/images/gintama-tamaya/p44338944.jpg)
+![](../../assets/images/2017/07/p44338944.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338950.jpg)
+![](../../assets/images/2017/07/p44338950.jpg)
 
 避暑, 吃甜品~
 
-![](../../assets/images/gintama-tamaya/p44338952.jpg)
+![](../../assets/images/2017/07/p44338952.jpg)
 
 凉粉 w
 
-![](../../assets/images/gintama-tamaya/p44338953.jpg)
+![](../../assets/images/2017/07/p44338953.jpg)
 
 樱花 ice~ 很良心, 一大碗都是冰淇淋~
 
-![](../../assets/images/gintama-tamaya/p44338955.jpg)
+![](../../assets/images/2017/07/p44338955.jpg)
 
 乱逛一家很萌的小店~
 
-![](../../assets/images/gintama-tamaya/p44338954.jpg)
+![](../../assets/images/2017/07/p44338954.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338963.jpg)
+![](../../assets/images/2017/07/p44338963.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338962.jpg)
+![](../../assets/images/2017/07/p44338962.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338966.jpg)
+![](../../assets/images/2017/07/p44338966.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338968.jpg)
+![](../../assets/images/2017/07/p44338968.jpg)
 
 @壬生冢, 绘马上很多薄樱鬼的大触.....
 
-![](../../assets/images/gintama-tamaya/p44338976.jpg)
+![](../../assets/images/2017/07/p44338976.jpg)
 
 .....
 
 很 hea 的去了商店街, 终于去了 animate! 完成设定, 买了鸣鸟所有单行本, 给攻铁大大交版税w
 
-![](../../assets/images/gintama-tamaya/p44338982.jpg)
+![](../../assets/images/2017/07/p44338982.jpg)
 
 一致笑喷~ だれ？
 
-![](../../assets/images/gintama-tamaya/p44338980.jpg)
+![](../../assets/images/2017/07/p44338980.jpg)
 
 在电影院门口吃炸鸡~
 
-![](../../assets/images/gintama-tamaya/p44338972.jpg)
+![](../../assets/images/2017/07/p44338972.jpg)
 
 我要的 double
 
@@ -208,13 +208,13 @@ original link: https://www.douban.com/note/631062396/
 
 然后喷油们一致表示需要复习红樱篇!!!
 
-![](../../assets/images/gintama-tamaya/p44338988.jpg)
+![](../../assets/images/2017/07/p44338988.jpg)
 
 祇(qi, 二声, 被纠正)园祭后祭前夜称为宵山, 在街边就有展示第二天巡游的车
 
-![](../../assets/images/gintama-tamaya/p44338989.jpg)
+![](../../assets/images/2017/07/p44338989.jpg)
 
-![](../../assets/images/gintama-tamaya/p44338995.jpg)
+![](../../assets/images/2017/07/p44338995.jpg)
 
 ---
 
@@ -222,53 +222,53 @@ original link: https://www.douban.com/note/631062396/
 
 一上午都是看巡游, 下午离开了京都去了大阪, 然后在梅田逛~又是挺颓的一天哈哈哈哈哈
 
-![](../../assets/images/gintama-tamaya/p44339540.jpg)
+![](../../assets/images/2017/07/p44339540.jpg)
 
 包子一定要吃551蓬莱的!
 
-![](../../assets/images/gintama-tamaya/p44339536.jpg)
+![](../../assets/images/2017/07/p44339536.jpg)
 
 等了半个多小时左右终于看到的巡游~
 
-![](../../assets/images/gintama-tamaya/p44339546.jpg)
+![](../../assets/images/2017/07/p44339546.jpg)
 
-![](../../assets/images/gintama-tamaya/p44339542.jpg)
+![](../../assets/images/2017/07/p44339542.jpg)
 
-![](../../assets/images/gintama-tamaya/p44339551.jpg)
+![](../../assets/images/2017/07/p44339551.jpg)
 
-![](../../assets/images/gintama-tamaya/p44339548.jpg)
+![](../../assets/images/2017/07/p44339548.jpg)
 
 ---
 
 看完巡游, 我们就离开京都了, 然后去了大阪, 去酒店 checkin 完之后才出门觅食, 饿成🐶 在大阪就住的是 daiwa~
 
-![](../../assets/images/gintama-tamaya/p44339555.jpg)
+![](../../assets/images/2017/07/p44339555.jpg)
 
 4点在梅田进入了一家有卖 すき焼き 的店, 这是焼きそば
 
-![](../../assets/images/gintama-tamaya/p44339554.jpg)
+![](../../assets/images/2017/07/p44339554.jpg)
 
 すき焼き！想着还打算吃晚饭? 就没有点很多
 
-![](../../assets/images/gintama-tamaya/p44339557.jpg)
+![](../../assets/images/2017/07/p44339557.jpg)
 
 豚平烧, 就是那个蛋包着肉的东西....
 
 吃完了之后就随意在商场里面转, 发现有家岛屋书店, 就进去转了~ 然后我就在杂志区乱晃了...
 
-![](../../assets/images/gintama-tamaya/p44339805.jpg)
+![](../../assets/images/2017/07/p44339805.jpg)
 
-![](../../assets/images/gintama-tamaya/p44339806.jpg)
+![](../../assets/images/2017/07/p44339806.jpg)
 
 hiahiahia 莫名就想拍下来
 
-![](../../assets/images/gintama-tamaya/p44339834.jpg)
+![](../../assets/images/2017/07/p44339834.jpg)
 
 这张没拍出来, 但我发现哦, 杂志封面最多的是大野智!
 
 结果到了饭点, 我们又想起今晚还有要去吃烧鸟的设定! 于是去了 muji cafe~ 大家一致表示其实 HK 的 muji cafe 一直没去, 每次经过都很多人, 懒得排队....
 
-![](../../assets/images/gintama-tamaya/p44339556.jpg)
+![](../../assets/images/2017/07/p44339556.jpg)
 
 其实有正餐吃, 但我们还是只点了甜品~
 
@@ -276,21 +276,21 @@ hiahiahia 莫名就想拍下来
 
 又慢慢浪回酒店休息了一下, 快到11点(?)的时候, 就去了酒店旁边的鸟贵族w
 
-![](../../assets/images/gintama-tamaya/p44339558.jpg)
+![](../../assets/images/2017/07/p44339558.jpg)
 
 拿 pad 点单, hin 方便哦~而且价格来说也并不贵呢, 最后是4个人吃了6k3百多 yen
 
-![](../../assets/images/gintama-tamaya/p44339564.jpg)
+![](../../assets/images/2017/07/p44339564.jpg)
 
 那杯其实是掺了水的梅酒...
 
-![](../../assets/images/gintama-tamaya/p44339566.jpg)
+![](../../assets/images/2017/07/p44339566.jpg)
 
 一开始觉得冷气开的敲冷, 喝了点酒, 吃了烧鸟就不冷了....233333
 
-![](../../assets/images/gintama-tamaya/p44340180.jpg)
+![](../../assets/images/2017/07/p44340180.jpg)
 
-![](../../assets/images/gintama-tamaya/p44339565.jpg)
+![](../../assets/images/2017/07/p44339565.jpg)
 
 一本满足!
 
@@ -304,45 +304,45 @@ hiahiahia 莫名就想拍下来
 
 坐地铁再在千里中央转 monorail就可以到, 出站没多久就可以看到邪神之塔, 一直慢慢走近....
 
-![](../../assets/images/gintama-tamaya/p44340109.jpg)
+![](../../assets/images/2017/07/p44340109.jpg)
 
 远望
 
-![](../../assets/images/gintama-tamaya/p44340114.jpg)
+![](../../assets/images/2017/07/p44340114.jpg)
 
 近一点
 
-![](../../assets/images/gintama-tamaya/p44340110.jpg)
+![](../../assets/images/2017/07/p44340110.jpg)
 
 走到正面了!
 
-![](../../assets/images/gintama-tamaya/p44340111.jpg)
+![](../../assets/images/2017/07/p44340111.jpg)
 
 侧后面
 
-![](../../assets/images/gintama-tamaya/p44340112.jpg)
+![](../../assets/images/2017/07/p44340112.jpg)
 
 正背面
 
-![](../../assets/images/gintama-tamaya/p44340115.jpg)
+![](../../assets/images/2017/07/p44340115.jpg)
 
 天气不好, 没有门票上的蓝天做背景 更加恐い
 
-![](../../assets/images/gintama-tamaya/p44340118.jpg)
+![](../../assets/images/2017/07/p44340118.jpg)
 
 黑白感受一下
 
 但是后来几个无聊人士跑到人家的博物馆本来打算进去乘个凉转一圈, 却被扭蛋吸引了目光......造成如下局面........(233333333333333
 
-![](../../assets/images/gintama-tamaya/p44340220.jpg)
+![](../../assets/images/2017/07/p44340220.jpg)
 
 一开始只是这样...
 
-![](../../assets/images/gintama-tamaya/p44340219.jpg)
+![](../../assets/images/2017/07/p44340219.jpg)
 
 变成了, 带着小弟救妹子 mode
 
-![](../../assets/images/gintama-tamaya/p44340221.jpg)
+![](../../assets/images/2017/07/p44340221.jpg)
 
 一个人过关斩将地救妹子 mode
 
@@ -350,11 +350,11 @@ hiahiahia 莫名就想拍下来
 
 顺便一提, 我的是这个
 
-![](../../assets/images/gintama-tamaya/p44340250.jpg)
+![](../../assets/images/2017/07/p44340250.jpg)
 
 盯着你 wwwww
 
-![](../../assets/images/gintama-tamaya/p44340224.jpg)
+![](../../assets/images/2017/07/p44340224.jpg)
 
 中饭, 湯葉丼, 貌似也叫天津饭, 其实是腐竹233, 素的, 没有肉
 
@@ -362,19 +362,19 @@ hiahiahia 莫名就想拍下来
 
 颓颓的回酒店又休息了一下之后, 跑到樱之宫公园, 开始等待天神祭花火大会~
 
-![](../../assets/images/gintama-tamaya/p44340225.jpg)
+![](../../assets/images/2017/07/p44340225.jpg)
 
 氛围早已开始, 不早点去的话, 很难有好位置
 
-![](../../assets/images/gintama-tamaya/p44340227.jpg)
+![](../../assets/images/2017/07/p44340227.jpg)
 
 没有辣么完美装备的我们, 在酒店偷了一点宣传 leaflet 当垫子, 开始了吃吃喝喝补补银妈的时光~
 
 接近5点就开始等待, 等到7点半花火大会终于开始~
 
-![](../../assets/images/gintama-tamaya/p44340226.jpg)
+![](../../assets/images/2017/07/p44340226.jpg)
 
-![](../../assets/images/gintama-tamaya/p44340228.jpg)
+![](../../assets/images/2017/07/p44340228.jpg)
 
 手机基本也就能拍出这样了~
 
@@ -392,27 +392,27 @@ hiahiahia 莫名就想拍下来
 
 西尾八桥买来分给同事, 其实买少了...
 
-![](../../assets/images/gintama-tamaya/p44340556.jpg)
+![](../../assets/images/2017/07/p44340556.jpg)
 
 咦 原来买的都是绿色的~
 
-![](../../assets/images/gintama-tamaya/p44340516.jpg)
+![](../../assets/images/2017/07/p44340516.jpg)
 
 这个像瓦片一样的饼干其实 hin 好吃
 
-![](../../assets/images/gintama-tamaya/p44340566.jpg)
+![](../../assets/images/2017/07/p44340566.jpg)
 
 喷油推荐买的よじや (总被我念成 oyaji 🌚) 的洗脸纸和吸油纸
 
-![](../../assets/images/gintama-tamaya/p44340505.jpg)
+![](../../assets/images/2017/07/p44340505.jpg)
 
 嗯 于是たぬき就只有3个章~
 
-![](../../assets/images/gintama-tamaya/p44340567.jpg)
+![](../../assets/images/2017/07/p44340567.jpg)
 
 银妈所有都是傻白的说www 可惜差一个集齐
 
-![](../../assets/images/gintama-tamaya/p44340555.jpg)
+![](../../assets/images/2017/07/p44340555.jpg)
 
 给攻铁大大交版税, 为攻铁大大打 call!
 
@@ -420,7 +420,7 @@ hiahiahia 莫名就想拍下来
 
 之后直到看到这个广告才确认, 这一定是只鸭子!!!!!
 
-![](../../assets/images/gintama-tamaya/p44340569.jpg)
+![](../../assets/images/2017/07/p44340569.jpg)
 
 买到的 IC 卡就是蓝色那张~
 

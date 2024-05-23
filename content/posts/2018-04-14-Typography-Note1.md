@@ -16,21 +16,21 @@ original link: https://www.douban.com/note/665653445/
 
 字体基本, 笔画 (stroke), 笔画的不同部分有不同命名
 
-![](../../assets/images/Typography---Note-1/p49864709.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864709.jpg)
 
 spur: 马刺, 这个类比挺形象
 
-![](../../assets/images/Typography---Note-1/p49864711.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864711.jpg)
 
 笔画通常以人体部分命名, 类比人体特征
 
-![](../../assets/images/Typography---Note-1/p49864713.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864713.jpg)
 
 x-height 就 literally 小写字母的高度
 
 另外截图截漏了, 例如 y 和 p 在 baseline 以下的部分叫 descender, f 在 x-height 以上的部分叫 ascender.
 
-![](../../assets/images/Typography---Note-1/p49864712.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864712.jpg)
 
 有个通称 tracking 哦
 
@@ -40,37 +40,37 @@ x-height 就 literally 小写字母的高度
 
 牵扯到旧时代的金属铅字印刷, 给每个字母是以固定 uniform 的方块 body 来制作的, 这个方块的大小就是 point size 了
 
-![](../../assets/images/Typography---Note-1/p49864861.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864861.jpg)
 
-![](../../assets/images/Typography---Note-1/p49864862.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864862.jpg)
 
 实际上是这么换算的
 
-![](../../assets/images/Typography---Note-1/p49864864.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864864.jpg)
 
 各个 pt size 大概是这样的
 
-![](../../assets/images/Typography---Note-1/p49864863.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864863.jpg)
 
 大概会这么用
 
 两种 align 方法, 右边那种会在右边显得不整齐咯
 
-![](../../assets/images/Typography---Note-1/p49864947.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864947.jpg)
 
 相同 pt size, 如果字体不同, 给人感觉大小仍然会不同
 
-![](../../assets/images/Typography---Note-1/p49864948.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864948.jpg)
 
 明显右边那个字体显得比中间小很多
 
 ## Typeface & Font
 
-![](../../assets/images/Typography---Note-1/p49864998.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864998.jpg)
 
-![](../../assets/images/Typography---Note-1/p49864999.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49864999.jpg)
 
-![](../../assets/images/Typography---Note-1/p49865000.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49865000.jpg)
 
 还是和金属铅字时代有关, 以前对不同 size 的字体必须制作不同大小的 body, 所以即使相同字体, 例如 36px Times Roman 和 72px Times Roman 的模板不同, 会有细微的差异.
 
@@ -84,17 +84,17 @@ well, 两大分类, **Serif -> 衬线体** , **Sans Serif -> 无衬线体**
 
 (我他妈之前为啥一直分不清这俩, 不是很明确么.....
 
-![](../../assets/images/Typography---Note-1/p49865141.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49865141.jpg)
 
 上面是衬线体, 下面是无衬线体
 
 按照讲师的说法, 衬线体比较 classic, 长文本来说 easy to read; 无衬线体比较 modern, cleaner.
 
-![](../../assets/images/Typography---Note-1/p49865178.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49865178.jpg)
 
 以上是衬线体的几个分类
 
-![](../../assets/images/Typography---Note-1/p49865177.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49865177.jpg)
 
 以上是无衬线体的几个分类
 
@@ -102,25 +102,25 @@ well, 两大分类, **Serif -> 衬线体** , **Sans Serif -> 无衬线体**
 
 ## 对比字体
 
-![](../../assets/images/Typography---Note-1/p49865231.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49865231.jpg)
 
 可以以 baseline 对比, 右边的字体其实比较小
 
-![](../../assets/images/Typography---Note-1/p49865232.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49865232.jpg)
 
 放大看并且重叠对比, 细节就全部出来了
 
 字体当然也和文字表达的意思有关:
 
-![](../../assets/images/Typography---Note-1/p49865233.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49865233.jpg)
 
 右边的是不是有种轻盈感, 字体很对
 
-![](../../assets/images/Typography---Note-1/p49865234.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49865234.jpg)
 
 左边明显比较重量级
 
-![](../../assets/images/Typography---Note-1/p49865235.jpg)
+![](../../assets/images/2018/04/Typography---Note-1/p49865235.jpg)
 
 选择没有绝对, 还是要看具体要表达的是什么, 不同的字体也传递出不同的意思.
 

@@ -70,7 +70,7 @@ $ npm publish
 
 You can see the package on GitHub:
 
-![](../../assets/images/gh-pkg.png)
+![](../../assets/images/2020/05/gh-pkg.png)
 
 ### 5. Install packages
 

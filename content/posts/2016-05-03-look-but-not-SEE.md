@@ -23,4 +23,4 @@ isCJKLanguage: true
 
 你们俩眼睛长着是干嘛的? 还不如捐给失明人士帮助人家重获光明....
 
-![](../../assets/images/blind.gif)
+![](../../assets/images/2016/05/blind.gif)

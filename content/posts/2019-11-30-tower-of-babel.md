@@ -11,7 +11,7 @@ isCJKLanguage: true
 
 https://www.douban.com/people/rainbowmimi/status/2711261768/
 
-![](../../assets/images/babel-tower-1.png)
+![](../../assets/images/2019/11/babel-tower-1.png)
 
 ## 初衷
 
@@ -30,7 +30,7 @@ https://www.douban.com/people/rainbowmimi/status/2711261768/
 
 ## 然后、我被教育了 🙃
 
-![](../../assets/images/babel-tower-2.png)
+![](../../assets/images/2019/11/babel-tower-2.png)
 
 虽然和朋友说了之后，一位朋友说，这个人就是装逼啦，中英夹在好讨厌的感觉。我一直对这种说话方式没有太介意，
 我看这位原 po 住在美帝湾区，会有这种说话方式也许是正常的吧。我是个怂人，所以我闭嘴了。

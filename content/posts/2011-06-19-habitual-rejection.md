@@ -30,4 +30,4 @@ original link: https://www.douban.com/note/157075972/
 这么想来，我还真是个自私的人，基本都只考虑自己的感受。
 
 
-![](../../assets/images/p157075972-1.jpg)
+![](../../assets/images/2011/06/p157075972-1.jpg)
