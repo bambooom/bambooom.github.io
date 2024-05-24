@@ -1,7 +1,7 @@
 ---
 title: "Now"
 layout: "now"
-date: 2024-05-23
+date: 2024-05-24
 url: "/now/"
 comments: false
 ShowReadingTime: false
@@ -29,7 +29,8 @@ ShowReadingTime: false
 ### Focus
 
 - 博客想继续优化的地方
-  - 【ing】所有图片放到某个服务器或 CDN 上，不再继续放在 repo 里
+  - ~~所有图片放到某个服务器或 CDN 上，不再继续放在 repo 里~~
+    - [已经全部放到 Cloudflare R2 里了](https://zhuzi.dev/posts/2024-05-24-cf-r2-bucket)
   - 优化提速构建 workflow，需要研究尝试一下 Cloudflare Pages
   - ~~Twikoo 评论的邮件提醒，我一直无法设置成功~~
 
