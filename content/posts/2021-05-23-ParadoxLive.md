@@ -12,17 +12,17 @@ original link: https://www.douban.com/note/803479251/
 
 Paradox Live 是在[ヒプノシスマイク 听碟记录](https://www.douban.com/note/763128418/) 里提到过的另一个类似的声优 Rap 计划，角色、声优、歌都是完全不一样的。本来只听了歌觉得没有那么喜欢，无意认真听抓的，但是最近发现继续推出了新的队伍，声优是我蛮喜欢的小野贤章和诹访部顺一，顿时感兴趣了！！！决定开坑认真听听惹~ 先把人物介绍从 ヒプノシスマイク 那边搬过来并补充一下，然后慢慢填坑！
 
-![](../../assets/images/2021/05/p82107700.jpg)
+![](https://static.zhuzi.dev/2021/05/p82107700.jpg)
 
 这是之前的主视觉图
 
-![](../../assets/images/2021/05/p82107721.jpg)
+![](https://static.zhuzi.dev/2021/05/p82107721.jpg)
 
 这是新的主视觉图，新队伍还没加上去
 
 图片截图都来自官网：[https://paradoxlive.jp/](https://paradoxlive.jp/)
 
-![](../../assets/images/2021/05/p82107795.jpg)
+![](https://static.zhuzi.dev/2021/05/p82107795.jpg)
 
 BAE
 
@@ -34,7 +34,7 @@ BAE
 
 听过几首 BAE 的歌之后，是还蛮浓厚的韩国味儿，虽然歌不算太喜欢，但是村濑步的英语和韩语发音都很正，歌曲里面日语、英语、韩语无缝切换的确厉害，然后 96 猫的声音是帅气的姐姐那种，所以 BAE 的歌即使不算很喜欢，但这个组合的搭配实在很舒服~
 
-![](../../assets/images/2021/05/p82107933.jpg)
+![](https://static.zhuzi.dev/2021/05/p82107933.jpg)
 
 The Cat's Whiskers
 
@@ -46,7 +46,7 @@ The Cat's Whiskers
 
 个人觉得猫组的歌很像酒吧里会放的带点 jazz 风味的那种，但是有的好听，有的就怪怪的😂
 
-![](../../assets/images/2021/05/p82108185.jpg)
+![](https://static.zhuzi.dev/2021/05/p82108185.jpg)
 
 cozmez
 
@@ -58,7 +58,7 @@ cozmez
 
 歌实在无感，但听说双子组似乎在这个企划里的人气其实蛮高的。
 
-![](../../assets/images/2021/05/p82108190.jpg)
+![](https://static.zhuzi.dev/2021/05/p82108190.jpg)
 
 悪漢奴等
 
@@ -70,7 +70,7 @@ cozmez
 
 恶汉组的曲风有点点偏向 hpmi 的名古屋了，毕竟 leader 都是僧人。
 
-![](../../assets/images/2021/05/p82108222.jpg)
+![](https://static.zhuzi.dev/2021/05/p82108222.jpg)
 
 武雷管
 

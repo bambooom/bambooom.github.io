@@ -36,6 +36,6 @@ original link: https://www.douban.com/note/127940383/
 
 
 
-![這是一張黃圖](../../assets/images/2011/01/p127940383-1.jpg)
+![這是一張黃圖](https://static.zhuzi.dev/2011/01/p127940383-1.jpg)
 
 這是一張黃圖

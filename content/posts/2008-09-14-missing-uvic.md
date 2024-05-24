@@ -25,7 +25,7 @@ all right all right，I'll be fine
 {不是不想念}\_\_By 這位太太
 
 
-![](../../assets/images/2008/09/p18163629-1.jpg)
+![](https://static.zhuzi.dev/2008/09/p18163629-1.jpg)
 
 
 
@@ -39,7 +39,7 @@ all right all right，I'll be fine
 By Ruby@TW
 
 
-![](../../assets/images/2008/09/p18163629-2.jpg)
+![](https://static.zhuzi.dev/2008/09/p18163629-2.jpg)
 
 
 
@@ -53,7 +53,7 @@ By Ruby@TW
 不用太多的客套 我們成為朋友
 不用太多的留念 我們總會離開
 
-![](../../assets/images/2008/09/p18163629-3.jpg)
+![](https://static.zhuzi.dev/2008/09/p18163629-3.jpg)
 
 
 離開之時
@@ -62,7 +62,7 @@ By Ruby@TW
 不用流淚 只需微笑
 say hi, say goodbye
 
-![](../../assets/images/2008/09/p18163629-4.jpg)
+![](https://static.zhuzi.dev/2008/09/p18163629-4.jpg)
 
 
 我不是不想念....
@@ -72,7 +72,7 @@ say hi, say goodbye
 不用特別記住
 該記住的總會記住
 
-![望你們每天的生活都晴空萬里.](../../assets/images/2008/09/p18163629-5.jpg)
+![望你們每天的生活都晴空萬里.](https://static.zhuzi.dev/2008/09/p18163629-5.jpg)
 
 望你們每天的生活都晴空萬里.
 
@@ -82,4 +82,4 @@ say hi, say goodbye
 是否愿意來個十年之約
 十年後再聚UVic.....
 
-![](../../assets/images/2008/09/p18163629-6.jpg)
+![](https://static.zhuzi.dev/2008/09/p18163629-6.jpg)

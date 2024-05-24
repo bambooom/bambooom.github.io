@@ -16,7 +16,7 @@ original link: https://www.douban.com/note/682858282/
 
 网站: [https://www.hk.artsfestival.org/](https://www.hk.artsfestival.org/)
 
-![](../../assets/images/2018/07/p52229463.jpg)
+![](https://static.zhuzi.dev/2018/07/p52229463.jpg)
 
 每年最大的艺术活动了吧, 很多世界级的演出, 节目相当丰富. 当然, 并不那么便宜... 以前学生的时候买半价学生票开心的不要不要的, 现在穷了并且最近两年整体票价涨了, 所以最多看一两场便宜的或者真的有兴趣的, 或者某些觉得错过就可能再也看不到的节目.
 
@@ -49,7 +49,7 @@ original link: https://www.douban.com/note/682858282/
 
 这个也是香港国际电影节协会办的日常活动, 每两个月为一个周期, 以一两个主题放映电影, 很多老片经典. 例如最近 6-7 月的是这些:
 
-![](../../assets/images/2018/07/p52229464.jpg)
+![](https://static.zhuzi.dev/2018/07/p52229464.jpg)
 
 ### **购票**
 

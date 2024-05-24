@@ -48,7 +48,7 @@ function reset_animation() {
 不过在我的实际应用中，答案里的 magic `el.offsetHeight;` 没有起到效果，尝试了多次之后，
 我直接在去掉 animation 值之后 `setTimeout` 了一小段时间后再赋值回去也正确触发了 reflow，让动画重播，具体是啥原因呢 🤔
 
-[Demo](../../assets/images/2018/10/flame-graph-grow.svg)
+[Demo](https://static.zhuzi.dev/2018/10/flame-graph-grow.svg)
 
 ### zoom 功能
 原本的火焰图自带的 zoom 功能是点击之后放大某一个 rect，依次改变其他相关 rect，大佬表示不满意，想要 Google Map 那种地图式的放大，但不改变初始火焰图整体形态。
@@ -213,7 +213,7 @@ function update_text(e) {
 
 首先准备一个 tooltip 的 div，可以用 d3 创建，也可以直接在 svg 或 html 里添加好。然后用 d3 监听 mouseover/mousemove/mouseout 事件即可控制 tooltip 的样式及位置来显示内容了。
 
-[Demo](../../assets/images/2018/10/flame-graph-tooltip.svg)
+[Demo](https://static.zhuzi.dev/2018/10/flame-graph-tooltip.svg)
 
 ```js
 outerGroup

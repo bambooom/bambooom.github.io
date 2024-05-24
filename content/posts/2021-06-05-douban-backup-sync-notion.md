@@ -20,8 +20,8 @@ isCJKLanguage: true
 另外应一部分友邻的要求，把“想看”的部分的导出链接也加上了，但是这一部分数据没有后续处理，
 “想看的”列表如何使用，全凭自由发挥了。
 
-![](../../assets/images/douban-backup/douban-backup-monkey-script.png)
-![](../../assets/images/douban-backup/douban-backup-monkey-script-2.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-monkey-script.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-monkey-script-2.png)
 
 分别点击这五个“导出看过的”链接的话就会分别从
 - `https://movie.douban.com/mine?status=collect`
@@ -54,19 +54,19 @@ isCJKLanguage: true
 
 打开模版后直接点击右上角的 **Duplicate**，即可将模版复制到自己的 workspace 中。
 
-![](../../assets/images/douban-backup/douban-backup-duplicate.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-duplicate.png)
 
 然后在新建的 database 页面右上角菜单打开后选择 Merge with CSV，将第一步导出的 csv 文件进行导入，数据量较大的话可能需要一点时间。
 
-![](../../assets/images/douban-backup/douban-backup-notion-merge-csv.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-notion-merge-csv.png)
 
 导入后大致效果：
 
-![](../../assets/images/douban-backup/douban-backup-notion-db.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-notion-db.png)
 
 因为我的油猴脚本导出的 csv 是这样的:
 
-![](../../assets/images/douban-backup/douban-backup-csv.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-csv.png)
 
 表格的栏的顺序在 Merge CSV 之前最好不要编辑移动，导入之后就可以按喜好编辑移动了。
 
@@ -93,7 +93,7 @@ isCJKLanguage: true
 所幸这么多年过去了，google reader 都死掉了，豆瓣的 RSS 依然还保留着。
 在个人页面的右下角一直安静地存在着：
 
-![](../../assets/images/douban-backup/douban-rss.png)
+![](https://static.zhuzi.dev/douban-backup/douban-rss.png)
 
 以[我的账号的 RSS 信息](https://www.douban.com/feed/people/MoNoMilky/interests)为例，
 这个 feed 里只有书影音的标记信息，并且想看、在看、看过三类状态的信息也都包括。**缺点是仅有保留最新的 10 条信息。**
@@ -113,7 +113,7 @@ isCJKLanguage: true
 
 按照 [Notion 文档](https://developers.notion.com/docs/create-a-notion-integration#create-your-integration-in-notion) 创建一个 Integration，叫什么名字随意，获取 Token
 
-![](../../assets/images/douban-backup/douban-backup-notion-token.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-notion-token.png)
 
 
 ### 4.3 给 Notion Integration 权限
@@ -122,28 +122,28 @@ isCJKLanguage: true
 这样你就可以使用 Notion API Token 来访问或者更新 Notion 了。
 **要注意的是每个 database 都需要添加 Integration。**
 
-![](../../assets/images/douban-backup/douban-backup-add-integration.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-add-integration.png)
 
 邀请后在页面上即可看到这个 Integration 是有权限编辑的。
 
-![](../../assets/images/douban-backup/douban-backup-integration.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-integration.png)
 
 ### 4.4 在 GitHub 代码仓库中设置 secretes
 
 在自己 fork 或创建的代码仓库里设置 secrets。
 
-![](../../assets/images/douban-backup/douban-backup-secrets.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-secrets.png)
 
 key 的名字如图中绿色框内，请不要更改。另外 `DOUBAN_USER_ID`、`NOTION_TOKEN`（即前面获取的 Integration 的 Token） 是必须的。
 任意一个 databse 的 ID 也是必须的。（不需要所有都有）
 
-![](../../assets/images/douban-backup/douban-backup-set-kv.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-set-kv.png)
 
 #### `DOUBAN_USER_ID` 是啥
 
 即你的豆瓣的 ID，如图这两个地方均可获取。
 
-![](../../assets/images/douban-backup/douban-id.png)
+![](https://static.zhuzi.dev/douban-backup/douban-id.png)
 
 #### database ID 在哪里
 
@@ -172,13 +172,13 @@ GitHub 对免费用户的公开仓库暂时完全不会限制 Actions 的使用�
 
 如果想要更改这个频率，可以自行编辑你仓库中的这个 workflow 文件，将 6 改为 1 即表示每隔 1 个小时就运行一次脚本，改为 2 就表示每隔 2 个小时运行一次。
 
-![](../../assets/images/douban-backup/douban-backup-interval.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-interval.png)
 
 ### 手动运行 workflow
 
 另外我配置的 workflow 支持手动运行脚本，方便测试或者在偶尔标记较多时候可以及时手动同步。
 
-![](../../assets/images/douban-backup/douban-backup-manual.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-manual.png)
 
 ### 自定义 Notion 表格每栏名称
 
@@ -215,7 +215,7 @@ GitHub 对免费用户的公开仓库暂时完全不会限制 Actions 的使用�
 
 1. 登录 NeoDB 后在 [developer 的页面](https://neodb.social/developer/)点击生成 Token：
 
-![](../../assets/images/douban-backup/douban-backup-neodb-token.png)
+![](https://static.zhuzi.dev/douban-backup/douban-backup-neodb-token.png)
 
 2. 和前面说的相同的方法给 repo 添加一个新的 secret，`NEODB_API_TOKEN`，把生成的 Token 值贴进去即可
 

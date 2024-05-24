@@ -9,40 +9,40 @@ isCJKLanguage: true
 
 original link: https://www.douban.com/note/429107796/
 
-![](../../assets/images/2014/09/p19534653.jpg)
+![](https://static.zhuzi.dev/2014/09/p19534653.jpg)
 
 
 
-![](../../assets/images/2014/09/p19534654.jpg)
+![](https://static.zhuzi.dev/2014/09/p19534654.jpg)
 
 
 
-![](../../assets/images/2014/09/p19534655.jpg)
+![](https://static.zhuzi.dev/2014/09/p19534655.jpg)
 
 
 
-![](../../assets/images/2014/09/p19534659.jpg)
+![](https://static.zhuzi.dev/2014/09/p19534659.jpg)
 
 
 
-![](../../assets/images/2014/09/p19534661.jpg)
+![](https://static.zhuzi.dev/2014/09/p19534661.jpg)
 
 
 
-![](../../assets/images/2014/09/p19534667.jpg)
+![](https://static.zhuzi.dev/2014/09/p19534667.jpg)
 
 
 
-![](../../assets/images/2014/09/p19534668.jpg)
+![](https://static.zhuzi.dev/2014/09/p19534668.jpg)
 
 
 
-![](../../assets/images/2014/09/p19534669.jpg)
+![](https://static.zhuzi.dev/2014/09/p19534669.jpg)
 
 
 
-![](../../assets/images/2014/09/p19534670.jpg)
+![](https://static.zhuzi.dev/2014/09/p19534670.jpg)
 
 
 
-![](../../assets/images/2014/09/p19534674.jpg)
+![](https://static.zhuzi.dev/2014/09/p19534674.jpg)

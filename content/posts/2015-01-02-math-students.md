@@ -19,7 +19,7 @@ Let me tell you some-
 
 1.
 
-![pi不等于7分之22](../../assets/images/2015/01/p24156400.jpg)
+![pi不等于7分之22](https://static.zhuzi.dev/2015/01/p24156400.jpg)
 
 pi不等于7分之22
 
@@ -32,7 +32,7 @@ pi不等于7分之22
 
 4\. 'Balls' can be square too.“球”可以是方形的。
 
-![](../../assets/images/2015/01/p24156461.jpg)
+![](https://static.zhuzi.dev/2015/01/p24156461.jpg)
 
 
 额，这个说的是一个metric space里面，两个点(a1,b1) (a2,b2)的距离定义为|b1-a1|+|b2-a2|, 那么右边所示就是一个以（1,1）为中心、半径为3/4的open ball。就是一个正方形，四边的斜率分别是+1、-1。也就是说这个ball（square）里面的所有点到（1,1）的距离都不超过3/4。（这个有关基础拓扑。。。
@@ -46,7 +46,7 @@ pi不等于7分之22
 7\. Yes, 1>0 needs a proof.
 嗯哼，1大于0是需要证明的。（挖鼻
 
-![](../../assets/images/2015/01/p24156791.jpg)
+![](https://static.zhuzi.dev/2015/01/p24156791.jpg)
 
 
 
@@ -56,7 +56,7 @@ pi不等于7分之22
 9\. Jordan Curve Theorem- It is a very tough theorem to prove that every simple closed curve divides a region into two parts, "interior" and "exterior".
 若尔当曲线定理-一个很难证明的定理，说的是任何一个简单的封闭曲线可以把一块地方分成两部分，“内部”和“外部”。
 
-![这个也是拓扑](../../assets/images/2015/01/p24157205.jpg)
+![这个也是拓扑](https://static.zhuzi.dev/2015/01/p24157205.jpg)
 
 这个也是拓扑
 
@@ -66,7 +66,7 @@ pi不等于7分之22
 有个数学家叫Kurt Godel证明出了上帝的确存在。。。。。（谢谢我看不懂。。。
 The Proof-
 
-![](../../assets/images/2015/01/p24157222.jpg)
+![](https://static.zhuzi.dev/2015/01/p24157222.jpg)
 
 
 [Gödel's ontological proof](http://en.wikipedia.org/wiki/G%C3%B6del%27s_ontological_proof)
@@ -76,7 +76,7 @@ The Proof-
 一个有着有限体积的图形必然有着有限的表面积。-错的！
 （这个和极限limit相关吧）
 
-![托里拆利小号，体积是finite，但表面积是infinite](../../assets/images/2015/01/p24157317.jpg)
+![托里拆利小号，体积是finite，但表面积是infinite](https://static.zhuzi.dev/2015/01/p24157317.jpg)
 
 托里拆利小号，体积是finite，但表面积是infinite
 
@@ -92,7 +92,7 @@ i的i次方是个实数。
 
 14.
 
-![](../../assets/images/2015/01/p24157667.jpg)
+![](https://static.zhuzi.dev/2015/01/p24157667.jpg)
 
 
 有些数学定理吧，你知道它一定是对的，但是永远无法证明出来\[doge\]
@@ -102,7 +102,7 @@ i的i次方是个实数。
 
 16\. Too much beauty in one pic..
 
-![](../../assets/images/2015/01/p24157796.jpg)
+![](https://static.zhuzi.dev/2015/01/p24157796.jpg)
 
 
 exp(i\*Pi) = cos(Pi) + i\*sin(Pi) = -1
@@ -138,11 +138,11 @@ Three Interesting Theorems-
 24\. Hairy Ball Theorem (Real life implication) - It states that given a ball with hairs all over it, it is impossible to comb the hairs continuously and have all the hairs lay flat. Some hair must be sticking straight up!
 毛球定理 - 这个比喻是说如果一个毛球，是不可能连续性的将所有毛给梳平的，肯定会有毛仍然保持坚挺。XDDD
 
-![](../../assets/images/2015/01/p24158727.jpg)
+![](https://static.zhuzi.dev/2015/01/p24158727.jpg)
 
 
 
-![wiki上的图~其实萌萌的呢~毛甜甜圈w](../../assets/images/2015/01/p24158728.jpg)
+![wiki上的图~其实萌萌的呢~毛甜甜圈w](https://static.zhuzi.dev/2015/01/p24158728.jpg)
 
 wiki上的图~其实萌萌的呢~毛甜甜圈w
 
@@ -188,7 +188,7 @@ Student: "V"
 34\. "Let epsilon<0."
 35.
 
-![](../../assets/images/2015/01/p24159867.jpg)
+![](https://static.zhuzi.dev/2015/01/p24159867.jpg)
 
 
 

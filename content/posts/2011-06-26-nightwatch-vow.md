@@ -9,7 +9,7 @@ isCJKLanguage: true
 
 original link: https://www.douban.com/note/158341134/
 
-![](../../assets/images/2011/06/p158341134-1.jpg)
+![](https://static.zhuzi.dev/2011/06/p158341134-1.jpg)
 
 
 

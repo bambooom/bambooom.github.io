@@ -40,7 +40,7 @@ Beyond the rainbow
 Why, oh why can't I?
 
 
-![double rainbows ^^](../../assets/images/2008/08/p17284065-1.jpg)
+![double rainbows ^^](https://static.zhuzi.dev/2008/08/p17284065-1.jpg)
 
 double rainbows ^^
 

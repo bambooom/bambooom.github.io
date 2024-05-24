@@ -27,15 +27,15 @@ The Great Suspender 是很热门很多人使用的插件，这么一个事件影
 [Toby](https://chrome.google.com/webstore/detail/toby-for-chrome/hddnkoipeenegfoeaoibdmnaalmgkpip?hl=en) 是我一直在用的另一个插件，也是用来管理 tab 的，功能有点类似很出名的 OneTab，但是比 OneTab 好看，也更好用一些。
 它自己的定义是更好的 bookmarks，也是没错。我现在的 newtab 页面就是 toby 接管的，如下：
 
-![](../../assets/images/2021/03/toby-newtab.png)
+![](https://static.zhuzi.dev/2021/03/toby-newtab.png)
 
 我用的其实也很随意，无非是偶尔会把当时没看完的 tab 一次性保存一下，于是就形成了截图里看到的很多很多个时间的 session collections，里面保存的 tab 就有不少早就被 Great Suspender 挂起来的 tabs。
 有很多 tab 我后来也没怎么真的再用过，所以也没想着去做任何处理。
 
 但昨天突然 toby 给我弹出了一个小通知，它说它帮你做了和小工具可以直接修复那些 suspended tabs：
 
-![](../../assets/images/2021/03/toby-migration.png)
-![](../../assets/images/2021/03/toby-migration-done.png)
+![](https://static.zhuzi.dev/2021/03/toby-migration.png)
+![](https://static.zhuzi.dev/2021/03/toby-migration-done.png)
 
 我被惊喜到了！！！！！！
 （忍不住咆哮体上线）
