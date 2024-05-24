@@ -10,10 +10,7 @@ isCJKLanguage: true
 
 # 凌晨，在二环高架上奔跑的🐗
 
-<video controls width="100%">
-    <source src="/video/inoshishi.mp4" type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
+![](https://static.zhuzi.dev/2020/02/inoshishi.mp4)
 
 
 这个画面一直在我脑海里挥之不去，所以拿来装逼做标题。
