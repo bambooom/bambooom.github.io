@@ -39,13 +39,13 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.121.2'
           extended: true
 
       - name: Cache Hugo
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: /home/runner/.cache/hugo_cache    # <-- with hugo version v0.116.0 and above
           # path: /tmp/hugo_cache                 # <-- with hugo version < v0.116.0
@@ -61,7 +61,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
