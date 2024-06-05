@@ -1,6 +1,6 @@
 {{- define "main" }}
 
-<header class="page-header" data-animate-enter>
+<header class="page-header">
   <h1>
     {{ .Title }}
     {{- if (.Param "ShowRssButtonInSectionTermList") }}
@@ -33,15 +33,24 @@
 {{- $pages = site.RegularPages }}
 {{- end }}
 
-{{- range $index, $groups := $pages.GroupByPublishDate "2006" }}
-{{- if ne $groups.Key "0001" }}
-<div class="archive-year" data-animate-enter style="--stagger: {{add 1 $index}};">
-  <h2 class="archive-year-header">
-    {{- replace $groups.Key "0001" "" }}<sup class="archive-count">&nbsp;&nbsp;{{ len $groups.Pages }}</sup>
+{{- range $pages.GroupByPublishDate "2006" }}
+{{- if ne .Key "0001" }}
+<div class="archive-year">
+  {{- $year := replace .Key "0001" "" }}
+  <h2 class="archive-year-header" id="{{ $year }}">
+    <a class="archive-header-link" href="#{{ $year }}">
+      {{- $year -}}
+    </a>
+    <sup class="archive-count">&nbsp;{{ len .Pages }}</sup>
   </h2>
   {{- range .Pages.GroupByDate "January" }}
   <div class="archive-month">
-    <h3 class="archive-month-header">{{- .Key }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup></h3>
+    <h3 class="archive-month-header" id="{{ $year }}-{{ .Key }}">
+      <a class="archive-header-link" href="#{{ $year }}-{{ .Key }}">
+        {{- .Key -}}
+      </a>
+      <sup class="archive-count">&nbsp;{{ len .Pages }}</sup>
+    </h3>
     <div class="archive-posts">
       {{- range .Pages }}
       {{- if eq .Kind "page" }}
