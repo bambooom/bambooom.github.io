@@ -41,4 +41,6 @@ isCJKLanguage: true
 
 我主要就是加了一个 Payments 的表，然后把很多 Subscriptions 和 Categories 里的 Relation 和 Rollup 调整了一遍，有一些 Formula 也根据自己的需求调整了一下。
 
+第一次用 Notion 表格 Relation 和 Rollup 的功能，挺有意思的，但还是不够灵活，[文档参考](https://www.notion.so/help/relations-and-rollups)。
+
 提供我爆改过后的 Template 供参考，[点击此处](https://bambooo.notion.site/Subscription-Tracker-Template-7fae482b972b499eb5cc0830b353e1e0)。
