@@ -1,7 +1,7 @@
 ---
 title: "Now"
 layout: "now"
-date: 2024-06-28
+date: 2024-08-16
 url: "/now/"
 comments: false
 ShowReadingTime: false
@@ -9,7 +9,8 @@ ShowReadingTime: false
 
 - ~~目前是个很普通的外包打工者~~
   - 又被裁员了`_(:3」∠)`
-  - 摆烂中，想工作，但不想找工作
+  - 已摆烂接近 3 个半月
+  - 打算 9 月开始重新找工作试试，希望不大，同时打算找零工/兼职，能赚生活费就行
 - 正在找各种 Live 舞台演出去凑热闹
   - ~~I don't like Mondays.~~ ⭐️⭐️⭐️⭐️
   - ~~悶餅MOONBAND~~ ⭐️⭐️
@@ -23,7 +24,7 @@ ShowReadingTime: false
   - ~~Burnout Syndromes~~ ⭐️⭐️⭐️⭐️
   - ~~黑川沙良~~ ⭐️⭐️⭐️⭐️⭐️
   - ~~Tizzy Bac~~ ⭐️⭐️⭐️⭐️⭐️
-  - re:plus
+  - ~~re:plus~~ ⭐️⭐️⭐️⭐️⭐️⭐️⭐️
   - 宇多田光
 
 
@@ -37,21 +38,22 @@ ShowReadingTime: false
 - ~~整理订阅付费 List，可能在 Notion 里建个表格管理就好~~
   - [记录一下整理订阅记录 Notion 表格的过程](https://zhuzi.dev/posts/2024-06-28-subscription-tracker/)
 - 整理一个 Toolbox List，受[这个列表](https://github.com/rexarski/toolbox/)启发
-- 复建每天读书 10-30 分钟的习惯，尽量纸质书
-- 减肥 15 斤
-- 【ing】把自己的新家好好整理清楚，更像个家
+- 【ing】复建每天读书 10-30 分钟的习惯，尽量纸质书
+- 【ing】减肥 15 斤
+- ~~把自己的新家好好整理清楚，更像个家~~
   - 【done】书房，主要是书分类放个柜子里，然后以前的各种分散的东西整理起来，比如票据收藏、明信片整理收藏，还有手办展示柜
   - 【done】厨房
-  - 【ing】衣柜
-  - 客厅电视机柜
-  - 卫生间
+  - 【done】衣柜
+  - 【done】客厅电视机柜
+  - 【done】卫生间
+  - 阶段性结束，接下来需要好好保持，以及合理规划新的东西，断舍离不再需要的东西
 - 还是想出去旅游一次，很久很久没有很单纯的出远门旅游了
 
 ### Learn
 
 下个月开始没工作了，开始学习吧废物！
 
-- 去年买的 `Three.js` 的课程
+- 【ing】去年买的 Three.js Journey 的课程 18/67
 - 想学 SwiftUI，尝试 iOS 开发
   - https://www.hackingwithswift.com/100/swiftui
   - https://developer.apple.com/tutorials/swiftui
