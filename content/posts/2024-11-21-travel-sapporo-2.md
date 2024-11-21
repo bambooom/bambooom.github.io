@@ -134,7 +134,7 @@ isCJKLanguage: true
 
 我点的鸡肉+多种野菜款⬇️，非常好吃😋 后悔米饭点的是普通size，我应该点大盛り。
 
-![](https://static.zhuzi.dev/2024/11/1110-Otaru-Sapporo%20-%2046.jpeg)
+![](https://static.zhuzi.dev/2024/11/1110-Otaru-Sapporo%20-%2045.jpeg)
 
 感觉这家的汤偏辛口，选的辣度3而已（满格10），吃到后面真的会觉得有点辣。
 因为餐桌上有纯韩文的tip，看插图好像是可以加卷心菜的意思，我怀疑这家是不是韩国人来得多，因为比较辣😂
@@ -192,7 +192,7 @@ isCJKLanguage: true
 另外我翻官网的时候，这里还会偶尔作为小型live 舞台，会有不太知名的乐手歌手来表演wwww
 ![](https://static.zhuzi.dev/2024/11/1110-Otaru-Sapporo%20-%2081.jpeg)
 
-然后又一大片的水母🪼区，也是很好看，感觉全世界都很安静。
+然后有一大片的水母🪼区，也是很好看，感觉全世界都很安静。
 
 
 ![](https://static.zhuzi.dev/2024/11/1110-Otaru-Sapporo%20-%2084.jpeg)
@@ -285,7 +285,7 @@ isCJKLanguage: true
 巴士站的黄叶还挺好看的
 ![](https://static.zhuzi.dev/2024/11/1111-Sapporo%20-%2015.jpeg)
 
-公园本身挺不错的，如果住着附近，我可能会想天天来这里散步或者锻炼。
+公园本身挺不错的，如果住在附近，我可能会想天天来这里散步或者锻炼。
 ![](https://static.zhuzi.dev/2024/11/1111-Sapporo%20-%2016.jpeg)
 
 ![](https://static.zhuzi.dev/2024/11/1111-Sapporo%20-%2018.jpeg)
@@ -296,7 +296,7 @@ isCJKLanguage: true
 因为想着4点就要天黑了，就没有在真駒内公园久留，看了下地铁线，想着回去的时候还会经过中岛公园，不如再去一下中岛公园好了。
 是完全临时的安排。
 
-公园走回地铁站的路上也还不错。
+真駒内公园走回地铁站的路上还有几棵树是红着的，还不错。
 
 ![](https://static.zhuzi.dev/2024/11/1111-Sapporo%20-%2025.jpeg)
 
@@ -469,7 +469,7 @@ whatever，从中岛公园出来是坐的有轨电车去到藻岩山缆车山麓
 另一个很多人排队的是这个 Kinotoya 的冰淇淋。
 ![](https://static.zhuzi.dev/2024/11/1112-Sapporo-Fukuoka%20-%2026.jpeg)
 
-生ノースマン，意思是 northman 的意思，好想试试的啊，可惜不管哪个店都是品切状态。
+生ノースマン，意思是 northman 北人😂，好想试试的啊，可惜不管哪个店都是品切状态。
 ![](https://static.zhuzi.dev/2024/11/1112-Sapporo-Fukuoka%20-%2024.jpeg)
 
 没有买那个定番的白色恋人，因为实在是我不爱吃。但是有点后悔应该买这个雪人形状巧克力，还是很可爱的啊。而且后面在别府买的手信一点也不好吃，早知道还不如白色恋人😂
