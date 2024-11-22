@@ -484,5 +484,6 @@ whatever，从中岛公园出来是坐的有轨电车去到藻岩山缆车山麓
 
 机上发饮料给的水杯也特别可爱，我把它拿着当后面几天的漱口杯用hhhhh
 ![](https://static.zhuzi.dev/2024/11/1112-Sapporo-Fukuoka%20-%2037.jpeg)
+![](https://static.zhuzi.dev/2024/11/1112-Sapporo-Fukuoka%20-%2039.jpeg)
 
 总之就是很顺利地离开札幌去了福冈。
