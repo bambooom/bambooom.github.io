@@ -1,6 +1,6 @@
 ---
 draft: false
-title: 时隔5年的霓虹旅行 - 札幌篇（上）
+title: 时隔5年的霓虹旅行（一）札幌（上）
 date: 2024-11-20
 categories: Travel
 comments: true
