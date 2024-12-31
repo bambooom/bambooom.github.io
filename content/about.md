@@ -50,7 +50,7 @@ ShowReadingTime: false
 * [ikyo 桑](https://inokyo.wordpress.com/) (有猫www)
 * [强哥](https://strongbrother.blogspot.com/) (强力吐槽太爱看啦www)
 * [边边](https://rkidaki.space/) 「不研究文学的文学研究生」
-* [鱼](https://seviche.cc/)
+* [鱼](https://sevic.me/)
 * [喝黑咖啡造成了黑眼圈](https://blog.steamed.dev/)
 * [Shiori](https://shioriblog.github.io/)
 * [哒哒](https://ada3104.cc/)
