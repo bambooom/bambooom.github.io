@@ -9,10 +9,7 @@ isCJKLanguage: true
 
 捉 bug 记录一个 case
 
-
-<p data-height="300" data-theme-id="33133" data-slug-hash="aYMYpE" data-default-tab="result" data-user="bambooom" data-embed-version="2" data-pen-title="elementFromPoint with text element" class="codepen">See the Pen <a href="https://codepen.io/bambooom/pen/aYMYpE/">elementFromPoint with text element</a> by bamboo (<a href="https://codepen.io/bambooom">@bambooom</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
+{{< codepen bambooom aYMYpE >}}
 
 ## Question
 
