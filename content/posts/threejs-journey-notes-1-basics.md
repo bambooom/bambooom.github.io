@@ -5,7 +5,7 @@ date: 2025-02-26
 categories: Learning
 comments: true
 ShowToc: true
-isCJKLanguage: true
+isCJKLanguage: false
 ---
 
 课程链接：[three.js journey](https://threejs-journey.com/)
