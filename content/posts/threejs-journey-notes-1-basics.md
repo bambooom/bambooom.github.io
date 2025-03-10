@@ -117,6 +117,9 @@ tick()
 			- [https://twitter.com/Snapman_I_Am/status/800567120765616128](https://twitter.com/Snapman_I_Am/status/800567120765616128)
 		- 0.1 可以，具体取决于project
 
+![](https://static.zhuzi.dev/threejs-journey/camera-fov.png)
+![](https://static.zhuzi.dev/threejs-journey/camera-move.png)
+
 
 ## Geometries
 
@@ -225,6 +228,7 @@ unwrapping 出来的平面就会有各个点的 uv 2D coordinates（`geometry.at
 
 如果是自己创作新的 geometry，就会需要自行设置 uv coordinates。
 
+![](https://static.zhuzi.dev/threejs-journey/uv-unwrapping.png)
 
 ```js
 // repeat: 2D vector
