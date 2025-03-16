@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Three.js Journey Notes 3 - Advanced Techniques
+title: Three.js Journey Notes 3 - Advanced Techniques Part1
 date: 2025-03-11
 categories: Learning
 comments: true
