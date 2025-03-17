@@ -10,10 +10,11 @@ isCJKLanguage: false
 
 课程链接：[three.js journey](https://threejs-journey.com/)
 
-[Notes 1 - Basics](../threejs-journey-notes-1-basics)
-[Notes 2 - Classic Techniques](../threejs-journey-notes-2-classic-techniques)
-[Notes 3 - Advanced Techniques Part1](../threejs-journey-notes-3-advanced-techniques-part1)
-[Notes 4 - Advanced Techniques Part2](../threejs-journey-notes-4-advanced-techniques-part2)
+其他几篇：
+- [Notes 1 - Basics](../threejs-journey-notes-1-basics)
+- [Notes 2 - Classic Techniques](../threejs-journey-notes-2-classic-techniques)
+- [Notes 3 - Advanced Techniques Part1](../threejs-journey-notes-3-advanced-techniques-part1)
+- [Notes 4 - Advanced Techniques Part2](../threejs-journey-notes-4-advanced-techniques-part2)
 
 
 ## Realistic Render

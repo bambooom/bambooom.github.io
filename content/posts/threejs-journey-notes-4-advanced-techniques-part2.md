@@ -10,9 +10,11 @@ isCJKLanguage: false
 
 课程链接：[three.js journey](https://threejs-journey.com/)
 
-[Notes 1 - Basics](../threejs-journey-notes-1-basics)
-[Notes 2 - Classic Techniques](../threejs-journey-notes-2-classic-techniques)
-[Notes 3 - Advanced Techniques Part1](../threejs-journey-notes-3-advanced-techniques-part1)
+其他几篇：
+- [Notes 1 - Basics](../threejs-journey-notes-1-basics)
+- [Notes 2 - Classic Techniques](../threejs-journey-notes-2-classic-techniques)
+- [Notes 3 - Advanced Techniques Part1](../threejs-journey-notes-3-advanced-techniques-part1)
+- [Notes 5 - Advanced Techniques Part3](../threejs-journey-notes-5-advanced-techniques-part3)
 
 
 ## Raycaster and Mouse Events

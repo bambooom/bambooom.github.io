@@ -15,6 +15,12 @@ isCJKLanguage: false
 
 *没有追求写得很通顺，中英胡乱混合ing*
 
+其他几篇：
+- [Notes 2 - Classic Techniques](../threejs-journey-notes-2-classic-techniques)
+- [Notes 3 - Advanced Techniques Part1](../threejs-journey-notes-3-advanced-techniques-part1)
+- [Notes 4 - Advanced Techniques Part2](../threejs-journey-notes-4-advanced-techniques-part2)
+- [Notes 5 - Advanced Techniques Part3](../threejs-journey-notes-5-advanced-techniques-part3)
+
 ## why use Three.js
 
 > [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) (Web Graphics Library) is a JavaScript API for rendering high-performance interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins.

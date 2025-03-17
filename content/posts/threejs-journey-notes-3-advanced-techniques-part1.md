@@ -10,8 +10,11 @@ isCJKLanguage: false
 
 课程链接：[three.js journey](https://threejs-journey.com/)
 
-[Notes 1 - Basics](../threejs-journey-notes-1-basics)
-[Notes 2 - Classic Techniques](../threejs-journey-notes-2-classic-techniques)
+其他几篇：
+- [Notes 1 - Basics](../threejs-journey-notes-1-basics)
+- [Notes 2 - Classic Techniques](../threejs-journey-notes-2-classic-techniques)
+- [Notes 4 - Advanced Techniques Part2](../threejs-journey-notes-4-advanced-techniques-part2)
+- [Notes 5 - Advanced Techniques Part3](../threejs-journey-notes-5-advanced-techniques-part3)
 
 ## Physics
 
