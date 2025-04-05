@@ -35,7 +35,7 @@ Two types of shaders
 	- *send data from vertex shader to fragment shader*, this kind of data is called **varying**
 	- 中间状态会 get interpolated，比如三角形每个顶点的 color 不一样的话，中间的点的颜色就会混合三种颜色。也不仅是 color 有这种效果
 
-![[Screenshot 2025-04-03 at 11.00.10.png]]
+
 
 Why creating our own shaders
 - Three.js materials are limited
@@ -182,3 +182,275 @@ void main()
     // ...
 }
 ```
+
+## Understanding the Fragment Shader
+
+comes after vertex shader
+
+```glsl
+// instruction to decide how precise a float be
+// highp: preformance hit and might not work on some devices
+// mediump
+// lowp: can create bugs by the lack of precision
+precision mediump float;
+
+void main()
+{
+	gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+}
+```
+
+same as vertex shader, the goal is to set `gl_FragColor`, it's also a `vec4` which is corresponding to color channels (`r`, `g`, `b`, `a`), each property goes from 0.0 to 1.0.
+
+If alpha below 1.0, we need to set `transparent: true` in `RawShaderMaterial`.
+
+
+## Attributes - only in Vertex Shader
+
+For three.js geometry, there is already one attribute named `position` that contains the `vec3` coordinates of each vertex.
+
+Adding a custom attribute:
+
+```javascript
+const count = geometry.attributes.position.count
+const randoms = new Float32Array(count)
+
+for(let i = 0; i < count; i++) {
+    randoms[i] = Math.random()
+}
+
+// we name the attribute as `aRandom`
+geometry.setAttribute('aRandom', new THREE.BufferAttribute(randoms, 1))
+```
+
+then you can use is in vertex shader
+
+```glsl
+// vertex.glsl
+// ...
+
+// define it
+attribute float aRandom;
+
+void main()
+{
+    // ...
+    modelPosition.z += aRandom * 0.1; // apply on y to make the plane with random spikes
+
+    // ...
+}
+```
+
+## Varyings - send data from Vertex Shader to Fragment Shader
+
+define a varying called `vRandom` and assign it with `aRandom` in vertex shader, then `vRandom` can be used in fragment shader.
+
+```glsl
+// vertex.glsl
+attribute float aRandom;
+varying float vRandom;
+
+void main()
+{
+    // ...
+
+    vRandom = aRandom;
+}
+```
+
+```glsl
+// fragment.glsl
+precision mediump float;
+
+varying float vRandom;
+
+void main()
+{
+    gl_FragColor = vec4(0.5, vRandom, 1.0, 1.0);
+}
+```
+
+Then the spikes on the plane is colored, and values between the vertices are **interpolated** - If the GPU is drawing a fragment right between two vertices —one having a varying of `1.0` and the other having a varying of `0.0`—the fragment value will be `0.5`.
+
+
+## Uniforms - send data from JS to shader, both
+
+Add custom uniforms to material:
+
+```javascript
+const material = new THREE.RawShaderMaterial({
+    vertexShader: testVertexShader,
+    fragmentShader: testFragmentShader,
+    uniforms:
+    {
+        uFrequency: { value: new THREE.Vector2(10, 5) },
+        uTime: { value: 0 },
+        uColor: { value: new THREE.Color('orange') },
+    }
+})
+```
+
+and also update `uTime` in tick function:
+
+```javascript
+const tick = () =>
+{
+    const elapsedTime = clock.getElapsedTime()
+
+    // Update material
+    material.uniforms.uTime.value = elapsedTime
+
+    // ...
+}
+```
+
+Then we can use it in shaders
+
+```glsl
+// vertex.glsl
+// ...
+uniform vec2 uFrequency;
+
+// ...
+
+void main()
+{
+    // ...
+    modelPosition.z += sin(modelPosition.x * uFrequency.x + uTime) * 0.1;
+    modelPosition.z += sin(modelPosition.y * uFrequency.y + uTime) * 0.1;
+
+    // ...
+}
+```
+
+The plane is animated like a flag wave with flying wind
+
+Also we can change the color in fragment shader:
+
+```glsl
+// fragment.glsl
+precision mediump float;
+
+uniform vec3 uColor;
+
+void main()
+{
+    gl_FragColor = vec4(uColor, 1.0);
+}
+```
+
+### Applying Texture
+
+```javascript
+const flagTexture = textureLoader.load('/textures/flag-french.jpg')
+const material = new THREE.RawShaderMaterial({
+    // ...
+    uniforms:
+    {
+        // ...
+        uTexture: { value: flagTexture }
+    }
+})
+```
+
+Texture can also be used as a uniform, and we need the UV coordinates to make the texture applied accordingly.
+`uv` is attributes already defined in `geometry.attributes.uv`, we can retrieve it directly.
+
+So we need to retrieve the attribute `uv` and assign it to another varying in vertex shader, and then fragment shader can use the varying to apply on texture.
+
+```glsl
+// vertex.glsl
+
+// ...
+attribute vec2 uv;
+
+varying vec2 vUv;
+
+void main()
+{
+    // ...
+
+    vUv = uv;
+}
+```
+
+```glsl
+// fragment.glsl
+
+precision mediump float;
+
+uniform vec3 uColor;
+uniform sampler2D uTexture;
+
+varying vec2 vUv;
+
+void main()
+{
+    vec4 textureColor = texture2D(uTexture, vUv);
+    gl_FragColor = textureColor;
+}
+```
+
+## Color variations - as shadows (not accurate)
+
+Store the wind elevation in a variable in vertex shader and send it to fragment shader:
+
+```glsl
+// ...
+varying float vElevation;
+
+
+void main()
+{
+    // ...
+
+    float elevation = sin(modelPosition.x * uFrequency.x - uTime) * 0.1;
+    elevation += sin(modelPosition.y * uFrequency.y - uTime) * 0.1;
+
+    modelPosition.z += elevation;
+    vElevation = elevation;
+
+    // ...
+}
+```
+
+Then use `vElevation` in fragment shader, use it to change r, g, and b properties of textureColor:
+
+```glsl
+// ...
+varying float vElevation;
+
+void main()
+{
+    vec4 textureColor = texture2D(uTexture, vUv);
+    textureColor.rgb *= vElevation * 2.0 + 0.5;
+    gl_FragColor = textureColor;
+}
+```
+
+Then the brightness variations on the flag as if there is light and shadows.
+
+
+## `ShaderMaterial`
+
+It's similar to `RawShaderMaterial` with pre-built uniforms and attributes in the shader codes. We can remove the following:
+
+- `uniform mat4 projectionMatrix;`
+- `uniform mat4 viewMatrix;`
+- `uniform mat4 modelMatrix;`
+- `attribute vec3 position;`
+- `attribute vec2 uv;`
+- `precision mediump float;`
+
+
+## Debugging Tip
+
+Cannot log data, so need to check the compilation error details, or read the shader code.
+
+Another solution is use `gl_FragColor` to test the values on screen.
+
+
+Other refs:
+- The Book of Shaders: [https://thebookofshaders.com/](https://thebookofshaders.com/)
+- ShaderToy: [https://www.shadertoy.com/](https://www.shadertoy.com/)
+- The Art of Code Youtube Channel: [https://www.youtube.com/channel/UCcAlTqd9zID6aNX3TzwxJXg](https://www.youtube.com/channel/UCcAlTqd9zID6aNX3TzwxJXg)
