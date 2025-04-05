@@ -35,7 +35,7 @@ Two types of shaders
 	- *send data from vertex shader to fragment shader*, this kind of data is called **varying**
 	- 中间状态会 get interpolated，比如三角形每个顶点的 color 不一样的话，中间的点的颜色就会混合三种颜色。也不仅是 color 有这种效果
 
-
+![](https://static.zhuzi.dev/threejs-journey/shader-basic.png)
 
 Why creating our own shaders
 - Three.js materials are limited
