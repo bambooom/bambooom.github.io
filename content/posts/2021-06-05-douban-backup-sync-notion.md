@@ -145,7 +145,7 @@ key 的名字如图中绿色框内，请不要更改。另外 `DOUBAN_USER_ID`�
 
 ![](https://static.zhuzi.dev/douban-backup/douban-id.png)
 
-#### database ID 在哪里
+#### database ID 在哪里 (2025.9.12 deprecated)
 
 Notion 数据库的 ID，在 Notion 网站的 URL 上即可复制。（前面的 Notion 文档中也有提到什么是 database ID，不要把后面的 `?v=xxxxx` 也复制进去。）
 
@@ -153,6 +153,16 @@ Notion 数据库的 ID，在 Notion 网站的 URL 上即可复制。（前面的
 https://www.notion.so/myworkspace/a8aec43384f447ed84390e8e42c2e089?v=...
                                   |--------- Database ID --------|
 ```
+
+#### database ID 在哪里 (2025.9.12 之后)
+
+因为 Notion SDK 更新 @notionhq/client@5.0.0，database 的定义变了，Notion 官方的意思是一个database 里可以有多种 data source，database 是 data source 的 parent。但我们这里用的 table ID 就是需要改成 `data_source_id`。
+如果你在 2025.9.12 之后 fork 或者同步了我的代码，亦或者你自己在自己仓库里更新了依赖项，需要重新设置 database id secrets 或者 env 变量。
+
+不再从 Notion 页面的 URL 上复制，而是需要在 Notion 页面上的表格的右上方点开设置项里寻找 "Copy data source ID" 后填入。
+
+![](https://static.zhuzi.dev/douban-backup/copy-data-source-id.png)
+
 
 ## 其他说明
 
