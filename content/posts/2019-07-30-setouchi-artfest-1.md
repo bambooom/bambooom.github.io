@@ -20,7 +20,8 @@ original link: https://www.douban.com/note/728217071/
 - 7.22：[冈山 -> 岩国锦带桥，-> 尾道闲逛，住冈山](https://www.douban.com/note/728415477/) （16855 steps，10.7km，12 floors）
 - 7.23：[冈山 -> 宇野港 -> 直岛，回冈山住](https://www.douban.com/note/728579087/) （23686 steps，14.3km，49 floors）
 - 7.24：[冈山 -> 犬岛 -> 高松，住高松](https://www.douban.com/note/728934373/) （18329 steps，10.4km，13 floors）
-- 7.25：[高松 -> 丰岛，回高松住](https://www.douban.com/note/729118519/) （29056 steps，16.6km，31 floors） - 7.26：[高松 -> 男木岛+女木岛，晚上高松 -> 大阪](https://www.douban.com/note/729348647/) （20811 steps，12.4km，34 floors）
+- 7.25：[高松 -> 丰岛，回高松住](https://www.douban.com/note/729118519/) （29056 steps，16.6km，31 floors）
+- 7.26：[高松 -> 男木岛+女木岛，晚上高松 -> 大阪](https://www.douban.com/note/729348647/) （20811 steps，12.4km，34 floors）
 - 7.27：[上午半天休息，下午京阿尼，回大阪逛逛街购购物](https://www.douban.com/note/729353142/) （15778 steps，9.9km，7 floors）
 - 7.28：早班机 -> HK
 
