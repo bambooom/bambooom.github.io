@@ -109,7 +109,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Blah Blah Booooom 🎈"
-    Content: "💖🪧 **评论功能恢复啦，三种评论方式任君选择** 其他近况可参考 [Now](/now)"
+    Content: "💖🪧 近况 [Now](/now)"
 
   socialIcons:
     - name: github

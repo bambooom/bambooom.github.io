@@ -7,7 +7,6 @@ comments: true
 ShowReadingTime: false
 ---
 
-
 ### About me
 
 - 💖 一般可以叫我**竹子**
@@ -33,36 +32,34 @@ ShowReadingTime: false
   - 也很愿意去看 live，但最近经常发现音乐节都看不起了
   - 正在努力复健读书的习惯...
 
-
 ### Blogroll
 
 欢迎留言和我交换链接！💕
 
-* [卧锦](https://crescendomeow.wordpress.com/)
-* [绯鞠](https://loli.fj.cn/)
-* [顾梦](https://blog.gumengyo.top) 「不想满心遗憾，那就全力以赴」
-* [AsyncX](https://blog.asyncx.top/)
-* [liuxuechao](https://blog.myxuechao.com)
-> 推友
-* [laike9m](https://laike9m.com/)
-* [Ice 小姐姐~](https://lxy2222.github.io/)
-> 象友
-* [ikyo 桑](https://inokyo.wordpress.com/) (有猫www)
-* [强哥](https://strongbrother.blogspot.com/) (强力吐槽太爱看啦www)
-* [边边](https://lmnlnlmns.org/)
-* [鱼](https://sevic.me/)
-* [喝黑咖啡造成了黑眼圈](https://blog.steamed.dev/)
-* [Shiori](https://shioriblog.github.io/)
-* [哒哒](https://ada3104.cc/)
-* [Sky](https://alignof.com/)
-* [蝴蝶曾在此处](https://write.c7.io/tyou/) 「Strength can be built.」
-
+- [卧锦](https://crescendomeow.wordpress.com/)
+- [绯鞠](https://loli.fj.cn/)
+- [顾梦](https://blog.gumengyo.top) 「不想满心遗憾，那就全力以赴」
+- [AsyncX](https://blog.asyncx.top/)
+- [liuxuechao](https://blog.myxuechao.com)
+  > 推友
+- [laike9m](https://laike9m.com/)
+- [Ice 小姐姐~](https://lxy2222.github.io/)
+  > 象友
+- [ikyo 桑](https://inokyo.wordpress.com/) (有猫www)
+- [强哥](https://strongbrother.blogspot.com/) (强力吐槽太爱看啦www)
+- [边边](https://lmnlnlmns.org/)
+- [鱼](https://sevic.me/)
+- [喝黑咖啡造成了黑眼圈](https://blog.steamed.dev/)
+- [Shiori 栞](https://shioriblog.org/)
+- [哒哒](https://ada3104.cc/)
+- [Sky](https://alignof.com/)
+- [蝴蝶曾在此处](https://write.c7.io/tyou/) 「Strength can be built.」
 
 ### Changelog
 
-- 2024.5:  Change to use Cloudflare R2 bucket for images hosting.
-- 2024.2:  Change to use Hugo to build as it's super fast. Using [PaperMod](https://github.com/adityatelange/hugo-PaperMod) template with my modifications
+- 2024.5: Change to use Cloudflare R2 bucket for images hosting.
+- 2024.2: Change to use Hugo to build as it's super fast. Using [PaperMod](https://github.com/adityatelange/hugo-PaperMod) template with my modifications
 - 2023.10: Change to use Astro.build, and using [MaeWolff's template](https://github.com/MaeWolff/astro-portfolio-template) with adjustments
-- 2021.7:  Import diaries from douban for backup reason
-- 2017.2:  Switched to [KAGAMI theme](https://github.com/kamikat/jekyll-theme-kagami) with adjustments
+- 2021.7: Import diaries from douban for backup reason
+- 2017.2: Switched to [KAGAMI theme](https://github.com/kamikat/jekyll-theme-kagami) with adjustments
 - 2015.12: Init this blog project, using Jekyll with [Scribble theme](https://github.com/muan/scribble) adjusted
