@@ -1,8 +1,0 @@
-.about-page .post-content a:not(.anchor) {
-  border-bottom: solid 2px var(--purple);
-  background-image: linear-gradient(to top, var(--purple), var(--purple));
-}
-
-.about-page .post-content ul {
-  list-style: circle;
-}
