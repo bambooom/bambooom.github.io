@@ -1,0 +1,42 @@
+# Category display meta, keyed by term slug (urlized category name).
+# icon: pixel icon id drawn by assets/js/rpg.js
+travel:
+  zh: 旅行
+  icon: trv
+  desc: 霓虹、濑户内、九州…走过的路
+  weight: 1
+diary:
+  zh: 日记
+  icon: dia
+  desc: 日常，废话，和情绪
+  weight: 2
+memo:
+  zh: 随笔
+  icon: dia
+  desc: 随手记下的杂七杂八
+  weight: 3
+tech:
+  zh: 技术
+  icon: tech
+  desc: 前端相关的折腾
+  weight: 4
+learning:
+  zh: 学习
+  icon: lrn
+  desc: Three.js 等学习笔记
+  weight: 5
+entertainment:
+  zh: 娱乐
+  icon: ent
+  desc: ACG · 日剧 · 综艺 · BL
+  weight: 6
+summary:
+  zh: 年终总结
+  icon: sum
+  desc: 每年一次的回头看
+  weight: 7
+side-project:
+  zh: 副业
+  icon: tech
+  desc: 博客搬家、图床、Notion 表格
+  weight: 8
