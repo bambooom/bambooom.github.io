@@ -4,7 +4,7 @@
 .art .db-card-post{flex:0 0 auto}
 .art .db-card-post img{width:88px;height:128px;object-fit:cover;display:block;border:1px solid var(--blue);background:var(--paper);padding:0;box-shadow:none;image-rendering:auto}
 .art .db-card-content{flex:1 1 auto;min-width:0}
-.art .db-card-title{font-family:var(--ui);-webkit-font-smoothing:none;font-size:15px;color:var(--blue);margin-bottom:6px;letter-spacing:1px}
+.art .db-card-title{font-family:var(--ui);-webkit-font-smoothing:none;font-size:12px;color:var(--blue);margin-bottom:6px;letter-spacing:1px}
 .art .db-card-title a{border:0}
 .art .db-card-title a:hover{color:var(--pink)}
 .art .rating{display:flex;align-items:center;gap:8px;margin-bottom:8px;font-size:12px}
