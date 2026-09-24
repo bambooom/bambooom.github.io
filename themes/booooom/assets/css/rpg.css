@@ -292,3 +292,17 @@ open-heart[count]:not([count="0"])::after{content:attr(count);padding-left:5px}
   .slot{padding:26px 16px 14px 16px}.slot .face{display:none}
 }
 @media (max-width:420px){.cards{grid-template-columns:1fr}}
+
+/* ---- search overlay ---- */
+.top .sbtn{background:none;border:0;color:var(--blue);font:inherit;font-size:16px;line-height:1;cursor:pointer;padding:0 0 0 4px}
+.top .sbtn:hover{color:var(--pink)}
+.search{position:fixed;inset:0;z-index:60;background:rgba(244,239,227,.7);display:flex;align-items:flex-start;justify-content:center;padding:12vh 16px 0}
+.search[hidden]{display:none}
+.sbox{width:min(640px,100%);padding:20px 16px 12px;max-height:76vh;display:flex;flex-direction:column}
+.sin{width:100%;font-size:15px;padding:8px 10px;border:1px dotted var(--blue);background:var(--paper);color:var(--ink);outline:0}
+.sin:focus{border-style:solid;border-color:var(--pink)}
+.sres{margin-top:10px;overflow:auto;flex:1;min-height:0}
+.sres table{width:100%}
+.sres td.k{width:64px;font-size:11px;opacity:.7;white-space:nowrap}
+.sres .none{padding:18px 0;text-align:center;font-size:11px;letter-spacing:3px;opacity:.6}
+.sfoot{display:flex;gap:22px;justify-content:flex-end;font-size:10px;letter-spacing:2px;opacity:.6;margin-top:10px}

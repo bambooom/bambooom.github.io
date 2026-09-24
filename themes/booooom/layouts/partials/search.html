@@ -1,0 +1,9 @@
+{{- /* Search overlay: a コマンド window fed by /index.json, opened with "/" or the 検索 button */ -}}
+<div class="search" data-search hidden>
+  <div class="w sbox" role="dialog" aria-label="検索">
+    <div class="cap">検索 · <b>SEARCH</b></div>
+    <input type="search" class="sin mono" placeholder="タイトル / 分類 / 年 …" autocomplete="off" spellcheck="false" data-src="{{ (site.Home.OutputFormats.Get "json").RelPermalink }}">
+    <div class="log sres"><table></table></div>
+    <div class="sfoot"><span>↑↓ 選択</span><span>↵ 決定</span><span>ESC 閉じる</span></div>
+  </div>
+</div>
