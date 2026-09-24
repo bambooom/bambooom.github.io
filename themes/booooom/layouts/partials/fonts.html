@@ -1,4 +1,2 @@
-{{- /* Web fonts. Replaced by self-hosted pixel fonts in a later step. */ -}}
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&family=DotGothic16&display=swap" rel="stylesheet">
+{{- /* Self-hosted fonts: preload the UI pixel font, @font-face rules live in assets/css/fonts.css */ -}}
+<link rel="preload" href="{{ "fonts/fusion-pixel-12px-proportional-zh_hans.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>

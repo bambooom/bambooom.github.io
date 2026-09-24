@@ -1,6 +1,6 @@
 /* ===== Blah Blah Booooom · JRPG x Riso design system (flow layout, responsive) ===== */
 :root{--paper:#f4efe3;--win:#fbf7ea;--pink:#ff48b0;--blue:#0078bf;--dot:#b9b2a3;--ink:#1f3a52;
-  --ui:"DotGothic16","PingFang SC",monospace;--mono:"IBM Plex Mono","PingFang SC",monospace;--body:"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif}
+  --ui:"Fusion Pixel","DotGothic16","PingFang SC",monospace;--mono:"IBM Plex Mono","PingFang SC",monospace;--body:"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif}
 *{box-sizing:border-box}
 html,body{margin:0}
 body{overflow-x:hidden;background:var(--paper);color:var(--blue);font-family:var(--ui);-webkit-font-smoothing:none;font-size:14px;min-height:100vh;position:relative;
