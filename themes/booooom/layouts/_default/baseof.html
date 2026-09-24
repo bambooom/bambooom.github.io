@@ -10,5 +10,6 @@
   {{- block "hintbar" . }}{{ partial "hintbar.html" . }}{{ end }}
   <div class="grain" aria-hidden="true"></div>
   {{- partial "scripts.html" . }}
+  {{- block "scripts" . }}{{ end }}
 </body>
 </html>

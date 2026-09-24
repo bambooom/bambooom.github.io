@@ -94,5 +94,6 @@
   function init() { drawIcons(); marquee(); keys(); rows(); }
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
   window.addEventListener('resize', () => marquee());
+  if (document.fonts) document.fonts.ready.then(() => marquee());
   window.Booooom = { drawIcons, marquee, paint, ICONS, RISO };
 })();

@@ -57,7 +57,10 @@ canvas.px{image-rendering:pixelated}
 .log td.c{width:26px}.log td.c canvas{width:14px;height:14px;image-rendering:pixelated;vertical-align:-2px}
 .log td.t{width:100%;max-width:0}
 .log .mq{overflow:hidden;white-space:nowrap}
-.log .mq.of{-webkit-mask:linear-gradient(90deg,#000 82%,transparent);mask:linear-gradient(90deg,#000 82%,transparent)}
+.log .mq span{display:inline-block}
+.log tr:not(:hover) .mq.of{-webkit-mask:linear-gradient(90deg,#000 82%,transparent);mask:linear-gradient(90deg,#000 82%,transparent)}
+.log tr:hover .mq.of span{animation:mq 4s ease-in-out infinite alternate}
+@keyframes mq{0%,15%{transform:translateX(0)}85%,100%{transform:translateX(var(--shift,0px))}}
 .log td.d{width:92px;text-align:right}
 .log tr:nth-child(even) .stamp{transform:rotate(1.5deg)}
 .log tr:hover td,.log tr.on td{background:var(--pink);color:var(--paper);border-bottom-color:var(--pink)}
