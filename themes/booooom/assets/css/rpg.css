@@ -194,6 +194,17 @@ open-heart[count]:not([count="0"])::after{content:attr(count);padding-left:5px}
 /* comments */
 .cmt .ph{border:1px dotted var(--blue);padding:28px;text-align:center;font-size:12px;letter-spacing:2px;opacity:.6;margin-top:6px}
 
+/* ---- page head + category cards ---- */
+.pagehead{display:flex;align-items:baseline;gap:16px;margin-bottom:26px;flex-wrap:wrap}
+.pagehead .sub{font-size:12px;letter-spacing:3px;opacity:.7}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:34px 28px;margin-top:8px}
+.card{padding:22px 16px 14px;display:block;min-height:120px}
+.card canvas{width:36px;height:36px;float:right;margin:-6px 0 0 8px;mix-blend-mode:multiply}
+.card .desc{font-size:13px;line-height:1.6;min-height:42px}
+.card .last{margin-top:12px;font-size:11px;display:flex;gap:8px;align-items:center;opacity:.8;min-width:0}
+.card .last .lt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card:hover,.card.on{color:var(--pink);border-color:var(--pink)}.card:hover::before,.card.on::before{border-color:var(--pink)}
+
 /* ---- big type ---- */
 .big{font-size:40px;letter-spacing:2px;line-height:1.1}
 .mis{position:relative;display:inline-block;line-height:1}
@@ -222,4 +233,7 @@ open-heart[count]:not([count="0"])::after{content:attr(count);padding-left:5px}
   .art .codewin pre{font-size:12px}
   .status div{font-size:12.5px}
   .hide-m{display:none!important}
+  .cards{grid-template-columns:1fr 1fr;gap:26px 18px}
+  .big{font-size:32px}
 }
+@media (max-width:420px){.cards{grid-template-columns:1fr}}
