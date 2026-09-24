@@ -1,0 +1,2 @@
+{{- /* Headings with a hover anchor */ -}}
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}<a class="anchor" href="#{{ .Anchor | safeURL }}" aria-label="link">#</a></h{{ .Level }}>

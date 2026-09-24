@@ -1,0 +1,18 @@
+{{- /* Images as framed figures with FIG.NN captions. Remote (R2) images pass through; local ones come from assets/. */ -}}
+{{- $n := add (.Page.Scratch.Get "fig" | default 0) 1 }}{{ .Page.Scratch.Set "fig" $n }}
+{{- $cap := .Title | default .Text }}
+{{- $src := .Destination }}
+{{- $w := "" }}{{ $h := "" }}
+{{- if not (strings.HasPrefix $src "http") }}
+  {{- $path := replaceRE "#.*$" "" $src }}
+  {{- with resources.Get (replaceRE "^.*images/" "images/" $path) }}
+    {{- $img := . }}
+    {{- if and (ne .MediaType.SubType "svg") (gt .Width 1200) }}{{ $img = .Resize "1200x webp q85" }}{{ end }}
+    {{- $src = $img.RelPermalink }}
+    {{- if ne .MediaType.SubType "svg" }}{{ $w = $img.Width }}{{ $h = $img.Height }}{{ end }}
+  {{- end }}
+{{- end }}
+<figure class="fig">
+  <img src="{{ $src | safeURL }}" alt="{{ .Text }}" loading="lazy" decoding="async"{{ with $w }} width="{{ . }}"{{ end }}{{ with $h }} height="{{ . }}"{{ end }}>
+  <figcaption>FIG.{{ printf "%02d" $n }}{{ with $cap }} · {{ . }}{{ end }}</figcaption>
+</figure>

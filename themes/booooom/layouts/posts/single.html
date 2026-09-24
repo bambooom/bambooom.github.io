@@ -1,0 +1,54 @@
+{{- define "main" }}
+{{- $ep := partial "ep.html" . }}
+{{- $since := site.Params.status.since | default 2008 }}
+{{- $cat := dict }}
+{{- with .GetTerms "categories" }}{{ $cat = partial "cat.html" (index . 0) }}{{ end }}
+{{- $toc := and (ne .Params.ShowToc false) (ge (len .Fragments.Headings) 1) (or .Params.ShowToc (ge .WordCount 800)) }}
+<div class="frame"><div class="grid{{ if not $toc }} solo{{ end }}">
+<main>
+  <article class="w art post">
+    <div class="cap">記録 · <b>第{{ $ep }}話</b></div>
+    <span class="hanko corner">SAVE OK</span>
+    <header class="head">
+      <div class="ep">EP.{{ $ep }}{{ with $cat.zh }} · {{ . }}{{ end }}</div>
+      <h1>{{ .Title }}</h1>
+      <div class="meta">
+        <span><i class="stamp">{{ .Date.Format "2006.01.02" }}</i></span>
+        {{- with $cat.zh }}<a href="{{ $cat.url }}"><canvas class="px" data-i="{{ $cat.icon }}" width="12" height="12" aria-hidden="true"></canvas>{{ . }}</a>{{ end }}
+        <span>所要時間 {{ .ReadingTime }} min</span>
+        <span>{{ .WordCount | lang.FormatNumberCustom 0 }} 字</span>
+        {{- if and .GitInfo (ne (.Lastmod.Format "2006.01.02") (.Date.Format "2006.01.02")) }}<span class="upd">更新 {{ .Lastmod.Format "2006.01.02" }}</span>{{ end }}
+      </div>
+    </header>
+    <div class="body">{{ .Content }}</div>
+    <footer class="foot">
+      <span>END OF EP.{{ $ep }}</span>
+      {{- partial "reaction.html" . }}
+      <a href="#top" class="totop">↑ 頁頭へ</a>
+    </footer>
+  </article>
+
+  <nav class="pn" data-nav>
+    {{- with .PrevInSection }}<a href="{{ .RelPermalink }}" class="w prev"><small>◀ 前の話 · 第{{ partial "ep.html" . }}話</small>{{ .Title }}</a>{{ else }}<span class="w prev none"><small>◀ 前の話</small>これが最初の記録</span>{{ end }}
+    {{- with .NextInSection }}<a href="{{ .RelPermalink }}" class="w next"><small>次の話 ▶ · 第{{ partial "ep.html" . }}話</small>{{ .Title }}</a>{{ else }}<span class="w next none"><small>次の話 ▶</small>まだ書いてない…</span>{{ end }}
+  </nav>
+
+  {{- if (.Param "comments") }}{{ partial "comments.html" . }}{{ end }}
+</main>
+{{- if $toc }}
+<aside class="side">
+  <div class="w toc">
+    <div class="cap">目次 · <b>TOC</b></div>
+    {{ .TableOfContents }}
+  </div>
+  <div class="w status mini">
+    <div class="cap">この話</div>
+    <div><span>EP</span><span>{{ $ep }} / {{ len (where site.RegularPages "Section" "posts") }}</span></div>
+    <div><span>章</span><span>第{{ add (sub .Date.Year $since) 1 }}章 · {{ .Date.Year }}</span></div>
+    {{- with $cat.zh }}<div><span>分類</span><span>{{ . }}</span></div>{{ end }}
+    <div><span>所要時間</span><span>{{ .ReadingTime }} min</span></div>
+  </div>
+</aside>
+{{- end }}
+</div>{{ partial "footer.html" . }}</div>
+{{- end }}
