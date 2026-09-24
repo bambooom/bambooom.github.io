@@ -1,6 +1,14 @@
 /* ===== Home: 1024x640 JRPG title screen (absolute) → single column on mobile ===== */
+/* Desktop: the title screen never scrolls — body is a fixed-height flex box centring the 1024x640 stage */
 body.home{overflow-x:hidden}
-.stage{position:relative;width:1024px;height:640px;margin:max(0px,calc((100vh - 640px)/2)) auto 0;transform-origin:top center}
+@media (min-width:761px){
+  body.home{height:100vh;min-height:0;overflow:hidden;display:flex;align-items:center;justify-content:center}
+  .stage{position:relative;width:1024px;height:640px;flex:none;transform-origin:center}
+}
+/* Short viewports: let it scroll rather than clip */
+@media (min-width:761px) and (max-height:659px){
+  body.home{height:auto;min-height:100vh;overflow:auto}
+}
 .stage>.w{position:absolute}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 
@@ -30,11 +38,11 @@ body.home{overflow-x:hidden}
 .stage .log .more a{color:var(--pink)}
 .stage .tape{left:102px;top:206px;transform:rotate(-28deg)}
 .stage .hanko.save{position:absolute;left:538px;top:198px;transform:rotate(8deg);z-index:6}
-.stage .hint{position:absolute;left:640px;top:222px;height:270px;writing-mode:vertical-rl;font-size:11px;letter-spacing:2px;opacity:.7;display:flex;gap:18px;align-items:center;border-left:1px dotted var(--blue);padding-left:6px}
+.stage .hint{position:absolute;left:640px;top:222px;height:270px;writing-mode:vertical-rl;font-size:12px;letter-spacing:2px;opacity:.7;display:flex;gap:18px;align-items:center;border-left:1px dotted var(--blue);padding-left:6px}
 .stage .hint span{white-space:nowrap}
-.stage .cmd{left:666px;top:40px;width:240px;font-size:15px;line-height:1.7;padding:12px 14px 10px}
-.stage .cmd .all{margin-top:6px;padding-top:6px;border-top:1px dotted var(--blue);font-size:13px;opacity:.85}
-.stage .status{left:666px;top:340px;width:240px;font-size:13px;line-height:1.8;padding:16px 14px 10px;display:block}
+.stage .cmd{left:666px;top:40px;width:240px;font-size:12px;line-height:2.1;padding:12px 14px 10px}
+.stage .cmd .all{margin-top:6px;padding-top:6px;border-top:1px dotted var(--blue);opacity:.85}
+.stage .status{left:666px;top:340px;width:240px;font-size:12px;line-height:2.1;padding:16px 14px 10px;display:block}
 .stage .status:hover{border-color:var(--pink)}.stage .status:hover::before{border-color:var(--pink)}
 .stage .dlg{left:118px;bottom:48px;width:500px;height:78px;display:block;color:var(--blue)}
 .stage .dlg .txt em{display:block}
@@ -42,21 +50,20 @@ body.home{overflow-x:hidden}
 .stage .dlg:hover{border-color:var(--pink)}.stage .dlg:hover::before{border-color:var(--pink)}
 .pxstk{position:absolute;image-rendering:pixelated;mix-blend-mode:multiply;z-index:6}
 .stage .heart{left:604px;bottom:104px;width:44px;height:40px;transform:rotate(-10deg)}
-.tbc{position:absolute;right:118px;bottom:58px;text-align:right;font-size:40px;color:var(--blue);letter-spacing:2px;display:block}
+.tbc{position:absolute;right:118px;bottom:58px;text-align:right;font-size:48px;color:var(--blue);letter-spacing:2px;display:block}
 .tbc .cur{color:var(--pink);animation:bl 1s steps(1) infinite;margin-right:6px}
-.tbc small{display:block;font-size:11px;letter-spacing:4px;opacity:.7;margin-top:4px}
+.tbc small{display:block;font-size:12px;letter-spacing:4px;opacity:.7;margin-top:4px}
 .tbc:hover{color:var(--pink)}
 .stage .copy{position:absolute;left:0;right:0;bottom:16px;margin:0}
 
-/* 760–1040: scale the stage down (rpg.js sets --scale) */
+/* 761–1060: scale the stage down (home.js sets --scale) */
 @media (max-width:1060px) and (min-width:761px){
-  .stage{transform:scale(var(--scale,1));margin-top:0}
-  body.home{height:calc(640px * var(--scale,1))}
+  .stage{transform:scale(var(--scale,1))}
 }
 
 /* ---- mobile: single column ---- */
 @media (max-width:760px){
-  .stage{width:auto;height:auto;margin:0;padding:22px 16px 40px;display:flex;flex-direction:column;gap:30px;max-width:420px;margin:0 auto}
+  .stage{position:relative;width:auto;height:auto;padding:22px 16px 40px;display:flex;flex-direction:column;gap:30px;max-width:420px;margin:0 auto}
   .stage>.w,.stage .tbc,.stage .copy{position:relative;left:auto;right:auto;top:auto;bottom:auto;width:auto;height:auto;transform:none}
   .stage .hint,.stage .tape,.stage .heart,.stage .hanko.save{display:none}
   .bubble{order:0}.stage .cmd{order:1}.stage .log{order:2}.stage .status{order:3}.stage .dlg{order:4}.tbc{order:5}.stage .copy{order:6}
@@ -70,6 +77,6 @@ body.home{overflow-x:hidden}
   .stage .status{display:grid;grid-template-columns:1fr 1fr;gap:0 18px;padding-top:18px}
   .stage .status>div:last-child{grid-column:1/-1}
   .stage .dlg{min-height:78px}
-  .tbc{text-align:center;font-size:34px;margin-top:6px}
+  .tbc{text-align:center;font-size:36px;margin-top:6px}
   .stage .copy{text-align:center}
 }
