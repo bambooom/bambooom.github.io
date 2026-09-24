@@ -1,0 +1,14 @@
+{{- define "main" }}
+<div class="frame p404">
+  <div class="boom">🤯</div>
+  <div class="w dlg err">
+    <span class="cap pink">ERROR · 404</span>
+    <div class="txt">この記録は存在しない。<em>可能被删了，可能搬家时丢了，也可能只是 blah blah 打错了。</em></div>
+    <div class="next blink">▼</div>
+  </div>
+  <nav class="cmd" data-nav>
+    <a href="{{ site.Home.RelPermalink }}" class="on">ホームに戻る</a>
+    <a href="{{ (site.GetPage "/posts").RelPermalink }}">全部記録を見る</a>
+  </nav>
+</div>
+{{- end }}
