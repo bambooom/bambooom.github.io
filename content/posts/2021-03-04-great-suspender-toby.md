@@ -2,7 +2,7 @@
 draft: false
 title: The Great Suspender + Toby
 date: 2021-03-04
-categories: Tools
+categories: Tech
 comments: true
 isCJKLanguage: true
 ---
