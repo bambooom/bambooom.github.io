@@ -20,15 +20,16 @@
         {{ $data = . | transform.Unmarshal }}
         {{ if $data }}
             {{ $itemRating := 0 }}{{ with $data.rating }}{{ $itemRating = . }}{{ end }}
-            <div class="db-card">
+            {{- /* NeoDB item as an アイテム window: cover · title · ★ rating · brief · category tag */ -}}
+            <div class="db-card w">
+                <div class="cap">アイテム · <b>{{ $data.category }}</b></div>
                 <div class="db-card-subject">
-                    <div class="db-card-post"><img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="{{ $data.cover_image_url }}"></div>
+                    <div class="db-card-post"><img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="{{ $data.cover_image_url }}" alt=""></div>
                     <div class="db-card-content">
-                        <div class="db-card-title"><a href="{{ $dbUrl }}" class="cute" target="_blank" rel="noreferrer">{{ $data.title }}</a></div>
-                        <div class="rating"><span class="allstardark"><span class="allstarlight" style="width: {{ mul 10 $itemRating }}%"></span></span><span class="rating_nums">{{ $itemRating }}</span></div>
+                        <div class="db-card-title"><a href="{{ $dbUrl }}" target="_blank" rel="noreferrer noopener">{{ $data.title }}</a></div>
+                        <div class="rating"><span class="allstardark"><span class="allstarlight" style="width: {{ mul 10 $itemRating }}%"></span></span><span class="rating_nums mono">{{ $itemRating }}</span></div>
                         <div class="db-card-abstract">{{ $data.brief }}</div>
                     </div>
-                    <div class="db-card-cate">{{ $data.category }}</div>
                 </div>
             </div>
         {{ end }}
