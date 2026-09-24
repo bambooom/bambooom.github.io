@@ -50,7 +50,7 @@ body.home{overflow-x:hidden}
 .stage .dlg:hover{border-color:var(--pink)}.stage .dlg:hover::before{border-color:var(--pink)}
 .pxstk{position:absolute;image-rendering:pixelated;mix-blend-mode:multiply;z-index:6}
 .stage .heart{left:604px;bottom:104px;width:44px;height:40px;transform:rotate(-10deg)}
-.tbc{position:absolute;right:118px;bottom:58px;text-align:right;font-size:48px;color:var(--blue);letter-spacing:2px;display:block}
+.tbc{position:absolute;right:118px;bottom:37px;text-align:right;font-size:48px;color:var(--blue);letter-spacing:2px;display:block}
 .tbc .cur{color:var(--pink);animation:bl 1s steps(1) infinite;margin-right:6px}
 .tbc small{display:block;font-size:12px;letter-spacing:4px;opacity:.7;margin-top:4px}
 .tbc:hover{color:var(--pink)}
