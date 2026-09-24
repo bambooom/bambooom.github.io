@@ -99,19 +99,19 @@ menu:
   main:
     - identifier: posts
       name: 記録
-      url: /posts/
+      pageRef: /posts
       weight: 5
     - identifier: categories
       name: コマンド
-      url: /categories/
+      pageRef: /categories
       weight: 10
     - identifier: about
       name: STATUS
-      url: /about/
+      pageRef: /about
       weight: 20
     - identifier: now
       name: NOW
-      url: /now/
+      pageRef: /now
       weight: 30
 
 pygmentsUseClasses: true
