@@ -1,0 +1,9 @@
+{{- /* open-heart reaction button (https://openheart.fyi) */ -}}
+<span class="react"><open-heart href="https://open-heart-worker.zhuzi.workers.dev/?id={{ .Permalink }}" emoji="💗">💗</open-heart></span>
+<script src="https://unpkg.com/open-heart-element" type="module"></script>
+<script>
+  window.customElements.whenDefined('open-heart').then(() => {
+    for (const oh of document.querySelectorAll('open-heart')) oh.getCount();
+  });
+  window.addEventListener('open-heart', e => e.target && e.target.getCount && e.target.getCount());
+</script>

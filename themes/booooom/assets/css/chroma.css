@@ -1,0 +1,19 @@
+/* Chroma syntax colors on the Riso palette (pink / blue / ink) */
+.chroma{color:var(--ink)}
+.chroma .c,.chroma .c1,.chroma .cm,.chroma .cs,.chroma .ch,.chroma .cp,.chroma .cpf{opacity:.5;font-style:italic}
+.chroma .k,.chroma .kc,.chroma .kd,.chroma .kn,.chroma .kp,.chroma .kr,.chroma .ow{color:var(--pink)}
+.chroma .kt,.chroma .nc,.chroma .nn,.chroma .nb,.chroma .bp{color:var(--blue)}
+.chroma .s,.chroma .s1,.chroma .s2,.chroma .sb,.chroma .sc,.chroma .sd,.chroma .sh,.chroma .si,.chroma .sx,.chroma .sr,.chroma .ss,.chroma .dl{color:#2a8c5a}
+.chroma .m,.chroma .mb,.chroma .mf,.chroma .mh,.chroma .mi,.chroma .il,.chroma .mo{color:var(--blue)}
+.chroma .nf,.chroma .fm,.chroma .nd{color:var(--blue);font-weight:600}
+.chroma .na,.chroma .nt{color:var(--pink)}
+.chroma .nv,.chroma .vc,.chroma .vg,.chroma .vi,.chroma .no{color:var(--ink)}
+.chroma .o,.chroma .p{color:var(--ink);opacity:.8}
+.chroma .gd{color:var(--pink);background:rgba(255,72,176,.08)}
+.chroma .gi{color:#2a8c5a;background:rgba(42,140,90,.1)}
+.chroma .gh,.chroma .gu{color:var(--blue);font-weight:600}
+.chroma .ge{font-style:italic}.chroma .gs{font-weight:600}
+.chroma .err{color:var(--pink);text-decoration:underline wavy}
+.chroma .hl{background:rgba(255,72,176,.12);display:block;margin:0 -16px;padding:0 16px}
+.chroma .ln,.chroma .lnt{opacity:.4;margin-right:.8em;user-select:none}
+.chroma .lntable{border-spacing:0;width:100%}.chroma .lntd{vertical-align:top;padding:0}

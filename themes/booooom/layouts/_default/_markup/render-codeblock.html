@@ -1,0 +1,7 @@
+{{- /* Fenced code block as a JRPG window with the language on the cap */ -}}
+{{- $lang := .Type | default "text" }}
+{{- $label := .Attributes.title | default (upper $lang) }}
+<div class="codewin">
+  <span class="lang">{{ $label }}</span>
+  {{- transform.Highlight (strings.TrimSuffix "\n" .Inner) $lang .Options }}
+</div>

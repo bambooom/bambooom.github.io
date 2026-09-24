@@ -1,0 +1,10 @@
+{{- /* Blockquote as a dialogue box; GitHub-style alerts get their type on the face */ -}}
+{{- $face := "❝" }}{{ $cls := "" }}
+{{- if eq .Type "alert" }}
+  {{- $cls = printf " alert alert-%s" (lower .AlertType) }}
+  {{- $face = index (dict "note" "ℹ" "tip" "★" "important" "！" "warning" "⚠" "caution" "✕") (lower .AlertType) | default "！" }}
+{{- end }}
+<blockquote class="dlgq{{ $cls }}">
+  <span class="face" aria-hidden="true">{{ $face }}</span>
+  <div class="q">{{ .Text }}</div>
+</blockquote>
