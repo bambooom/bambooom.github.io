@@ -194,8 +194,6 @@ open-heart[count]:not([count="0"])::after{content:attr(count);padding-left:5px}
 .toc a.on{color:var(--pink);opacity:1}
 .toc a.on::before{content:"▶";position:absolute;left:0;top:0;font-size:9px}
 
-/* comments */
-.cmt .ph{border:1px dotted var(--blue);padding:28px;text-align:center;font-size:12px;letter-spacing:2px;opacity:.6;margin-top:6px}
 
 /* ---- page head + category cards ---- */
 .pagehead{display:flex;align-items:baseline;gap:16px;margin-bottom:26px;flex-wrap:wrap}
