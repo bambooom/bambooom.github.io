@@ -1,0 +1,27 @@
+{{- define "main" }}
+{{- $upd := .Lastmod.Format "2006.01.02" }}
+<div class="frame">
+  <div class="pagehead center"><span class="big">NOW</span><span class="sub">現在の状況 · 最終更新 {{ $upd }}</span></div>
+  <div class="slots">
+    <div class="w dlg slot cur">
+      <span class="cap pink">SLOT 01 · 現在</span>
+      <span class="stamp when">{{ $upd }}</span>
+      <div class="face"><canvas data-take width="15" height="14" aria-hidden="true"></canvas></div>
+      <div class="art q">{{ .Content }}</div>
+      <div class="next blink">▼</div>
+    </div>
+    {{- range $i, $h := .Params.history }}
+    <div class="w dlg slot old">
+      <span class="cap">SLOT {{ printf "%02d" (add $i 2) }} · 過去</span>
+      <span class="stamp when">{{ $h.date }}</span>
+      <div class="face">{{ $h.face | default "😶‍🌫️" }}</div>
+      <div class="art q">{{ $h.text | markdownify }}</div>
+    </div>
+    {{- end }}
+    <div class="empty">— 空きスロットなし —</div>
+  </div>
+  <p class="nownote">this is a <a href="https://nownownow.com/about" target="_blank" rel="noopener">/now page</a></p>
+  {{- if (.Param "comments") }}{{ partial "comments.html" . }}{{ end }}
+  {{ partial "footer.html" . }}
+</div>
+{{- end }}
