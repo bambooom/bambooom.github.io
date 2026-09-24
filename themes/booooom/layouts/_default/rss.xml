@@ -1,0 +1,30 @@
+{{- /* Full-text RSS (feed.xml) */ -}}
+{{- $pages := where site.RegularPages "Section" "posts" }}
+{{- if .IsHome }}{{ else if .IsNode }}{{ $pages = .RegularPages }}{{ end }}
+{{- $limit := site.Config.Services.RSS.Limit }}
+{{- if ge $limit 1 }}{{ $pages = $pages | first $limit }}{{ end }}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ site.Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ site.Params.description }}</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>{{ site.LanguageCode }}</language>
+    {{- with site.Params.author.email }}<managingEditor>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}
+    {{- with $pages }}<lastBuildDate>{{ (index . 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{- with .OutputFormats.Get "RSS" }}{{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}{{ end }}
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{- with site.Params.author.email }}<author>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</author>{{ end }}
+      <guid>{{ .Permalink }}</guid>
+      {{- range .GetTerms "categories" }}<category>{{ .LinkTitle }}</category>{{ end }}
+      <description>{{ .Summary | plainify | html }}</description>
+      {{- if site.Params.ShowFullTextinRSS }}<content:encoded>{{ .Content | html }}</content:encoded>{{ end }}
+    </item>
+    {{- end }}
+  </channel>
+</rss>
