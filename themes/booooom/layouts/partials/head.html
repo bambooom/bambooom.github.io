@@ -22,7 +22,7 @@
 <meta property="og:site_name" content="{{ site.Title }}">
 <meta name="twitter:card" content="summary">
 {{- partial "fonts.html" . }}
-{{- $css := slice (resources.Get "css/fonts.css") (resources.Get "css/rpg.css") (resources.Get "css/chroma.css") (resources.Get "css/comments.css") (resources.Get "css/shortcodes.css") | resources.Concat "css/site.css" | minify | fingerprint }}
+{{- $css := slice (resources.Get "css/fonts.css") (resources.Get "css/kinghwa.css") (resources.Get "css/rpg.css") (resources.Get "css/chroma.css") (resources.Get "css/comments.css") (resources.Get "css/shortcodes.css") | resources.Concat "css/site.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{- range site.Params.extraCSS }}
 <link rel="stylesheet" href="{{ . | relURL }}">
