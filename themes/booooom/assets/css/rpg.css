@@ -1,6 +1,6 @@
 /* ===== Blah Blah Booooom · JRPG x Riso design system (flow layout, responsive) ===== */
 :root{--paper:#f4efe3;--win:#fbf7ea;--pink:#ff48b0;--blue:#0078bf;--dot:#b9b2a3;--ink:#1f3a52;
-  --ui:"Fusion Pixel","DotGothic16","PingFang SC",monospace;--mono:"Victor Mono","PingFang SC","Microsoft YaHei",monospace;--body:"Fira Sans","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",sans-serif;
+  --ui:"Fusion Pixel","DotGothic16","PingFang SC",monospace;--mono:"Victor Mono","PingFang SC","Microsoft YaHei",monospace;--body:"Fira Sans","KingHwa OldSong","Songti SC","Noto Serif CJK SC","Noto Serif SC","SimSun",serif;
   --code-bg:#1f3a52;--code-fg:#f4efe3}
 *{box-sizing:border-box}
 html,body{margin:0}
@@ -125,7 +125,7 @@ body.page{display:flex;flex-direction:column}
 .copy{text-align:center;font-size:12px;letter-spacing:2px;opacity:.7;margin-top:40px}
 
 /* ---- article ---- */
-.art{font-family:var(--body);-webkit-font-smoothing:auto;font-size:15.5px;line-height:1.95;color:var(--ink)}
+.art{font-family:var(--body);-webkit-font-smoothing:auto;font-size:16px;line-height:2;color:var(--ink)}
 .art .head{font-family:var(--ui);-webkit-font-smoothing:none;color:var(--blue);border-bottom:1px dotted var(--blue);padding:6px 0 16px;margin-bottom:22px}
 .art .head .ep{font-size:12px;letter-spacing:3px;opacity:.7}
 .art h1{font-size:36px;line-height:1.3;margin:6px 0 12px;font-weight:400;letter-spacing:1px}
