@@ -1,0 +1,19 @@
+{{- /* Sidebar: コマンド (categories) + 章 (years). ctx: dict "on" slug "years" bool "yearBase" url */ -}}
+{{- $on := .on }}
+<aside class="side">
+  <div class="w cmd" data-nav>
+    <div class="cap">コマンド · <b>分類</b></div>
+    {{- range partial "cats.html" . }}
+    <a href="{{ .url }}"{{ if eq .slug $on }} class="on"{{ end }}>{{ .zh }}<small>{{ .count }}</small></a>
+    {{- end }}
+  </div>
+  {{- if .years }}
+  {{- $base := .yearBase | default "" }}
+  <div class="w cmd years">
+    <div class="cap">章 · <b>YEAR</b></div>
+    {{- range (where site.RegularPages "Section" "posts").GroupByDate "2006" }}
+    <a href="{{ $base }}#y{{ .Key }}">{{ .Key }}<small>{{ len .Pages }}</small></a>
+    {{- end }}
+  </div>
+  {{- end }}
+</aside>

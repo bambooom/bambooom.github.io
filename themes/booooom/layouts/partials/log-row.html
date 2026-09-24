@@ -1,0 +1,10 @@
+{{- /* One LOG row. ctx: dict "page" $p "on" bool */ -}}
+{{- $p := .page }}
+{{- $icon := "dia" }}
+{{- with $p.GetTerms "categories" }}{{ $icon = (partial "cat.html" (index . 0)).icon }}{{ end }}
+<tr data-href="{{ $p.RelPermalink }}"{{ if .on }} class="on"{{ end }}>
+  <td class="n">第{{ partial "ep.html" $p }}話</td>
+  <td class="c"><canvas class="px" data-i="{{ $icon }}" width="12" height="12" aria-hidden="true"></canvas></td>
+  <td class="t"><a href="{{ $p.RelPermalink }}"><div class="mq"><span>{{ $p.Title }}</span></div></a></td>
+  <td class="d"><i class="stamp">{{ $p.Date.Format "2006.01.02" }}</i></td>
+</tr>

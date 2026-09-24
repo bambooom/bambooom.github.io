@@ -1,9 +1,13 @@
 {{- define "main" }}
-<div class="frame">
-  <div class="w cmd" data-nav>
-    <div class="cap">{{ .Title }}</div>
-    {{- range .Pages }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
-  </div>
-  {{ partial "footer.html" . }}
-</div>
+{{- $pages := (where site.RegularPages "Section" "posts") }}
+<div class="frame"><div class="grid">
+  <main>
+    <div class="w log">
+      <div class="cap">記録 · <b>LOG</b> · {{ len $pages }}</div>
+      <span class="hanko corner">ALL</span>
+      {{- partial "log-table.html" (dict "pages" $pages "first" false) }}
+    </div>
+  </main>
+  {{- partial "side-cmd.html" (dict "years" true) }}
+</div>{{ partial "footer.html" . }}</div>
 {{- end }}

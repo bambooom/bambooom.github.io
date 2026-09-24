@@ -1,0 +1,6 @@
+{{- /* All category term pages as cat dicts, sorted by data weight */ -}}
+{{- $out := slice }}
+{{- range site.Taxonomies.categories }}
+  {{- $out = $out | append (partial "cat.html" .Page) }}
+{{- end }}
+{{- return (sort $out "weight") }}

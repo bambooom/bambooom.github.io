@@ -50,12 +50,12 @@ canvas.px{image-rendering:pixelated}
 .side{display:flex;flex-direction:column;gap:28px;position:sticky;top:24px}
 
 /* ---- log rows (posts list) ---- */
-.log table{width:100%;border-collapse:collapse;font-size:14px;table-layout:fixed}
+.log table{width:100%;border-collapse:collapse;font-size:14px}
 .log td{padding:0 6px;height:30px;vertical-align:middle;white-space:nowrap;border-bottom:1px dotted rgba(0,120,191,.45)}
 .log tr:last-child td{border-bottom:0}
 .log td.n{width:66px;opacity:.75;font-size:12px}
 .log td.c{width:26px}.log td.c canvas{width:14px;height:14px;image-rendering:pixelated;vertical-align:-2px}
-.log td.t{width:auto;overflow:hidden}
+.log td.t{width:100%;max-width:0}
 .log .mq{overflow:hidden;white-space:nowrap}
 .log .mq.of{-webkit-mask:linear-gradient(90deg,#000 82%,transparent);mask:linear-gradient(90deg,#000 82%,transparent)}
 .log td.d{width:92px;text-align:right}
@@ -68,6 +68,15 @@ canvas.px{image-rendering:pixelated}
 .log tr.ch td::before{content:none!important}
 .log tr.ch td span{display:flex;align-items:center;gap:10px}
 .log tr.ch td span::before,.log tr.ch td span::after{content:"";flex:1;border-top:1px dotted var(--blue)}
+
+.log{padding-top:18px}
+.log tr[data-href]{cursor:pointer}
+.log td.t a{color:inherit;display:block}
+.hanko.corner{position:absolute;right:14px;top:-14px;transform:rotate(6deg)}
+.corner-icon{position:absolute;right:16px;top:-16px;width:36px;height:36px;mix-blend-mode:multiply}
+.cmd.years{font-size:13px;line-height:1.75;columns:2;column-gap:8px}
+.cmd.years>.cap{column-span:all}
+.cmd.years a{break-inside:avoid}
 
 /* ---- command / menu window ---- */
 .cmd{font-size:15px;line-height:1.9}
