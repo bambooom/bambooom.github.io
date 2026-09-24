@@ -29,5 +29,6 @@
     {{- $on := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) (and (eq $.Section "posts") (eq .Identifier "posts")) (and (in (slice "taxonomy" "term") $.Kind) (eq .Identifier "categories")) }}
     <a href="{{ .URL }}" class="{{ if $on }}on{{ end }}">{{ .Name }}</a>
     {{- end }}
+    <button type="button" class="sbtn" data-search-open aria-label="検索">⌕</button>
   </nav>
 </header>

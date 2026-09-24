@@ -53,7 +53,6 @@
   // Keyboard: j/k or arrows move the ▶ cursor over .log rows / .cmd items, Enter opens, Backspace goes back
   function keys() {
     const items = [...document.querySelectorAll('[data-nav] a, .log tr[data-href]')];
-    if (!items.length && !document.querySelector('.log')) return;
     let cur = items.findIndex(el => el.classList.contains('on'));
     const set = i => {
       if (!items.length) return;
@@ -91,7 +90,43 @@
     });
   }
 
-  function init() { drawIcons(); marquee(); keys(); rows(); }
+  // Search overlay: substring match over /index.json (title · category · date · summary)
+  function search() {
+    const box = document.querySelector('[data-search]'); if (!box) return;
+    const input = box.querySelector('.sin'), table = box.querySelector('.sres table');
+    let idx = null, cur = 0, hits = [];
+    const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const load = () => idx || fetch(input.dataset.src).then(r => r.json()).then(j => (idx = j));
+    const render = () => {
+      table.innerHTML = hits.length ? hits.map((h, i) =>
+        `<tr data-href="${h.u}"${i === cur ? ' class="on"' : ''}><td class="k">第${h.ep}話</td><td class="t"><div class="mq"><span>${esc(h.t)}</span></div></td><td class="k">${esc(h.c)}</td><td class="d"><i class="stamp">${h.d}</i></td></tr>`
+      ).join('') : `<tr><td class="none" colspan="4">— 該当なし —</td></tr>`;
+    };
+    const run = () => {
+      const q = input.value.trim().toLowerCase();
+      if (!idx) return;
+      hits = q ? idx.filter(p => (p.t + ' ' + p.c + ' ' + p.d + ' ' + (p.s || '')).toLowerCase().includes(q)).slice(0, 30) : idx.slice(0, 12);
+      cur = 0; render();
+    };
+    const open = () => { box.hidden = false; input.value = ''; Promise.resolve(load()).then(run); setTimeout(() => input.focus(), 0); };
+    const close = () => { box.hidden = true; };
+    box.addEventListener('open', open);
+    document.querySelectorAll('[data-search-open]').forEach(b => b.addEventListener('click', open));
+    box.addEventListener('click', e => { if (e.target === box) close(); });
+    input.addEventListener('input', run);
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Escape') { e.preventDefault(); close(); }
+      else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault(); if (!hits.length) return;
+        cur = (cur + (e.key === 'ArrowDown' ? 1 : -1) + hits.length) % hits.length; render();
+        table.querySelector('tr.on')?.scrollIntoView({ block: 'nearest' });
+      } else if (e.key === 'Enter' && hits[cur]) location.href = hits[cur].u;
+    });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !box.hidden) close(); });
+    if (location.hash === '#search') open();
+  }
+
+  function init() { drawIcons(); marquee(); keys(); rows(); search(); }
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
   window.addEventListener('resize', () => marquee());
   if (document.fonts) document.fonts.ready.then(() => marquee());

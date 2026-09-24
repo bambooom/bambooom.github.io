@@ -8,6 +8,7 @@
   {{- block "top" . }}{{ partial "top.html" . }}{{ end }}
   {{- block "main" . }}{{ end }}
   {{- block "hintbar" . }}{{ partial "hintbar.html" . }}{{ end }}
+  {{- partial "search.html" . }}
   <div class="grain" aria-hidden="true"></div>
   {{- partial "scripts.html" . }}
   {{- block "scripts" . }}{{ end }}
