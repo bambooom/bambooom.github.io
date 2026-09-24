@@ -43,7 +43,10 @@ canvas.px{image-rendering:pixelated}
 .top .menu a.on::before{content:"▶";position:absolute;left:0;top:0;font-size:12px;line-height:18px}
 
 /* ---- page frame ---- */
-.frame{max-width:1024px;margin:0 auto;padding:28px 32px 90px}
+/* Sticky footer: body is a flex column, .frame grows to fill, .copy is pushed to the bottom */
+body.page{display:flex;flex-direction:column}
+.frame{width:100%;max-width:1024px;margin:0 auto;padding:28px 32px 60px;flex:1 0 auto;display:flex;flex-direction:column;box-sizing:border-box}
+.frame>.copy{margin-top:auto;padding-top:40px}
 .grid{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:28px 40px;align-items:start}
 .grid>main{min-width:0}
 .art h1{overflow-wrap:anywhere}
