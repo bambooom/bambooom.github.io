@@ -1,0 +1,54 @@
+{{- define "main" }}
+{{- $st := site.Params.status }}
+{{- $since := $st.since | default 2008 }}
+{{- $posts := where site.RegularPages "Section" "posts" }}
+{{- /* Split the markdown body into windows at each h3 */ -}}
+{{- $names := dict "about me" "プロフィール · <b>ABOUT</b>" "blogroll" "仲間 · <b>BLOGROLL</b>" "changelog" "履歴 · <b>CHANGELOG</b>" }}
+{{- $parts := after 1 (split .Content "<h3") }}
+<div class="frame">
+ <div class="sheet">
+  <aside class="col">
+    <div class="w status">
+      <div class="cap">STATUS · <b>{{ $st.name }}</b></div>
+      <div class="face-big"><canvas data-take width="15" height="14" aria-hidden="true"></canvas></div>
+      <div><span>名前</span><span>{{ $st.name }} / Bamboo</span></div>
+      <div><span>Lv.</span><span>{{ add (sub now.Year $since) 1 }} <small>年目</small></span></div>
+      <div><span>EXP</span><span>{{ len $posts }} <small>話</small></span></div>
+      {{- with $st.location }}<div><span>所在地</span><span>{{ . }}</span></div>{{ end }}
+      {{- with $st.job }}<div><span>職業</span><span>{{ . }}</span></div>{{ end }}
+      {{- with $st.zodiac }}<div><span>星座</span><span>{{ . }}</span></div>{{ end }}
+      {{- with $st.mood }}<div><span>状態</span><span>{{ . }}</span></div>{{ end }}
+    </div>
+    {{- with site.Params.skills }}
+    <div class="w skills">
+      <div class="cap">スキル</div>
+      {{- range . }}
+      <div><span>{{ .name }}</span><span class="bar"><i style="width:{{ .value }}%"></i></span><span class="mono">{{ .value }}{{ with .trend }} <small class="trend">{{ . }}</small>{{ end }}</span></div>
+      {{- end }}
+    </div>
+    {{- end }}
+    {{- with site.Params.socialIcons }}
+    <div class="w soc-win">
+      <div class="cap">通信</div>
+      <div class="soc">{{ range . }}<a href="{{ .url }}" target="_blank" rel="me noopener">{{ .name }}</a>{{ end }}</div>
+    </div>
+    {{- end }}
+  </aside>
+  <main class="col">
+    {{- range $i, $part := $parts }}
+      {{- $title := replaceRE `(?s)^[^>]*>(.*?)<a class="anchor".*` "$1" $part | plainify | strings.TrimSpace }}
+      {{- $body := replaceRE `(?s)^.*?</h3>` "" $part }}
+      {{- $key := lower $title }}
+      <section class="w art bio {{ $key | urlize }}" id="{{ $title | urlize }}">
+        <div class="cap">{{ index $names $key | default $title | safeHTML }}</div>
+        {{ $body | safeHTML }}
+      </section>
+    {{- else }}
+      <section class="w art bio"><div class="cap">プロフィール</div>{{ .Content }}</section>
+    {{- end }}
+    {{- if (.Param "comments") }}{{ partial "comments.html" . }}{{ end }}
+  </main>
+ </div>
+ {{ partial "footer.html" . }}
+</div>
+{{- end }}

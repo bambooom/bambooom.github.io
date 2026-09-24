@@ -208,6 +208,49 @@ open-heart[count]:not([count="0"])::after{content:attr(count);padding-left:5px}
 .card .last .lt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .card:hover,.card.on{color:var(--pink);border-color:var(--pink)}.card:hover::before,.card.on::before{border-color:var(--pink)}
 
+/* ---- about: character sheet ---- */
+.sheet{display:grid;grid-template-columns:260px minmax(0,1fr);gap:28px 40px;align-items:start}
+.sheet .col{display:flex;flex-direction:column;gap:30px;min-width:0}
+.face-big{width:100%;aspect-ratio:1;border:1px solid var(--blue);background:var(--paper);display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.face-big canvas{width:70%;height:70%;image-rendering:pixelated;mix-blend-mode:multiply}
+.skills{padding-top:18px}
+.skills div{display:grid;grid-template-columns:76px 1fr 34px;align-items:center;gap:10px;font-size:13px;line-height:2}
+.skills .bar{width:100%}
+.skills .trend{color:var(--pink);font-size:11px}
+.soc-win{padding-top:18px}
+.soc{display:flex;gap:6px 14px;flex-wrap:wrap;font-size:12px;letter-spacing:1px}
+.soc a{border-bottom:1px dotted var(--blue)}.soc a:hover{color:var(--pink);border-bottom-color:var(--pink)}
+.art.bio{font-size:14.5px;padding:20px 24px}
+.art.bio>ul{margin:0}
+.art.bio li{margin:.15em 0}
+.art.bio ul ul{margin:.1em 0}
+.art.bio.blogroll>ul{columns:2;column-gap:24px;padding-left:0;list-style:none}
+.art.bio.blogroll>ul>li{break-inside:avoid;padding-left:14px;position:relative;margin:.2em 0}
+.art.bio.blogroll>ul>li:hover::before{content:"▶";position:absolute;left:0;top:0;font-size:9px;color:var(--pink)}
+.art.bio.blogroll>ul>li>a{border:0;font-family:var(--ui);-webkit-font-smoothing:none;color:var(--blue)}
+.art.bio.blogroll>ul>li>a:hover{color:var(--pink)}
+.art.bio.blogroll blockquote.dlgq{margin:0;padding:0;border:0;box-shadow:none;background:none;min-height:0;font-size:11px;opacity:.6}
+.art.bio.blogroll blockquote.dlgq::before,.art.bio.blogroll blockquote.dlgq .face{display:none}
+.art.bio.blogroll blockquote.dlgq p{margin:0}
+.art.bio.changelog>ul{list-style:none;padding:0;font-size:13px}
+.art.bio.changelog>ul>li{display:flex;gap:14px;border-bottom:1px dotted rgba(0,120,191,.35);padding:4px 0}
+.art.bio.changelog>ul>li:last-child{border:0}
+
+/* ---- now: save slots ---- */
+.pagehead.center{flex-direction:column;align-items:center;gap:6px;margin-bottom:34px;text-align:center}
+.slots{display:flex;flex-direction:column;gap:30px;max-width:640px;margin:0 auto}
+.slot{padding:16px 20px 14px 96px;min-height:96px;font-size:14px;line-height:1.7}
+.slot .face{position:absolute;left:14px;top:14px;width:64px;height:60px;border:1px solid var(--blue);background:var(--paper);display:flex;align-items:center;justify-content:center;font-size:30px}
+.slot .face canvas{width:48px;height:45px;image-rendering:pixelated;mix-blend-mode:multiply}
+.slot .when{position:absolute;right:14px;top:-12px}
+.slot.old{opacity:.55}
+.slot .q{font-size:14px}.slot .q>:first-child{margin-top:0}.slot .q>:last-child{margin-bottom:0}
+.slot .q ul{margin:0;padding-left:18px}.slot .q li{margin:.2em 0}
+.slots .empty{text-align:center;font-size:11px;letter-spacing:3px;opacity:.6}
+.nownote{text-align:center;margin-top:36px;font-size:11px;letter-spacing:2px;opacity:.7}
+.nownote a{border-bottom:1px dotted var(--blue)}
+.frame>.cmt{max-width:640px;margin:36px auto 0}
+
 /* ---- big type ---- */
 .big{font-size:40px;letter-spacing:2px;line-height:1.1}
 .mis{position:relative;display:inline-block;line-height:1}
@@ -238,5 +281,8 @@ open-heart[count]:not([count="0"])::after{content:attr(count);padding-left:5px}
   .hide-m{display:none!important}
   .cards{grid-template-columns:1fr 1fr;gap:26px 18px}
   .big{font-size:32px}
+  .sheet{grid-template-columns:1fr}
+  .art.bio.blogroll>ul{columns:1}
+  .slot{padding:26px 16px 14px 16px}.slot .face{display:none}
 }
 @media (max-width:420px){.cards{grid-template-columns:1fr}}
