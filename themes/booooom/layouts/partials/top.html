@@ -1,0 +1,33 @@
+{{- /* Top bar: mini speech-bubble logo · breadcrumb as RPG menu depth · main menu */ -}}
+{{- $crumbs := slice }}
+{{- if .IsPage }}
+  {{- if eq .Section "posts" }}
+    {{- $crumbs = $crumbs | append (dict "name" "記録" "url" (site.GetPage "/posts").RelPermalink) }}
+    {{- $crumbs = $crumbs | append (dict "name" (printf "第%d話" (partial "ep.html" .)) "url" .RelPermalink) }}
+  {{- else }}
+    {{- range site.Menus.main }}{{ if $.IsMenuCurrent "main" . }}{{ $crumbs = $crumbs | append (dict "name" .Name "url" .URL) }}{{ end }}{{ end }}
+    {{- if not $crumbs }}{{ $crumbs = $crumbs | append (dict "name" .Title "url" .RelPermalink) }}{{ end }}
+  {{- end }}
+{{- else if eq .Kind "term" }}
+  {{- $crumbs = $crumbs | append (dict "name" "コマンド" "url" (site.GetPage "/categories").RelPermalink) }}
+  {{- $crumbs = $crumbs | append (dict "name" (partial "cat.html" .).zh "url" .RelPermalink) }}
+{{- else if eq .Kind "taxonomy" }}
+  {{- $crumbs = $crumbs | append (dict "name" "コマンド" "url" .RelPermalink) }}
+{{- else if eq .Kind "section" }}
+  {{- $crumbs = $crumbs | append (dict "name" "記録" "url" .RelPermalink) }}
+{{- else if eq .Kind "404" }}
+  {{- $crumbs = $crumbs | append (dict "name" "???" "url" "") }}
+{{- end }}
+<header class="top">
+  <a class="home" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }}"><span>blah blah</span><i>🤔</i></a>
+  <nav class="crumb" aria-label="breadcrumb">
+    <span><a href="{{ site.Home.RelPermalink }}">ホーム</a></span>
+    {{- range $crumbs }} <i>▸</i> <span>{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</span>{{ end }}
+  </nav>
+  <nav class="menu">
+    {{- range site.Menus.main }}
+    {{- $on := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) (and (eq $.Section "posts") (eq .Identifier "posts")) (and (in (slice "taxonomy" "term") $.Kind) (eq .Identifier "categories")) }}
+    <a href="{{ .URL }}" class="{{ if $on }}on{{ end }}">{{ .Name }}</a>
+    {{- end }}
+  </nav>
+</header>

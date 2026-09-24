@@ -1,0 +1,7 @@
+{{- /* Search index consumed by rpg.js (/ key) */ -}}
+{{- $idx := slice }}
+{{- range (where site.RegularPages "Section" "posts") }}
+  {{- $cat := "" }}{{ with .GetTerms "categories" }}{{ $cat = (partial "cat.html" (index . 0)).zh }}{{ end }}
+  {{- $idx = $idx | append (dict "t" .Title "u" .RelPermalink "d" (.Date.Format "2006.01.02") "c" $cat "ep" (partial "ep.html" .) "s" (.Summary | plainify | truncate 120)) }}
+{{- end }}
+{{- $idx | jsonify }}

@@ -1,0 +1,9 @@
+{{- define "main" }}
+<div class="frame">
+  <div class="w log">
+    <div class="cap">記録 · <b>LOG</b></div>
+    {{- range first 8 (where site.RegularPages "Section" "posts") }}<a href="{{ .RelPermalink }}" style="display:block">{{ .Title }}</a>{{ end }}
+  </div>
+  {{ partial "footer.html" . }}
+</div>
+{{- end }}

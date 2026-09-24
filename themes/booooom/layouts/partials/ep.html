@@ -1,0 +1,3 @@
+{{- /* Episode number of a post: 1 = oldest. Usage: partial "ep.html" $page */ -}}
+{{- $m := partialCached "epmap.html" . }}
+{{- return (index $m .RelPermalink | default 0) }}
