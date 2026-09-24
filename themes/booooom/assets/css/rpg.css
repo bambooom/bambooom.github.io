@@ -32,15 +32,19 @@ canvas.px{image-rendering:pixelated}
 /* ---- top bar (inner pages) ---- */
 .top{max-width:1024px;margin:0 auto;padding:18px 32px 0;display:flex;align-items:center;gap:18px;font-size:12px;letter-spacing:1px}
 .top .home{display:inline-flex;align-items:center;gap:6px;position:relative;padding:4px 10px 4px 8px;border:2px solid var(--blue);border-radius:8px;background:var(--win);box-shadow:3px 3px 0 var(--pink);font-size:12px;font-style:italic;opacity:.95}
-.top .home::after{content:"";position:absolute;left:14px;bottom:-9px;border:5px solid transparent;border-top-color:var(--blue);border-right-width:2px}
+.top .home::before,.top .home::after{content:"";position:absolute;left:12px;border-style:solid;border-color:transparent}
+.top .home::before{bottom:-14px;border-width:8px 3px 6px 8px;border-top-color:var(--blue)}
+.top .home::after{bottom:-9px;left:14px;border-width:6px 2px 4px 6px;border-top-color:var(--win)}
 .top .home i{font-style:normal;font-size:16px;line-height:1}
-.top .crumb{display:flex;gap:8px;align-items:center;opacity:.85}
+.top .crumb{display:flex;gap:8px;align-items:center;opacity:.55;margin-left:6px}
+.top .crumb span:last-child{text-decoration:underline dotted;text-underline-offset:4px}
 .top .crumb span{white-space:nowrap}
 .top .crumb i{font-style:normal;color:var(--pink)}
-.top .menu{margin-left:auto;display:flex;gap:18px}
-.top .menu a{position:relative;padding-left:14px}
+.top .menu{margin-left:auto;display:flex;align-items:center;border:2px solid var(--blue);background:var(--win);box-shadow:3px 3px 0 var(--pink);padding:0 2px}
+.top .menu a{position:relative;padding:5px 12px 5px 24px;border-right:1px dotted var(--blue);line-height:18px}
+.top .menu a:hover{color:var(--pink)}
 .top .menu a.on{color:var(--pink)}
-.top .menu a.on::before{content:"▶";position:absolute;left:0;top:0;font-size:12px;line-height:18px}
+.top .menu a.on::before{content:"▶";position:absolute;left:9px;top:5px;font-size:12px;line-height:18px}
 
 /* ---- page frame ---- */
 /* Sticky footer: body is a flex column, .frame grows to fill, .copy is pushed to the bottom */
@@ -56,7 +60,7 @@ body.page{display:flex;flex-direction:column}
 .log table{width:100%;border-collapse:collapse;font-size:12px}
 .log td{padding:0 6px;height:30px;vertical-align:middle;white-space:nowrap;border-bottom:1px dotted rgba(0,120,191,.45)}
 .log tr:last-child td{border-bottom:0}
-.log td.n{width:66px;opacity:.75;font-size:12px}
+.log td.n{width:80px;min-width:80px;box-sizing:border-box;opacity:.75;font-size:12px}
 .log td.c{width:26px}.log td.c canvas{width:14px;height:14px;image-rendering:pixelated;vertical-align:-2px}
 .log td.t{width:100%;max-width:0}
 .log .mq{overflow:hidden;white-space:nowrap}
@@ -276,9 +280,10 @@ open-heart[count]:not([count="0"])::after{content:attr(count);padding-left:5px}
   .top .crumb{display:none}
   .top .home span{display:none}
   .top .home{padding:4px 8px}
-  .top .menu{gap:12px;white-space:nowrap;overflow-x:auto;scrollbar-width:none;padding:2px 0}
+  .top .menu{white-space:nowrap;overflow-x:auto;scrollbar-width:none}
   .top .menu::-webkit-scrollbar{display:none}
-  .top .menu a{padding-left:12px}
+  .top .menu a{padding:5px 8px 5px 18px}
+  .top .menu a.on::before{left:5px}
   .frame{padding:22px 16px 60px}
   .grid{grid-template-columns:minmax(0,1fr);gap:24px}
   .side{position:static;flex-direction:row;flex-wrap:wrap}
@@ -303,7 +308,7 @@ open-heart[count]:not([count="0"])::after{content:attr(count);padding-left:5px}
 @media (max-width:420px){.cards{grid-template-columns:1fr}}
 
 /* ---- search overlay ---- */
-.top .sbtn{background:none;border:0;color:var(--blue);font:inherit;font-size:16px;line-height:1;cursor:pointer;padding:0 0 0 4px}
+.top .sbtn{background:none;border:0;color:var(--blue);font:inherit;font-size:16px;line-height:1;cursor:pointer;padding:0 8px;height:28px}
 .top .sbtn:hover{color:var(--pink)}
 .search{position:fixed;inset:0;z-index:60;background:rgba(244,239,227,.7);display:flex;align-items:flex-start;justify-content:center;padding:12vh 16px 0}
 .search[hidden]{display:none}
