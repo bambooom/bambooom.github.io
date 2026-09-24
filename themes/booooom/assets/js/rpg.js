@@ -83,7 +83,15 @@
     });
   }
 
-  function init() { drawIcons(); marquee(); keys(); }
+  // Whole LOG row is a link
+  function rows() {
+    document.addEventListener('click', e => {
+      const tr = e.target.closest('tr[data-href]');
+      if (tr && !e.target.closest('a')) location.href = tr.dataset.href;
+    });
+  }
+
+  function init() { drawIcons(); marquee(); keys(); rows(); }
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
   window.addEventListener('resize', () => marquee());
   window.Booooom = { drawIcons, marquee, paint, ICONS, RISO };

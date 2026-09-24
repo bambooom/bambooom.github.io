@@ -1,0 +1,12 @@
+{{- /* LOG table with year chapters. ctx: dict "pages" (Pages) "first" bool (highlight first row) */ -}}
+{{- $since := site.Params.status.since | default 2008 }}
+{{- $year := 0 }}
+<table>
+  {{- range $i, $p := .pages }}
+  {{- $y := $p.Date.Year }}
+  {{- if ne $y $year }}{{ $year = $y }}
+  <tr class="ch" id="y{{ $y }}"><td colspan="4"><span>第{{ add (sub $y $since) 1 }}章 · {{ $y }}</span></td></tr>
+  {{- end }}
+  {{- partial "log-row.html" (dict "page" $p "on" (and $.first (eq $i 0))) }}
+  {{- end }}
+</table>

@@ -1,0 +1,13 @@
+{{- define "main" }}
+{{- $cat := partial "cat.html" . }}
+<div class="frame"><div class="grid">
+  <main>
+    <div class="w log">
+      <div class="cap">記録 · <b>{{ $cat.zh }}</b> · {{ $cat.count }}</div>
+      <canvas class="px corner-icon" data-i="{{ $cat.icon }}" width="12" height="12" aria-hidden="true"></canvas>
+      {{- partial "log-table.html" (dict "pages" .Pages "first" false) }}
+    </div>
+  </main>
+  {{- partial "side-cmd.html" (dict "on" $cat.slug "years" true "yearBase" (site.GetPage "/posts").RelPermalink) }}
+</div>{{ partial "footer.html" . }}</div>
+{{- end }}
