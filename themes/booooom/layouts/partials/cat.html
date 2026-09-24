@@ -1,0 +1,12 @@
+{{- /* Category meta for a term page: dict slug/zh/icon/desc/url/count. Usage: partial "cat.html" $termPage */ -}}
+{{- $slug := path.Base .RelPermalink }}
+{{- $d := index site.Data.categories $slug | default dict }}
+{{- return (dict
+  "slug" $slug
+  "zh" ($d.zh | default .Title)
+  "icon" ($d.icon | default "dia")
+  "desc" ($d.desc | default "")
+  "url" .RelPermalink
+  "count" (len .Pages)
+  "weight" ($d.weight | default 99)
+) }}

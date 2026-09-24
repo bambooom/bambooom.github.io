@@ -1,0 +1,9 @@
+{{- define "main" }}
+<div class="frame">
+  <div class="w cmd" data-nav>
+    <div class="cap">{{ .Title }}</div>
+    {{- range .Pages }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+  </div>
+  {{ partial "footer.html" . }}
+</div>
+{{- end }}

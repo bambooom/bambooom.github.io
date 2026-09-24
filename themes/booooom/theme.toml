@@ -1,0 +1,8 @@
+name = "Booooom"
+license = "MIT"
+description = "JRPG menu x Riso print theme for Blah Blah Booooom"
+homepage = "https://zhuzi.dev"
+min_version = "0.132.0"
+
+[author]
+  name = "bambooom"

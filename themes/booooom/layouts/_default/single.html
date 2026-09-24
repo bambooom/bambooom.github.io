@@ -1,0 +1,9 @@
+{{- define "main" }}
+<div class="frame">
+  <article class="w art">
+    <div class="cap">{{ .Title }}</div>
+    {{ .Content }}
+  </article>
+  {{ partial "footer.html" . }}
+</div>
+{{- end }}

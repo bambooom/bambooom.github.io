@@ -1,0 +1,6 @@
+{{- /* RelPermalink -> episode number, built once per build */ -}}
+{{- $m := dict }}
+{{- range $i, $p := (where site.RegularPages "Section" "posts").ByDate }}
+  {{- $m = merge $m (dict $p.RelPermalink (add $i 1)) }}
+{{- end }}
+{{- return $m }}

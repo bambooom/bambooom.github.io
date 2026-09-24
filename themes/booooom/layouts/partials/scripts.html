@@ -1,0 +1,3 @@
+{{- $js := resources.Get "js/rpg.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{- block "scripts" . }}{{ end }}

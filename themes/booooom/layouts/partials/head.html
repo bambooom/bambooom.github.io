@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{- $title := site.Title }}
+{{- if not .IsHome }}{{ $title = printf "%s · %s" .Title site.Title }}{{ end }}
+<title>{{ $title }}</title>
+{{- $desc := .Description | default (.Summary | default site.Params.description) | plainify | truncate 160 }}
+<meta name="description" content="{{ $desc }}">
+<meta name="author" content="{{ site.Params.author.name }}">
+<meta name="theme-color" content="#f4efe3">
+<link rel="icon" href="{{ "favicon.ico" | relURL }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{- with .OutputFormats.Get "rss" }}
+<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .Permalink }}">
+{{- end }}
+{{- with site.Home.OutputFormats.Get "rss" }}
+{{- if not $.IsHome }}<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .Permalink }}">{{ end }}
+{{- end }}
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta name="twitter:card" content="summary">
+{{- partial "fonts.html" . }}
+{{- $css := resources.Get "css/rpg.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- range site.Params.extraCSS }}
+<link rel="stylesheet" href="{{ . | relURL }}">
+{{- end }}
