@@ -1,6 +1,7 @@
 /* ===== Blah Blah Booooom · JRPG x Riso design system (flow layout, responsive) ===== */
 :root{--paper:#f4efe3;--win:#fbf7ea;--pink:#ff48b0;--blue:#0078bf;--dot:#b9b2a3;--ink:#1f3a52;
-  --ui:"Fusion Pixel","DotGothic16","PingFang SC",monospace;--mono:"IBM Plex Mono","PingFang SC",monospace;--body:"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif}
+  --ui:"Fusion Pixel","DotGothic16","PingFang SC",monospace;--mono:"Victor Mono","PingFang SC","Microsoft YaHei",monospace;--body:"Fira Sans","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC","Noto Sans SC",sans-serif;
+  --code-bg:#1f3a52;--code-fg:#f4efe3}
 *{box-sizing:border-box}
 html,body{margin:0}
 body{overflow-x:hidden;background:var(--paper);color:var(--blue);font-family:var(--ui);-webkit-font-smoothing:none;font-size:12px;min-height:100vh;position:relative;
@@ -140,13 +141,14 @@ body.page{display:flex;flex-direction:column}
 .art em{font-style:italic}
 .art ul,.art ol{padding-left:22px}.art li{margin:.25em 0}
 .art li::marker{color:var(--pink)}
-.art code{font-family:var(--mono);font-size:.88em;background:rgba(0,120,191,.08);padding:1px 5px;border-radius:2px;color:var(--blue)}
-.art .codewin{position:relative;margin:26px 0;background:var(--win);border:3px double var(--blue);box-shadow:5px 5px 0 var(--pink)}
-.art .codewin::before{content:"";position:absolute;inset:3px;border:1px solid var(--blue);pointer-events:none}
+.art code{font-family:var(--mono);font-size:.86em;font-weight:600;background:var(--code-bg);color:var(--code-fg);padding:1px 6px;border-radius:2px;white-space:nowrap}
+.art a code{text-decoration:underline dotted var(--pink);text-underline-offset:3px}
+.art .codewin{position:relative;margin:26px 0;background:var(--code-bg);border:3px double var(--blue);box-shadow:5px 5px 0 var(--pink)}
+.art .codewin::before{content:"";position:absolute;inset:3px;border:1px solid rgba(244,239,227,.25);pointer-events:none}
 .art .codewin .lang{position:absolute;left:12px;top:-10px;background:var(--win);padding:0 6px;font-size:12px;letter-spacing:2px;line-height:16px;border:1px solid var(--blue);font-family:var(--ui);-webkit-font-smoothing:none;color:var(--blue);z-index:1}
-.art .codewin pre{margin:0;padding:22px 16px 14px;font-family:var(--mono);font-size:13px;line-height:1.7;overflow-x:auto;color:var(--ink);background:none;-webkit-font-smoothing:auto}
-.art .codewin code{background:none;padding:0;font-size:inherit;color:inherit}
-.art pre:not(.chroma){margin:26px 0;padding:14px 16px;background:var(--win);border:1px dotted var(--blue);overflow-x:auto;font-family:var(--mono);font-size:13px;line-height:1.7}
+.art .codewin pre{margin:0;padding:22px 16px 14px;font-family:var(--mono);font-size:13px;line-height:1.75;overflow-x:auto;color:var(--code-fg);background:none;-webkit-font-smoothing:auto;scrollbar-color:var(--pink) transparent}
+.art .codewin code{background:none;padding:0;font-size:inherit;font-weight:400;color:inherit;white-space:pre}
+.art pre:not(.chroma){margin:26px 0;padding:14px 16px;background:var(--code-bg);color:var(--code-fg);border:1px dotted var(--blue);overflow-x:auto;font-family:var(--mono);font-size:13px;line-height:1.75}
 .art blockquote.dlgq{position:relative;margin:26px 0;padding:14px 18px 12px 78px;background:var(--win);border:3px double var(--blue);box-shadow:5px 5px 0 var(--pink);font-size:14.5px;min-height:74px}
 .art blockquote.dlgq::before{content:"";position:absolute;inset:3px;border:1px solid var(--blue);pointer-events:none}
 .art blockquote.dlgq .face{position:absolute;left:12px;top:12px;width:50px;height:46px;border:1px solid var(--blue);background:var(--paper);display:flex;align-items:center;justify-content:center;font-family:var(--ui);font-size:24px;color:var(--pink);line-height:1}
