@@ -1,4 +1,64 @@
-{{- /* Comments window — providers wired up in a later step */ -}}
+{{- /* Comments window: provider tabs (Twikoo default · Giscus · Disqus) styled as a command list */ -}}
 <section class="w cmt" id="comments">
   <div class="cap">コメント</div>
+  <div class="tabs cmd" role="tablist">
+    <span class="tip">Leave a comment ·</span>
+    <a href="#twikoo" role="tab" class="on" data-p="twikoo">Twikoo</a>
+    {{- with site.Params.giscus }}<a href="#giscus" role="tab" data-p="giscus">Giscus</a>{{ end }}
+    {{- with site.Config.Services.Disqus.Shortname }}<a href="#disqus" role="tab" data-p="disqus">Disqus</a>{{ end }}
+  </div>
+
+  <div class="prov twikoo" data-p="twikoo">
+    <div id="twikoo-comments"></div>
+  </div>
+  {{- with site.Params.giscus }}
+  <div class="prov giscus" data-p="giscus" hidden></div>
+  {{- end }}
+  {{- with site.Config.Services.Disqus.Shortname }}
+  <div class="prov disqus" data-p="disqus" hidden><div id="disqus_thread"></div></div>
+  {{- end }}
 </section>
+<script>
+(() => {
+  const root = document.getElementById('comments');
+  const tabs = root.querySelectorAll('.tabs a');
+  const loaded = {};
+  const cfg = {
+    twikoo: { envId: {{ site.Params.twikoo.envId | default "" }} },
+    giscus: {{ site.Params.giscus | default dict | jsonify | safeJS }},
+    disqus: {{ site.Config.Services.Disqus.Shortname | default "" }},
+    themeUrl: {{ "css/giscus.css" | absURL }},
+    lang: 'zh-CN'
+  };
+  function load(p) {
+    if (loaded[p]) return; loaded[p] = true;
+    const box = root.querySelector('.prov[data-p="' + p + '"]');
+    if (p === 'twikoo' && cfg.twikoo.envId) {
+      const s = document.createElement('script');
+      s.src = 'https://cdn.jsdelivr.net/npm/twikoo@1.7.24/dist/twikoo.min.js';
+      s.onload = () => twikoo.init({ envId: cfg.twikoo.envId, el: '#twikoo-comments', lang: cfg.lang });
+      document.body.appendChild(s);
+    } else if (p === 'giscus' && cfg.giscus.repo) {
+      const s = document.createElement('script');
+      s.src = 'https://giscus.app/client.js'; s.async = true; s.crossOrigin = 'anonymous';
+      Object.entries({ repo: cfg.giscus.repo, 'repo-id': cfg.giscus.repoId, category: cfg.giscus.category, 'category-id': cfg.giscus.categoryId,
+        mapping: 'pathname', strict: '0', 'reactions-enabled': '1', 'emit-metadata': '0', 'input-position': 'bottom',
+        theme: cfg.themeUrl, lang: cfg.lang, loading: 'lazy' }).forEach(([k, v]) => s.setAttribute('data-' + k, v));
+      box.appendChild(s);
+    } else if (p === 'disqus' && cfg.disqus) {
+      const s = document.createElement('script');
+      s.src = 'https://' + cfg.disqus + '.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date());
+      document.body.appendChild(s);
+    }
+  }
+  function show(p) {
+    tabs.forEach(t => t.classList.toggle('on', t.dataset.p === p));
+    root.querySelectorAll('.prov').forEach(b => b.hidden = b.dataset.p !== p);
+    load(p);
+  }
+  tabs.forEach(t => t.addEventListener('click', e => { e.preventDefault(); show(t.dataset.p); }));
+  // lazy: start loading the default provider when the window scrolls into view
+  const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { show('twikoo'); io.disconnect(); } }, { rootMargin: '400px' });
+  io.observe(root);
+})();
+</script>

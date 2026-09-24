@@ -1,0 +1,162 @@
+/* giscus custom theme — Blah Blah Booooom (Riso pink/blue on paper). Loaded inside the giscus iframe via data-theme=<url>. */
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=IBM+Plex+Mono:wght@400;600&display=swap");
+
+main {
+  --color-prettylights-syntax-comment: #6a7f8c;
+  --color-prettylights-syntax-constant: #0078bf;
+  --color-prettylights-syntax-entity: #0078bf;
+  --color-prettylights-syntax-storage-modifier-import: #1f3a52;
+  --color-prettylights-syntax-entity-tag: #ff48b0;
+  --color-prettylights-syntax-keyword: #ff48b0;
+  --color-prettylights-syntax-string: #2a8c5a;
+  --color-prettylights-syntax-variable: #0078bf;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #ff48b0;
+  --color-prettylights-syntax-invalid-illegal-text: #fbf7ea;
+  --color-prettylights-syntax-invalid-illegal-bg: #ff48b0;
+  --color-prettylights-syntax-carriage-return-text: #fbf7ea;
+  --color-prettylights-syntax-carriage-return-bg: #ff48b0;
+  --color-prettylights-syntax-string-regexp: #2a8c5a;
+  --color-prettylights-syntax-markup-list: #1f3a52;
+  --color-prettylights-syntax-markup-heading: #0078bf;
+  --color-prettylights-syntax-markup-italic: #1f3a52;
+  --color-prettylights-syntax-markup-bold: #1f3a52;
+  --color-prettylights-syntax-markup-deleted-text: #ff48b0;
+  --color-prettylights-syntax-markup-deleted-bg: #fde6f3;
+  --color-prettylights-syntax-markup-inserted-text: #2a8c5a;
+  --color-prettylights-syntax-markup-inserted-bg: #e6f3ec;
+  --color-prettylights-syntax-markup-changed-text: #0078bf;
+  --color-prettylights-syntax-markup-changed-bg: #e3f0f9;
+  --color-prettylights-syntax-markup-ignored-text: #6a7f8c;
+  --color-prettylights-syntax-markup-ignored-bg: #0078bf;
+  --color-prettylights-syntax-meta-diff-range: #ff48b0;
+  --color-prettylights-syntax-brackethighlighter-angle: #6a7f8c;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #b9b2a3;
+  --color-prettylights-syntax-constant-other-reference-link: #0078bf;
+
+  --color-btn-text: #0078bf;
+  --color-btn-bg: #fbf7ea;
+  --color-btn-border: #0078bf;
+  --color-btn-shadow: 3px 3px 0 #ff48b0;
+  --color-btn-inset-shadow: none;
+  --color-btn-hover-bg: #ff48b0;
+  --color-btn-hover-border: #ff48b0;
+  --color-btn-active-bg: #ff48b0;
+  --color-btn-active-border: #ff48b0;
+  --color-btn-selected-bg: #fde6f3;
+  --color-btn-primary-text: #fbf7ea;
+  --color-btn-primary-bg: #ff48b0;
+  --color-btn-primary-border: #ff48b0;
+  --color-btn-primary-shadow: 3px 3px 0 #0078bf;
+  --color-btn-primary-inset-shadow: none;
+  --color-btn-primary-hover-bg: #0078bf;
+  --color-btn-primary-hover-border: #0078bf;
+  --color-btn-primary-selected-bg: #0078bf;
+  --color-btn-primary-selected-shadow: none;
+  --color-btn-primary-disabled-text: rgba(251, 247, 234, 0.7);
+  --color-btn-primary-disabled-bg: #f7a6d5;
+  --color-btn-primary-disabled-border: #f7a6d5;
+
+  --color-action-list-item-default-hover-bg: rgba(0, 120, 191, 0.08);
+  --color-segmented-control-bg: #f4efe3;
+  --color-segmented-control-button-bg: #fbf7ea;
+  --color-segmented-control-button-selected-border: #0078bf;
+
+  --color-fg-default: #1f3a52;
+  --color-fg-muted: #4b6577;
+  --color-fg-subtle: #7d8f9c;
+  --color-canvas-default: #fbf7ea;
+  --color-canvas-overlay: #fbf7ea;
+  --color-canvas-inset: #f4efe3;
+  --color-canvas-subtle: #f4efe3;
+  --color-border-default: #0078bf;
+  --color-border-muted: rgba(0, 120, 191, 0.35);
+  --color-neutral-muted: rgba(0, 120, 191, 0.08);
+  --color-accent-fg: #0078bf;
+  --color-accent-emphasis: #ff48b0;
+  --color-accent-muted: rgba(255, 72, 176, 0.35);
+  --color-accent-subtle: #fde6f3;
+  --color-success-fg: #2a8c5a;
+  --color-attention-fg: #b07a00;
+  --color-attention-muted: rgba(176, 122, 0, 0.35);
+  --color-attention-subtle: #fff4d6;
+  --color-danger-fg: #ff48b0;
+  --color-danger-muted: rgba(255, 72, 176, 0.35);
+  --color-danger-subtle: #fde6f3;
+  --color-primer-shadow-inset: none;
+  --color-scale-gray-7: #1f3a52;
+  --color-scale-blue-8: #0078bf;
+
+  /*! Riso-ness */
+  --color-social-reaction-bg-hover: #fde6f3;
+  --color-social-reaction-bg-reacted-hover: #f7a6d5;
+
+  font-family: "IBM Plex Mono", "PingFang SC", monospace;
+  color: var(--color-fg-default);
+}
+
+main .gsc-comment-box,
+main .gsc-comment > div,
+main .gsc-reply-box {
+  border: 3px double #0078bf !important;
+  border-radius: 0 !important;
+  box-shadow: 4px 4px 0 #ff48b0;
+  background: #fbf7ea;
+}
+main .gsc-comment-box-tabs,
+main .gsc-comment-header {
+  border-bottom: 1px dotted rgba(0, 120, 191, 0.5) !important;
+  border-radius: 0 !important;
+  background: #f4efe3 !important;
+}
+main .gsc-comments > .gsc-header,
+main .gsc-comment-author,
+main .gsc-comment-box-tabs button,
+main .gsc-reactions-count,
+main .gsc-left-header,
+main .gsc-comments-count,
+main .gsc-replies-count {
+  font-family: "DotGothic16", "PingFang SC", monospace;
+  letter-spacing: 1px;
+}
+main .gsc-comment-author-avatar img,
+main .gsc-reply-author-avatar img {
+  border-radius: 0 !important;
+  border: 1px solid #0078bf;
+  image-rendering: pixelated;
+}
+main .gsc-comment-box-textarea,
+main .gsc-comment-box-preview {
+  border-radius: 0 !important;
+  border: 1px dotted #0078bf !important;
+  background: #fbf7ea !important;
+}
+main .gsc-comment-box-textarea:focus {
+  box-shadow: none !important;
+  border-style: solid !important;
+  border-color: #ff48b0 !important;
+}
+main .gsc-reaction-button,
+main .gsc-social-reaction-summary-item {
+  border-radius: 0 !important;
+  border: 1px solid #0078bf !important;
+  background: #fbf7ea !important;
+}
+main .gsc-social-reaction-summary-item.has-reacted {
+  border-color: #ff48b0 !important;
+  background: #fde6f3 !important;
+}
+main .gsc-comment-box-tabs button.color-text-primary,
+main .gsc-comment-box-tabs button[aria-selected="true"] {
+  color: #ff48b0 !important;
+}
+main a { color: #0078bf; }
+main a:hover { color: #ff48b0; }
+main .btn,
+main button {
+  border-radius: 0 !important;
+  font-family: "DotGothic16", "PingFang SC", monospace;
+  letter-spacing: 1px;
+}
+main .gsc-timeline > * + * {
+  margin-top: 28px;
+}
