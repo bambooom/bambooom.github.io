@@ -1,9 +1,86 @@
+{{- define "bodyclass" }}home{{ end }}
+{{- /* Go ignores empty/whitespace-only defines, so emit an empty string to override */ -}}
+{{- define "top" }}{{ "" }}{{ end }}
+{{- define "hintbar" }}{{ "" }}{{ end }}
+{{- define "head" }}
+{{- $css := resources.Get "css/home.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- end }}
 {{- define "main" }}
-<div class="frame">
-  <div class="w log">
-    <div class="cap">記録 · <b>LOG</b></div>
-    {{- range first 8 (where site.RegularPages "Section" "posts") }}<a href="{{ .RelPermalink }}" style="display:block">{{ .Title }}</a>{{ end }}
-  </div>
-  {{ partial "footer.html" . }}
+{{- $posts := where site.RegularPages "Section" "posts" }}
+{{- $st := site.Params.status }}
+{{- $since := $st.since | default 2008 }}
+{{- $latest := index $posts 0 }}
+{{- $nowPage := site.GetPage "/now" }}
+{{- $nowMain := site.Params.now }}{{ $nowSub := "" }}
+{{- if and (not $nowMain) $nowPage }}
+  {{- $lis := findRE `(?s)<li>.*?</li>` $nowPage.Content }}
+  {{- with $lis }}{{ $nowMain = index . 0 | plainify | strings.TrimSpace }}{{ end }}
+  {{- $rest := replaceRE `(?s)<ul>.*?</ul>` "" $nowPage.Content | plainify | strings.TrimSpace }}
+  {{- $nowSub = $rest }}
+{{- end }}
+<div class="stage" id="stage">
+
+  {{/* ---- title: speech bubble, 🤔 → 🤯 on hover ---- */}}
+  <a class="bubble" href="{{ site.Home.RelPermalink }}" id="bubble" aria-label="{{ site.Title }}">
+    <svg class="shape" viewBox="0 0 240 100" width="240" height="100" aria-hidden="true">
+      <path class="shadow" transform="translate(5,5)" d="M18 8 H222 a10 10 0 0 1 10 10 V64 a10 10 0 0 1 -10 10 H128 L116 92 L110 74 H18 a10 10 0 0 1 -10 -10 V18 a10 10 0 0 1 10 -10 Z"/>
+      <path class="body" d="M18 8 H222 a10 10 0 0 1 10 10 V64 a10 10 0 0 1 -10 10 H128 L116 92 L110 74 H18 a10 10 0 0 1 -10 -10 V18 a10 10 0 0 1 10 -10 Z"/>
+      <path class="line" d="M18 8 H222 a10 10 0 0 1 10 10 V64 a10 10 0 0 1 -10 10 H128 L116 92 L110 74 H18 a10 10 0 0 1 -10 -10 V18 a10 10 0 0 1 10 -10 Z"/>
+    </svg>
+    <div class="ticker mono" id="ticker" aria-hidden="true"></div>
+    <span class="emo">🤔</span>
+    <span class="pop" id="pop" aria-hidden="true"><span class="emo2">🤯</span></span>
+    <span class="sr">{{ site.Title }}</span>
+  </a>
+
+  {{/* ---- 記録 · LOG ---- */}}
+  <section class="w log" aria-label="記録">
+    <div class="cap">記録 · <b>LOG</b> · {{ len $posts }}</div>
+    <table>
+      {{- range $i, $p := first 7 $posts }}{{ partial "log-row.html" (dict "page" $p "on" (eq $i 0)) }}{{ end }}
+    </table>
+    <div class="more"><a href="{{ (site.GetPage "/posts").RelPermalink }}">全部記録 →</a></div>
+  </section>
+  <div class="tape" aria-hidden="true">&lt;/&gt; &lt;/&gt; &lt;/&gt; &lt;/&gt;</div>
+  <span class="hanko save" aria-hidden="true">SAVE OK</span>
+
+  {{/* ---- vertical controls hint ---- */}}
+  <div class="hint" aria-hidden="true"><span>▲▼ 選択</span><span>A 決定</span><span>B 戻る</span><span>START メニュー</span></div>
+
+  {{/* ---- コマンド ---- */}}
+  <nav class="w cmd" data-nav aria-label="コマンド">
+    <div class="cap">コマンド</div>
+    {{- range $i, $c := partial "cats.html" . }}
+    <a href="{{ $c.url }}"{{ if eq $i 0 }} class="on"{{ end }}>{{ $c.zh }}<small>{{ $c.count }}</small></a>
+    {{- end }}
+    <a href="{{ (site.GetPage "/posts").RelPermalink }}" class="all">全部記録</a>
+  </nav>
+
+  {{/* ---- STATUS ---- */}}
+  <a class="w status" href="{{ (site.GetPage "/about").RelPermalink }}" aria-label="STATUS">
+    <div class="cap">STATUS · <b>{{ $st.name }}</b></div>
+    <div><span>Lv.</span><span>{{ add (sub now.Year $since) 1 }} <small>年目</small></span></div>
+    <div><span>EXP</span><span>{{ len $posts }} <small>話</small></span></div>
+    <div><span>最終セーブ</span><span class="mono">{{ $latest.Date.Format "2006.01.02" }}</span></div>
+    <div><span>所在地</span><span>{{ $st.location }}</span></div>
+    <div><span>状態</span><span>{{ $st.state }}</span></div>
+  </a>
+
+  {{/* ---- NOW dialogue ---- */}}
+  <a class="w dlg" href="{{ with $nowPage }}{{ .RelPermalink }}{{ else }}#{{ end }}" aria-label="NOW">
+    <span class="cap pink">NOW</span>
+    <div class="face"><canvas data-take width="15" height="14" aria-hidden="true"></canvas></div>
+    <div class="txt">{{ $nowMain }}{{ with $nowSub }}<em>{{ . }}</em>{{ end }}</div>
+    <div class="next">▼</div>
+  </a>
+  <canvas class="pxstk heart" data-i="heart" width="11" height="10" aria-hidden="true"></canvas>
+
+  <a class="tbc" href="{{ (site.GetPage "/posts").RelPermalink }}"><span class="cur">▶</span>つづく<small>TO BE CONTINUED</small></a>
+  <div class="copy">© 2008–{{ now.Year }} ZHUZI.DEV</div>
 </div>
+{{- end }}
+{{- define "scripts" }}
+{{- $js := resources.Get "js/home.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 {{- end }}
