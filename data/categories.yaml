@@ -18,7 +18,7 @@ memo:
 tech:
   zh: 技术
   icon: tech
-  desc: 前端相关的折腾
+  desc: 菜鸡的一些记录
   weight: 4
 learning:
   zh: 学习
@@ -31,12 +31,12 @@ entertainment:
   desc: ACG · 日剧 · 综艺 · BL
   weight: 6
 summary:
-  zh: 年终总结
+  zh: 年终
   icon: sum
   desc: 每年一次的回头看
   weight: 7
 side-project:
   zh: 折腾
   icon: tech
-  desc: 博客搬家、图床、Notion 表格
+  desc: 有用无用的一些小小的 side project
   weight: 8
