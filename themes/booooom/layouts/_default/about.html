@@ -41,10 +41,11 @@
       {{- $key := lower $title }}
       <section class="w art bio {{ $key | urlize }}" id="{{ $title | urlize }}">
         <div class="cap">{{ index $names $key | default $title | safeHTML }}</div>
+        {{- if eq $key "about me" }}<span class="stamp when">{{ $.Date.Format "2006.01.02" }}</span>{{ end }}
         {{ $body | safeHTML }}
       </section>
     {{- else }}
-      <section class="w art bio"><div class="cap">プロフィール</div>{{ .Content }}</section>
+      <section class="w art bio"><div class="cap">プロフィール</div><span class="stamp when">{{ .Date.Format "2006.01.02" }}</span>{{ .Content }}</section>
     {{- end }}
     {{- if (.Param "comments") }}{{ partial "comments.html" . }}{{ end }}
   </main>
