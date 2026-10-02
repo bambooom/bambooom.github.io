@@ -1,45 +1,6 @@
-/* Booooom theme runtime: pixel icons, 竹 avatar, marquee overflow, keyboard nav */
+/* Booooom theme runtime: marquee overflow, keyboard nav, search. Pixel icons are an SVG sprite (partials/icons-sprite.html). */
 (() => {
   'use strict';
-  const RISO = { pink: '#ff48b0', blue: '#0078bf' };
-
-  // 12x12 pixel icons. b = blue, p = pink, . = transparent
-  const ICONS = {
-    trv: ['............', '....bbbb....', '...b....b...', '.bbbbbbbbbb.', '.b........b.', '.b.pp..pp.b.', '.b........b.', '.b.pppppp.b.', '.b........b.', '.b........b.', '.bbbbbbbbbb.', '............'],
-    tech: ['bbbbbbbbbbb.', 'b.bbbbbb..b.', 'b.b....b..bb', 'b.bbbbbb...b', 'b..........b', 'b..........b', 'b.bbbbbbbb.b', 'b.b......b.b', 'b.b.pppp.b.b', 'b.b.pppp.b.b', 'bbbbbbbbbbbb', '............'],
-    lrn: ['............', '.bbbbb.bbbbb', 'b.....b....b', 'b.ppp.b.pp.b', 'b.....b....b', 'b.ppp.b.pp.b', 'b.....b....b', 'b.ppp.b.pp.b', 'b.....b....b', '.bbbbbbbbbb.', '.....b......', '............'],
-    sum: ['............', '.bbbbbbbbbb.', '.bbbbbbbbbb.', '.b........b.', '.b.pp.b.b.b.', '.b........b.', '.b.b.pp.b.b.', '.b........b.', '.b.b.b.pp.b.', '.b........b.', '.bbbbbbbbbb.', '............'],
-    dia: ['............', '.........bb.', '........bppb', '.......bppb.', '......bppb..', '.....bppb...', '....bppb....', '...bbpb.....', '...bbb......', '............', '.bbbbbbbbbb.', '............'],
-    ent: ['............', '...b....b...', '....b..b....', '.bbbbbbbbbb.', '.b........b.', '.b.pppppp.b.', '.b.pppppp.b.', '.b.pppppp.b.', '.b........b.', '.bbbbbbbbbb.', '...bb..bb...', '............'],
-    heart: ['.bb...bb...', 'bppb.bppb..', 'bpppbpppb..', 'bpppppppb..', '.bpppppb...', '..bpppb....', '...bpb.....', '....b......', '...........', '...........'],
-  };
-  // 14x13 「竹」 avatar, drawn twice with misregistration (pink under blue)
-  const TAKE = ['....b......b..', '...b......b...', '..bbbbb..bbbbb', '.b..b...b..b..', 'b...b..b...b..', '....b......b..', '....b......b..', '....b......b..', '....b......b..', '....b......b..', '....b.....bb..', '....b....bb...', '..............'];
-
-  function paint(canvas, rows, dx = 0, dy = 0, color) {
-    const x = canvas.getContext('2d');
-    rows.forEach((r, y) => [...r].forEach((ch, xx) => {
-      if (ch === '.') return;
-      x.fillStyle = color || (ch === 'p' ? RISO.pink : RISO.blue);
-      x.fillRect(xx + dx, y + dy, 1, 1);
-    }));
-  }
-
-  function drawIcons(root = document) {
-    root.querySelectorAll('canvas[data-i]').forEach(c => {
-      const rows = ICONS[c.dataset.i];
-      if (!rows || c.dataset.done) return;
-      c.width = rows[0].length; c.height = rows.length; c.dataset.done = 1;
-      paint(c, rows);
-    });
-    root.querySelectorAll('canvas[data-take]').forEach(c => {
-      if (c.dataset.done) return;
-      c.width = 15; c.height = 14; c.dataset.done = 1;
-      paint(c, TAKE, 1, 1, RISO.pink);
-      paint(c, TAKE, 0, 0, RISO.blue);
-    });
-  }
-
   // Titles wider than their cell: fade mask at rest, marquee on hover
   function marquee(root = document) {
     root.querySelectorAll('.log .mq').forEach(m => {
@@ -126,9 +87,9 @@
     if (location.hash === '#search') open();
   }
 
-  function init() { drawIcons(); marquee(); keys(); rows(); search(); }
+  function init() { marquee(); keys(); rows(); search(); }
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
   window.addEventListener('resize', () => marquee());
   if (document.fonts) document.fonts.ready.then(() => marquee());
-  window.Booooom = { drawIcons, marquee, paint, ICONS, RISO };
+  window.Booooom = { marquee };
 })();

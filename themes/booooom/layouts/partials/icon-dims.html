@@ -1,0 +1,4 @@
+{{- /* Returns dict "w" "h" for an icon id (the 竹 avatar gets +1 for its misregistration offset) */ -}}
+{{- $rows := index site.Data.icons . }}
+{{- $extra := cond (eq . "take") 1 0 }}
+{{- return (dict "w" (add (len (index $rows 0)) $extra) "h" (add (len $rows) $extra)) }}

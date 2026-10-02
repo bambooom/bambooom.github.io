@@ -6,7 +6,7 @@
     <div class="w dlg slot cur">
       <span class="cap pink">SLOT 01 · 現在</span>
       <span class="stamp when">{{ $upd }}</span>
-      <div class="face"><canvas data-take width="15" height="14" aria-hidden="true"></canvas></div>
+      <div class="face">{{ partial "icon.html" (dict "id" "take") }}</div>
       <div class="art q">{{ .Content }}</div>
       <div class="next blink">▼</div>
     </div>

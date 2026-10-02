@@ -1,0 +1,3 @@
+{{- /* Inline pixel icon via the sprite. ctx: dict "id" string "class" string (optional) */ -}}
+{{- $d := partial "icon-dims.html" .id -}}
+<svg class="px{{ with .class }} {{ . }}{{ end }}" viewBox="0 0 {{ $d.w }} {{ $d.h }}" shape-rendering="crispEdges" aria-hidden="true"><use href="#i-{{ .id }}"/></svg>

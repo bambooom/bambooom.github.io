@@ -10,7 +10,7 @@
   <aside class="col">
     <div class="w status">
       <div class="cap">STATUS · <b>{{ $st.name }}</b></div>
-      <div class="face-big"><canvas data-take width="15" height="14" aria-hidden="true"></canvas></div>
+      <div class="face-big">{{ partial "icon.html" (dict "id" "take") }}</div>
       <div><span>名前</span><span>{{ $st.name }} / Bamboo</span></div>
       <div><span>Lv.</span><span>{{ add (sub now.Year $since) 1 }} <small>年目</small></span></div>
       <div><span>EXP</span><span>{{ len $posts }} <small>話</small></span></div>

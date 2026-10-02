@@ -7,7 +7,7 @@
     {{- $latest := index (site.GetPage (printf "/categories/%s" .slug)).Pages 0 }}
     <a href="{{ .url }}" class="w card">
       <div class="cap">{{ .zh }} · <b>{{ .count }}</b></div>
-      <canvas class="px" data-i="{{ .icon }}" width="12" height="12" aria-hidden="true"></canvas>
+      {{ partial "icon.html" (dict "id" .icon) }}
       <div class="desc">{{ .desc }}</div>
       {{- with $latest }}<div class="last"><span class="stamp">{{ .Date.Format "2006.01.02" }}</span><span class="lt">{{ .Title }}</span></div>{{ end }}
     </a>

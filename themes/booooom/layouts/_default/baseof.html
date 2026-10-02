@@ -5,6 +5,7 @@
   {{- block "head" . }}{{ end }}
 </head>
 <body class="{{ block "bodyclass" . }}page{{ end }}">
+  {{- partial "icons-sprite.html" . }}
   {{- block "top" . }}{{ partial "top.html" . }}{{ end }}
   {{- block "main" . }}{{ end }}
   {{- block "hintbar" . }}{{ partial "hintbar.html" . }}{{ end }}

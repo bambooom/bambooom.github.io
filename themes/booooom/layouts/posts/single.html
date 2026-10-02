@@ -14,7 +14,7 @@
       <h1>{{ .Title }}</h1>
       <div class="meta">
         <span><i class="stamp">{{ .Date.Format "2006.01.02" }}</i></span>
-        {{- with $cat.zh }}<a href="{{ $cat.url }}"><canvas class="px" data-i="{{ $cat.icon }}" width="12" height="12" aria-hidden="true"></canvas>{{ . }}</a>{{ end }}
+        {{- with $cat.zh }}<a href="{{ $cat.url }}">{{ partial "icon.html" (dict "id" $cat.icon) }}{{ . }}</a>{{ end }}
         <span>所要時間 {{ .ReadingTime }} min</span>
         <span>{{ .WordCount | lang.FormatNumberCustom 0 }} 字</span>
         {{- if and .GitInfo (ne (.Lastmod.Format "2006.01.02") (.Date.Format "2006.01.02")) }}<span class="upd">更新 {{ .Lastmod.Format "2006.01.02" }}</span>{{ end }}

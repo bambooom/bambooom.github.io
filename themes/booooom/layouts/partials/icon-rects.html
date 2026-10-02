@@ -1,0 +1,13 @@
+{{- /* Emit <rect>s for a pixel bitmap, merging horizontal runs.
+       ctx: dict "rows" []string  "dx" int  "dy" int  "fill" string (optional: force one colour) */ -}}
+{{- $dx := .dx | default 0 }}{{ $dy := .dy | default 0 }}{{ $fixed := .fill }}
+{{- range $y, $row := .rows }}
+  {{- $chars := split $row "" }}{{ $cur := "." }}{{ $start := 0 }}
+  {{- range $x, $ch := $chars }}
+    {{- if ne $ch $cur }}
+      {{- if ne $cur "." }}<rect x="{{ add $start $dx }}" y="{{ add $y $dy }}" width="{{ sub $x $start }}" height="1" fill="{{ $fixed | default (cond (eq $cur "p") "var(--ip,#ff48b0)" "var(--ib,#0078bf)") }}"/>{{ end }}
+      {{- $cur = $ch }}{{ $start = $x }}
+    {{- end }}
+  {{- end }}
+  {{- if ne $cur "." }}<rect x="{{ add $start $dx }}" y="{{ add $y $dy }}" width="{{ sub (len $chars) $start }}" height="1" fill="{{ $fixed | default (cond (eq $cur "p") "var(--ip,#ff48b0)" "var(--ib,#0078bf)") }}"/>{{ end }}
+{{- end }}

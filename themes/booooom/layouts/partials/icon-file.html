@@ -1,0 +1,11 @@
+{{- /* Publish a standalone /icons/<id>.svg (fixed Riso colours) and return its URL. */ -}}
+{{- $rows := index site.Data.icons . }}
+{{- $d := partial "icon-dims.html" . }}
+{{- $body := "" }}
+{{- if eq . "take" }}
+  {{- $body = printf "%s%s" (partial "icon-rects.html" (dict "rows" $rows "dx" 1 "dy" 1 "fill" "#ff48b0")) (partial "icon-rects.html" (dict "rows" $rows "fill" "#0078bf")) }}
+{{- else }}
+  {{- $body = partial "icon-rects.html" (dict "rows" $rows) }}
+{{- end }}
+{{- $svg := printf `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" shape-rendering="crispEdges">%s</svg>` $d.w $d.h $body }}
+{{- return (resources.FromString (printf "icons/%s.svg" .) $svg).RelPermalink }}

@@ -1,5 +1,5 @@
 # Category display meta, keyed by term slug (urlized category name).
-# icon: pixel icon id drawn by assets/js/rpg.js
+# icon: pixel icon id from data/icons.yaml
 travel:
   zh: 旅行
   icon: trv
@@ -12,7 +12,7 @@ diary:
   weight: 2
 memo:
   zh: 随笔
-  icon: dia
+  icon: memo
   desc: 随手记下的杂七杂八
   weight: 3
 tech:
@@ -37,6 +37,6 @@ summary:
   weight: 7
 side-project:
   zh: 折腾
-  icon: tech
+  icon: side
   desc: 有用无用的一些小小的 side project
   weight: 8

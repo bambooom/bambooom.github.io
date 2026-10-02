@@ -1,0 +1,16 @@
+{{- /* Hidden SVG sprite with one <symbol> per icon in data/icons.yaml. Colours are CSS vars (--ib blue, --ip pink)
+       so a hovered LOG row can repaint its icon. Also publishes each icon as /icons/<id>.svg. */ -}}
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true">
+{{- range $id, $rows := site.Data.icons }}
+  {{- $d := partial "icon-dims.html" $id }}
+  <symbol id="i-{{ $id }}" viewBox="0 0 {{ $d.w }} {{ $d.h }}">
+    {{- if eq $id "take" }}
+      {{- partial "icon-rects.html" (dict "rows" $rows "dx" 1 "dy" 1 "fill" "var(--ip,#ff48b0)") }}
+      {{- partial "icon-rects.html" (dict "rows" $rows "fill" "var(--ib,#0078bf)") }}
+    {{- else }}
+      {{- partial "icon-rects.html" (dict "rows" $rows) }}
+    {{- end }}
+  </symbol>
+  {{- $_ := partial "icon-file.html" $id }}
+{{- end }}
+</svg>

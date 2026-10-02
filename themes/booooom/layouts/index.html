@@ -70,11 +70,11 @@
   {{/* ---- NOW dialogue ---- */}}
   <a class="w dlg" href="{{ with $nowPage }}{{ .RelPermalink }}{{ else }}#{{ end }}" aria-label="NOW">
     <span class="cap pink">NOW</span>
-    <div class="face"><canvas data-take width="15" height="14" aria-hidden="true"></canvas></div>
+    <div class="face">{{ partial "icon.html" (dict "id" "take") }}</div>
     <div class="txt">{{ $nowMain }}{{ with $nowSub }}<em>{{ . }}</em>{{ end }}</div>
     <div class="next">▼</div>
   </a>
-  <canvas class="pxstk heart" data-i="heart" width="11" height="10" aria-hidden="true"></canvas>
+  {{ partial "icon.html" (dict "id" "heart" "class" "pxstk heart") }}
 
   <a class="tbc" href="{{ (site.GetPage "/posts").RelPermalink }}"><span class="cur">▶</span>つづく<small>TO BE CONTINUED</small></a>
   <div class="copy">© 2008–{{ now.Year }} zhuzi.dev</div>

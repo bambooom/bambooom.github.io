@@ -4,7 +4,7 @@
   <main>
     <div class="w log">
       <div class="cap">記録 · <b>{{ $cat.zh }}</b> · {{ $cat.count }}</div>
-      <canvas class="px corner-icon" data-i="{{ $cat.icon }}" width="12" height="12" aria-hidden="true"></canvas>
+      {{ partial "icon.html" (dict "id" $cat.icon "class" "corner-icon") }}
       {{- partial "log-table.html" (dict "pages" .Pages "first" false) }}
     </div>
   </main>
