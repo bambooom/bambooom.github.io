@@ -56,17 +56,19 @@ params:
     since: 2008
     location: 深圳
     state: 找回正轨中
-    job: 菜鸡前端
+    job: 前菜鸡前端+现无业游民
     zodiac: ♍️ 越来越处女座
     mood: 社恐（线上话唠）
   # スキル bars on /about (0–100)
   skills:
-    - { name: 前端, value: 45 }
-    - { name: ACG, value: 82 }
-    - { name: BL 漫, value: 90 }
-    - { name: 追星, value: 30 }
-    - { name: 游戏, value: 20 }
-    - { name: 读书, value: 35, trend: "↑" }
+    - { name: 前端, value: 70 }
+    - { name: ACG, value: 95 }
+    - { name: BL, value: 85 }
+    - { name: 手帐, value: 50, trend: "↑" }
+    - { name: 读书, value: 40, trend: "↑" }
+    - { name: 游戏, value: 30 }
+    - { name: お笑い, value: 30 }
+    - { name: 追星, value: 10, trend: "↓" }
   # NOW dialogue on home (first lines of /now are used if empty)
   now: ""
 

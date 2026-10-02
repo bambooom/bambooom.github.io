@@ -6,7 +6,7 @@
 {{- $names := dict "about me" "プロフィール · <b>ABOUT</b>" "blogroll" "仲間 · <b>BLOGROLL</b>" "changelog" "履歴 · <b>CHANGELOG</b>" }}
 {{- $parts := after 1 (split .Content "<h3") }}
 <div class="frame">
- <div class="sheet">
+<div class="sheet">
   <aside class="col">
     <div class="w status">
       <div class="cap">STATUS · <b>{{ $st.name }}</b></div>
@@ -48,7 +48,7 @@
     {{- end }}
     {{- if (.Param "comments") }}{{ partial "comments.html" . }}{{ end }}
   </main>
- </div>
- {{ partial "footer.html" . }}
+</div>
+{{ partial "footer.html" . }}
 </div>
 {{- end }}

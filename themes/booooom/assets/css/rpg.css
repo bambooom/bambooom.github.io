@@ -100,7 +100,7 @@ body.page{display:flex;flex-direction:column}
 
 /* ---- status window ---- */
 .status{font-size:12px;line-height:2.1}
-.status div{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.status div:not(.face-big){display:flex;justify-content:space-between;align-items:center;gap:8px}
 .status small{font-size:12px;opacity:.7}
 .bar{display:inline-block;width:96px;height:9px;border:1.5px solid var(--blue);position:relative}
 .bar i{position:absolute;left:0;top:0;bottom:0;background:var(--pink);mix-blend-mode:multiply}
@@ -229,20 +229,20 @@ open-heart[count]:not([count="0"])::after{content:attr(count);padding-left:5px}
 .soc-win{padding-top:18px}
 .soc{display:flex;gap:6px 14px;flex-wrap:wrap;font-size:12px;letter-spacing:1px}
 .soc a{border-bottom:1px dotted var(--blue)}.soc a:hover{color:var(--pink);border-bottom-color:var(--pink)}
-.art.bio{font-size:14.5px;padding:20px 24px}
+.art.bio{font-family: var(--ui);font-size:14.5px;padding:20px 24px}
 .art.bio>ul{margin:0}
 .art.bio li{margin:.15em 0}
 .art.bio ul ul{margin:.1em 0}
-.art.bio.blogroll>ul{columns:2;column-gap:24px;padding-left:0;list-style:none}
+.art.bio.blogroll>ul{display: grid;grid-template-columns: repeat(2, 1fr);padding-left:0;list-style:none}
 .art.bio.blogroll>ul>li{break-inside:avoid;padding-left:14px;position:relative;margin:.2em 0}
-.art.bio.blogroll>ul>li:hover::before{content:"▶";position:absolute;left:0;top:0;font-size:12px;color:var(--pink)}
+.art.bio.blogroll>ul>li:hover::before{content:"▶";position:absolute;left:0;top:2px;font-size:12px;color:var(--pink)}
 .art.bio.blogroll>ul>li>a{border:0;font-family:var(--ui);-webkit-font-smoothing:none;color:var(--blue)}
 .art.bio.blogroll>ul>li>a:hover{color:var(--pink)}
 .art.bio.blogroll blockquote.dlgq{margin:0;padding:0;border:0;box-shadow:none;background:none;min-height:0;font-size:11px;opacity:.6}
 .art.bio.blogroll blockquote.dlgq::before,.art.bio.blogroll blockquote.dlgq .face{display:none}
 .art.bio.blogroll blockquote.dlgq p{margin:0}
 .art.bio.changelog>ul{list-style:none;padding:0;font-size:13px}
-.art.bio.changelog>ul>li{display:flex;gap:14px;border-bottom:1px dotted rgba(0,120,191,.35);padding:4px 0}
+.art.bio.changelog>ul>li{border-bottom:1px dotted rgba(0,120,191,.35);padding:4px 0}
 .art.bio.changelog>ul>li:last-child{border:0}
 
 /* ---- now: save slots ---- */
