@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: vibe 了一个新主题
 date: 2026-10-03
 categories: Side Project
