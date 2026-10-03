@@ -42,7 +42,6 @@ ShowReadingTime: false
 - [鱼](https://sevic.me/)
 - [Shiori 栞](https://shioriblog.org/)
 - [哒哒](https://ada3104.cc/)
-- test
 
 > 推友
 
